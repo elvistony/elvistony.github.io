@@ -5,4 +5,4 @@ Building Systems that understand Natural Process and also Maintain it.
 <br><br>
 <a href="https://elvistony.gitlab.io/">My Blog</a> From Gitlab
 <br>
-<a href="https://elvistony.github.io/">My Blog</a> from Github
+<a href="https://elvistony.github.io/blog/">My Blog</a> from Github

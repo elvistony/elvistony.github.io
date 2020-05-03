@@ -19,16 +19,10 @@
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
         <a href="../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
-        <div class="w3-dropdown-hover">
-          <button class="w3-button w3-hover-indigo">Blogs</button>
-          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="../tech/" class="w3-bar-item w3-button w3-hover-blue">Tech</a>
-            <a href="../nature/" class="w3-bar-item w3-button w3-hover-green"> Nature</a>
-          </div>
-        </div>
+        <a href="../blog/" class="w3-bar-item w3-button w3-hover-indigo">Blog</a>
         <a href="../resources/" class="w3-bar-item w3-button w3-hover-indigo"> Resources</a>
         <a href="../about/" class="w3-bar-item w3-button w3-hover-indigo"> About Me</a>
-         
+
       </div>
       <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-blue w3-hide-large w3-hide-medium" onclick="w3_open()">
         <i class="fa fa-bars"></i>
@@ -47,7 +41,7 @@
       </div>
     <a href="../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-blue w3-button">Resources</a>
     <a href="../about/" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
-    
+
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-gray w3-small">Close </a>
   </nav>
 <!-- Header -->
@@ -61,17 +55,24 @@
     <!-- Blog entries -->
     <div class="w3-col l8 s12 w3-container w3-margin-top" >
       <!-- About Container -->
-      <img src="https://images.pexels.com/photos/457878/pexels-photo-457878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Nature" style="width:100%">
-<div class="w3-container w3-margin-top"><span class="w3-opacity w3-right">April 7, 2014</span>
-  <h3><b>TITLE HEADING</b></h3>
-  <h5>Title description, </h5>
-  <span class="w3-teal w3-tag w3-margin-left">A</span><span class="w3-teal w3-tag w3-margin-left">A</span><span class="w3-teal w3-tag w3-margin-left">A</span>
-</div>
+      <div class="w3-bar ">
+        <button id="techbut" class="w3-half w3-button" onclick="openTab('Tech')">Tech</button>
+        <button id="naturebut" class=" w3-half w3-button" onclick="openTab('Nature')">Nature</button>
+      </div>
 
-<div class="w3-container ">
-  <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-    tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-</div>
+      <div id="Tech" class="w3-container tab">
+        <div id="postsection-tech" topic="tech">
+            <p>Please wait while the Posts Load</p>
+        <!-- END BLOG ENTRIES -->
+        </div>
+      </div>
+
+      <div id="Nature" class="w3-container tab" style="display:none">
+        <div id="postsection-nature" topic="nature">
+            <p>Please wait while the Posts Load</p>
+        <!-- END BLOG ENTRIES -->
+        </div>
+      </div>
 
     </div>
     <!-- About/Information menu -->
@@ -116,6 +117,10 @@
   <p>Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a></p>
 </footer>
 
+<script>
+var loc="../"
+</script>
+<script src="../js/entries.js"></script>
 <script src="../js/common.js"></script>
 <script src="../js/popular.js"></script>
 

@@ -1,6 +1,17 @@
-section = document.getElementById('postsection')
+section = document.getElementById('postsection-tech')
 section.innerHTML=""
-postfile = loadFile('../data/'+entryfile)
+postfile = loadFile('../data/tech_posts.json')
+var posts = JSON.parse(postfile)['posts']
+id = 0
+for (p in posts){
+  console.log(id)
+  section.innerHTML+=renderPost(id,posts[id]['title'],posts[id]['description'],posts[id]['image'],posts[id]['date'],posts[id]['tags'],posts[id]['link'])
+  id=id+1
+}
+
+section = document.getElementById('postsection-nature')
+section.innerHTML=""
+postfile = loadFile('../data/nature_posts.json')
 var posts = JSON.parse(postfile)['posts']
 id = 0
 for (p in posts){
