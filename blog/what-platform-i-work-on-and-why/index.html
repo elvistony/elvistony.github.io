@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>RW - What Platform I work on, and Why?</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>RW - What Platform I work on, and Why?</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <meta content="The Reason why I switched from Windows to GNU Linux" name="description" />
 <meta content="Elvis Tony" name="author" />
 <meta content="RW - What Platform I work on, and Why?" property="og:title" />
@@ -15,6 +16,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../../css/common.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/blog.css">
+
 </head>
 <body>
   <div class="w3-top">
@@ -78,26 +81,29 @@
     </div>
     <i class="w3-small w3-right"> Posted by - Elvis </i>
     </div>
-    <!-- Right Panel -->
+    <!-- About/Information menu -->
     <div class="w3-col l4">
       <!-- About Card -->
       <div class="w3-white w3-margin-top">
-        <img src="../../img/author.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <img src="../img/author.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
         <div class="w3-container w3-black w3-padding">
           <h4>Random Wanderer<i class="w3-small"> - Elvis Tony</i></h4>
           <i>"Nature and Technology has gotta go together, Only once both are in a Balance, we Advance to a new Age."</i>
         </div>
         <div class="w3-row w3-xlarge  w3-center w3-padding">
-          <a class="w3-button w3-hover-deep-orange w3-small" href="../../about/">My Portfolio</a>
           <a href="https://www.facebook.com/elvis.tony.rk"><i class="w3-button w3-hover-indigo fa fa-facebook-official "></i></a>
           <a href="https://www.instagram.com/lvz.tony/"><i class="w3-button w3-hover-red fa fa-instagram "></i></a>
           <a href="https://twitter.com/lvz_tony"><i class="w3-button w3-hover-blue fa fa-twitter "></i></a>
           <a href="https://www.linkedin.com/in/elvis-tony/"><i class="w3-button w3-hover-blue fa fa-linkedin "></i></a>
-          <a href="mailto:elvistonyrency@gmail.com"><i class="w3-button w3-hover-red fa fa-google "></i></a>
+          <i class="w3-button w3-hover-red fa fa-google " onclick="Accordian('emal')"></i>
+          <div id="emal" class="w3-container w3-hide">
+            <p>elvistonyrency &#64; gmail <dot>.</dot> com</p>
+          </div>
         </div>
       </div>
       <hr>
-      <!-- Popular Posts -->
+
+      <!-- Posts -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
           <h4>Popular Posts</h4>
@@ -106,16 +112,18 @@
         </ul>
       </div>
       <hr>
+
+    <!-- END About/Intro Menu -->
     </div>
+  <!-- END GRID -->
   </div>
 <!-- END w3-content -->
 </div>
 <!-- Footer -->
-
 <footer class="w3-center w3-black w3-padding-32">
-  <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
-  <p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
-  and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
+<a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
+<p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
+and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
 </footer>
 
 <script>
