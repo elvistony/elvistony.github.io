@@ -60,3 +60,21 @@ htag{
 htag:hover{
   border-bottom: 2px solid orange;
 }
+
+codespan{
+  color: crimson;
+  background-color: #f1f1f1;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 110%;
+  border-radius: 10px;
+}
+
+.fitmax{
+  object-fit: scale-down;
+}
+
+
+.fithalf{
+  max-height: 15%;
+}

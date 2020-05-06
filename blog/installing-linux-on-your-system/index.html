@@ -1,162 +1,179 @@
 
-    <html>
-    <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Installing Linux on your system</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>RW - Installing Linux on your system</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta content="A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you." name="description" />
-    <meta content="Elvis Tony" name="author" />
-    <meta content="Installing Linux on your system" property="og:title" />
+  <meta content="A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you." name="description" />
+  <meta content="Elvis Tony" name="author" />
+  <meta content="Installing Linux on your system" property="og:title" />
 
-    <link rel="stylesheet" href="../../css/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
-    <link rel="stylesheet" href="../../css/css.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../css/common.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
-    </head>
-    <body>
+  <link rel="stylesheet" href="../../css/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+  <link rel="stylesheet" href="../../css/css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/blog.css">
+</head>
+<body>
 
-      <!-- Navbar-->
-      <div class="w3-top">
-        <div class="w3-bar transp w3-card" id="myNavbar">
-          <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">Random Wanderer</a>
-          <!-- Right-sided navbar links -->
-          <div class="w3-right w3-hide-small">
-            <a href="../../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
-            <div class="w3-dropdown-hover">
-              <button class="w3-button w3-hover-indigo">Blogs</button>
-              <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a href="../../tech/" class="w3-bar-item w3-button w3-hover-blue">Tech</a>
-                <a href="../../nature/" class="w3-bar-item w3-button w3-hover-green"> Nature</a>
+  <!-- Navbar-->
+  <div class="w3-top">
+    <div class="w3-bar transp w3-card" id="myNavbar">
+      <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">Random Wanderer</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="../../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
+        <a href="../../blog/" class="w3-bar-item w3-button w3-hover-indigo">Blog</a>
+        <a href="../../resources/" class="w3-bar-item w3-button w3-hover-indigo"> Resources</a>
+        <a href="../../about/" class="w3-bar-item w3-button w3-hover-indigo"> About Me</a>
+        <a href="../../contact/" class="w3-bar-item w3-button w3-hover-indigo"> Contact</a>
+      </div>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-blue w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="../../search/" class="w3-bar-item w3-button w3-right w3-hover-white"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a  class="w3-padding w3-white w3-text-indigo w3-bar-item"> RW </a>
+    <a href="../../" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="../../blog" onclick="w3_close()" class="w3-bar-item w3-button">Blog</a>
+    <a href="../../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-blue w3-button">Resources</a>
+    <a href="../../about/" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
+    <a href="../../contact/" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-gray w3-small">Close </a>
+  </nav>
+
+<!-- Top Bar -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <div class="w3-text-grey w3-center w3-flat-belize-hole" style="padding:24px 48px;"></div>
+</header>
+
+<!-- Content Begins -->
+  <div class="w3-row w3-padding w3-container w3-margin" >
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12 w3-container w3-margin-top w3-margin-bottom" >
+    <img src="title.jpg" alt="Title Image Not Loaded" style="width:100%">
+    <div class="w3-container w3-margin-top">
+      <h3><b>Installing Linux on your system</b></h3><span class="w3-opacity w3-right">May 05, 2020</span>
+  <h5>A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you.</h5>
+<span class="w3-blue-gray w3-tag w3-round">KDE Neon</span>
+<span class="w3-blue-gray w3-tag w3-round">Plasma Desktop</span>
+<span class="w3-blue-gray w3-tag w3-round">Linux</span>
+<span class="w3-blue-gray w3-tag w3-round">Free and Open Source</span>
+</div>
+<div class="w3-container ">
+  <p><f-letter>I</f-letter>nstalling Linux is pretty straight forward almost as easy as installing Windows.In this guide I'll be helping y'all install KDE Neon a linux flavour based on Ubuntu.</p>
+  <div class="w3-panel w3-sand">KDE neon is the intersection of these needs using a stable Ubuntu long-term release as its core, packaging the hottest software fresh from the KDE Community ovens.</div>
+  <p>Before getting started with the Installation,We need to know a tiny difference of Linux and Windows Installation is the distribution of the System Files.</p>
+  <p> In Windows, the system files are stored in the Windows-Basic-Partition (Local Disk C:) in <codespan>C:/Windows</codespan>
+  and the User files in <codespan>C:/Users/</codespan>
+  <p> In Linux, the system files are stored in the Root Drive in Global Root<codespan>/</codespan>
+  and the User files in <codespan>/home</codespan>
+  <br><br>
+  <hr>
+  <h3>Steps to Install Linux</h3>
+  <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step1')">1. Making a Bootable USB<i class="w3-padding fa fa-plus w3-right"></i></div>
+  <div id="step1" class="w3-container w3-hide w3-light-gray">
+      <f-letter>N</f-letter>ow to get started, We must first make a Bootable USB using a tool. Based on what OS you currently have, we choose a suitable tool<br>
+      <div class="w3-row w3-margin">
+        <div class="w3-half w3-card-1 w3-center w3-white">
+          <img src="https://rufus.ie/pics/rufus-128.png" class="fithalf w3-image w3-fluid">
+          <p class="w3-block w3-gray">Rufus</p>
+          <a class="w3-button w3-block w3-sand w3-small" href="https://rufus.ie/">Download (Windows) - Easier</a>
+        </div>
+        <div class="w3-half w3-card-1 w3-center w3-white">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UNetbootin_icon.svg/924px-UNetbootin_icon.svg.png" class="fithalf w3-image">
+          <p class="w3-block w3-gray">UNetbootin</p>
+          <a class="w3-button w3-block w3-sand w3-small" href="https://unetbootin.github.io/">Download (Windows | Linux)</a>
+        </div>
+
+      </div>
+      <img src="resource_1.jpg" class="w3-image w3-fluid w3-margin" alt="Alps">
+  </div>
+  <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step2')">2. Enabling USB Boot in BIOS<i class="w3-padding fa fa-plus w3-right"></i></div>
+  <div id="step2" class="w3-container w3-hide w3-light-gray">
+    Next, We need to enable the USB-Boot Option in the BIOS.
+    <br><br>It is fairly simple, Plug-in your USB Device into the system and  reboot your system while pressing the <codespan>F12</codespan> or <codespan>F2</codespan>
+    <br> For some Systems, these Keys might change, If u face dificulties checkout the Hotkeys List <a class="w3-button w3-gray w3-small" target="_blank" href="https://www.disk-image.com/faq-bootmenu.htm">Here</a>.
+    <br><br>
+    <img src="resource_1.jpg" class="fithalf w3-image w3-fluid w3-center">
+    <br><br>
+    Disable Secure Boot. Now some system have been known to face issues booting to Windows after Toggling this option. So, it's better to Try booting to Windows (with Secure Boot OFF)
+    Toggle the Secure Boot Back ON, if u face issues.
+    <br><br>
+    Assuming there was no Issues, Re enter the BIOS. using the keys mentioned in your system (on the right side of your bios screen), push the USB Boot Entry up the Boot Priority.
+    <img src="resource_3.jpg" class="fithalf w3-image w3-fluid w3-center">
+
+  </div>
+  <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step3')">3. Begining the Installation<i class="w3-padding fa fa-plus w3-right"></i></div>
+  <div id="step3" class="w3-container w3-hide w3-light-gray">
+    Next, We need to enable the USB-Boot Option in the BIOS.
+    <br><br>It is fairly simple, Plug-in your USB Device into the system and  reboot your system while pressing the <codespan>F12</codespan> or <codespan>F2</codespan>
+    <br> For some Systems, these Keys might change, If u face dificulties checkout the Hotkeys List <a class="w3-button w3-gray w3-small" target="_blank" href="https://www.disk-image.com/faq-bootmenu.htm">Here</a>.
+    <br><br>
+    <img src="resource_1.jpg" class="fithalf w3-image w3-fluid w3-center">
+    <br><br>
+    Disable Secure Boot. Now some system have been known to face issues booting to Windows after Toggling this option. So, it's better to Try booting to Windows (with Secure Boot OFF)
+    Toggle the Secure Boot Back ON, if u face issues.
+    <br><br>
+    Assuming there was no Issues, Re enter the BIOS. using the keys mentioned in your system (on the right side of your bios screen), push the USB Boot Entry up the Boot Priority.
+    <img src="resource_3.jpg" class="fithalf w3-image w3-fluid w3-center">
+
+  </div>
+</div>
+      <i class="w3-small w3-right w3-margin"> Posted by - Elvis </i>
+    </div>
+    <!-- Right Panel -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin-top">
+        <img src="../../img/author.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black w3-padding">
+          <h4>Random Wanderer<i class="w3-small"> - Elvis Tony</i></h4>
+          <i>"Nature and Technology has gotta go together, Only once both are in a Balance, we Advance to a new Age."</i>
+        </div>
+        <div class="w3-row w3-xlarge  w3-center w3-padding">
+          <a class="w3-button w3-hover-deep-orange w3-small" href="../../about/">My Portfolio</a>
+          <a href="https://www.facebook.com/elvis.tony.rk"><i class="w3-button w3-hover-indigo fa fa-facebook-official "></i></a>
+          <a href="https://www.instagram.com/lvz.tony/"><i class="w3-button w3-hover-red fa fa-instagram "></i></a>
+          <a href="https://twitter.com/lvz_tony"><i class="w3-button w3-hover-blue fa fa-twitter "></i></a>
+          <a href="https://www.linkedin.com/in/elvis-tony/"><i class="w3-button w3-hover-blue fa fa-linkedin "></i></a>
+          <i class="w3-button w3-hover-red fa fa-google " onclick="Accordian('emal')"></i>
+              <div id="emal" class="w3-container w3-hide">
+                <p>elvistonyrency &#64; gmail <dot>.</dot> com</p>
               </div>
-            </div>
-            <a href="../../resources/" class="w3-bar-item w3-button w3-hover-indigo"> Resources</a>
-            <a href="../../about/" class="w3-bar-item w3-button w3-hover-indigo"> About Me</a>
-            <a href="../../contact/" class="w3-bar-item w3-button w3-hover-indigo"> Contact</a>
-          </div>
-          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-blue w3-hide-large w3-hide-medium" onclick="w3_open()">
-            <i class="fa fa-bars"></i>
-          </a>
-          <a href="../../search/" class="w3-bar-item w3-button w3-right w3-hover-white"><i class="fa fa-search"></i></a>
         </div>
       </div>
-      <!-- Sidebar on small screens when clicking the menu icon -->
-      <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-        <a  class="w3-padding w3-white w3-text-indigo w3-bar-item"> RW </a>
-        <a href="../../" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
-        <button onclick="Accordian('blog-topics')" class="w3-bar-item  w3-button">Blog +</button>
-          <div id="blog-topics" class="w3-hide">
-            <a href="../../tech/" onclick="w3_close()" class="w3-animate-left w3-blue w3-bar-item w3-hover-blue w3-button">Tech</a>
-            <a href="../../nature/" onclick="w3_close()" class="w3-animate-left w3-green w3-bar-item w3-hover-green w3-button">Nature</a>
-          </div>
-        <a href="../../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-blue w3-button">Resources</a>
-        <a href="../../about/" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
-        <a href="../../contact/" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-gray w3-small">Close </a>
-      </nav>
-
-    <!-- Top Bar -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-      <div class="w3-text-grey w3-center w3-flat-belize-hole" style="padding:24px 48px;"></div>
-    </header>
-
-    <!-- Content Begins -->
-      <div class="w3-row w3-padding w3-container w3-margin" >
-        <!-- Blog entries -->
-        <div class="w3-col l8 s12 w3-container w3-margin-top w3-margin-bottom" >
-        <img src="title.jpg" alt="Title Image Not Loaded" style="width:100%">
-        <div class="w3-container w3-margin-top">
-          <h3><b>Installing Linux on your system</b></h3><span class="w3-opacity w3-right">May 05, 2020</span>
-      <h5>A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you.</h5>
-    <span class="w3-blue-gray w3-tag w3-round">KDE Neon</span>
-    <span class="w3-blue-gray w3-tag w3-round">Plasma Desktop</span>
-    <span class="w3-blue-gray w3-tag w3-round">Linux</span>
-    <span class="w3-blue-gray w3-tag w3-round">Free and Open Source</span>
-    </div>
-    <div class="w3-container ">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        
-                <div class="w3-card-4">
-                  <img src="resource_1.jpg" alt="Alps">
-                  <div class="w3-container w3-center">
-                    <p>The Italian / Austrian Alps</p>
-                  </div>
-                </div>
-                
-                <div class="w3-card-4">
-                  <img src="resource_2.jpg" alt="Alps">
-                  <div class="w3-container w3-center">
-                    <p>The Italian / Austrian Alps</p>
-                  </div>
-                </div>
-                
-                <div class="w3-card-4">
-                  <img src="resource_3.jpg" alt="Alps">
-                  <div class="w3-container w3-center">
-                    <p>The Italian / Austrian Alps</p>
-                  </div>
-                </div>
-                
-                <div class="w3-card-4">
-                  <img src="title.jpg" alt="Alps">
-                  <div class="w3-container w3-center">
-                    <p>The Italian / Austrian Alps</p>
-                  </div>
-                </div>
-                
-    </div>
-    <i class="w3-small w3-right"> Posted by - Elvis </i>
+      <hr>
+      <!-- Popular Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Posts</h4>
         </div>
-        <!-- Right Panel -->
-        <div class="w3-col l4">
-          <!-- About Card -->
-          <div class="w3-white w3-margin-top">
-            <img src="../../img/author.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
-            <div class="w3-container w3-black w3-padding">
-              <h4>Random Wanderer<i class="w3-small"> - Elvis Tony</i></h4>
-              <i>"Nature and Technology has gotta go together, Only once both are in a Balance, we Advance to a new Age."</i>
-            </div>
-            <div class="w3-row w3-xlarge  w3-center w3-padding">
-              <a class="w3-button w3-hover-deep-orange w3-small" href="../../about/">My Portfolio</a>
-              <a href="https://www.facebook.com/elvis.tony.rk"><i class="w3-button w3-hover-indigo fa fa-facebook-official "></i></a>
-              <a href="https://www.instagram.com/lvz.tony/"><i class="w3-button w3-hover-red fa fa-instagram "></i></a>
-              <a href="https://twitter.com/lvz_tony"><i class="w3-button w3-hover-blue fa fa-twitter "></i></a>
-              <a href="https://www.linkedin.com/in/elvis-tony/"><i class="w3-button w3-hover-blue fa fa-linkedin "></i></a>
-              <i class="w3-button w3-hover-red fa fa-google " onclick="Accordian('emal')"></i>
-                  <div id="emal" class="w3-container w3-hide">
-                    <p>elvistonyrency &#64; gmail <dot>.</dot> com</p>
-                  </div>
-            </div>
-          </div>
-          <hr>
-          <!-- Popular Posts -->
-          <div class="w3-white w3-margin">
-            <div class="w3-container w3-padding w3-black">
-              <h4>Popular Posts</h4>
-            </div>
-            <ul class="w3-ul w3-hoverable w3-white" id="popularposts">
-            </ul>
-          </div>
-          <hr>
-        </div>
+        <ul class="w3-ul w3-hoverable w3-white" id="popularposts">
+        </ul>
       </div>
-    <!-- END w3-content -->
+      <hr>
     </div>
+  </div>
+<!-- END w3-content -->
+</div>
 
-    <footer class="w3-center w3-black w3-padding-32">
-      <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
-      <p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
-      and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and
-      <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
-    </footer>
-    <script>
-      var loc="../../"
-    </script>
-    <script src="../../js/common.js"></script>
-    <script src="../../js/popular.js"></script>
-    <script src="../../js/blog.js"></script>
-    </body></html>
-    
+<footer class="w3-center w3-black w3-padding-32">
+  <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
+  <p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
+  and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and
+  <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
+</footer>
+<script>
+  var loc="../../"
+</script>
+<script src="../../js/common.js"></script>
+<script src="../../js/popular.js"></script>
+<script src="../../js/blog.js"></script>
+</body></html>

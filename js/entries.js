@@ -29,10 +29,10 @@ function renderPost(id,title,des,img,date,tags,link){
     <h5><span class="w3-opacity">`+date+`</span></h5>
     <div class="w3-justify w3-container">
       <img src="`+img+`" alt="`+title+`" style="width:100%" class="w3-padding-16">
-      <a class="w3-right w3-button w3-orange" href="`+loc+'blog/'+link+`">Read More</a>
-      <p>Tags`
+      <a class="w3-right w3-button w3-orange w3-small" href="`+loc+'blog/'+link+`">Read More</a>
+      <p class="w3-trunc">Tags`
     for (tag of tags){
-      post+='<span class="w3-blue-gray w3-tag w3-round">'+tag+'</span>'
+      post+='<span class="w3-blue-gray w3-tag w3-round w3-margin-left">'+tag+'</span>'
     }
     post+=`</p></p>`+des+`</p>
 
