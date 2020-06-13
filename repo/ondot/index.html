@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>OnDot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="Track your hours in College - Vidya ERP" name="description" />
+<meta content="Elvis Tony" name="author" />
+<meta content="OnDot - Android App" property="og:title" />
+
+<link rel="stylesheet" href="../../css/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="../../css/css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../css/common.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/blog.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165692854-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-165692854-1');
+</script>
+
+<style>
+/* Style the list */
+ul.breadcrumb {
+  padding: 16px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<!-- Navbar-->
+<div class="w3-top">
+  <div class="w3-bar transp w3-card" id="myNavbar">
+    <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">Random Wanderer</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="../../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
+      <a href="../../blog/" class="w3-bar-item w3-button w3-hover-indigo">Blog</a>
+      <a href="../../resources/" class="w3-bar-item w3-button w3-hover-indigo"> Resources</a>
+      <a href="../../about/" class="w3-bar-item w3-button w3-hover-indigo"> About Me</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-blue w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a  class="w3-padding w3-white w3-text-indigo w3-bar-item"> RW </a>
+  <a href="../../" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="../../blog" onclick="w3_close()" class="w3-bar-item w3-button">Blog</a>
+  <a href="../../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-blue w3-button">Resources</a>
+  <a href="../../about/" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-gray w3-small">Close </a>
+</nav>
+
+<!-- Top Bar -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+<div class="w3-text-grey w3-center w3-flat-belize-hole" style="padding:24px 48px;"></div>
+</header>
+
+<!-- The App Section -->
+<div class="w3-padding-64 w3-white">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <img class="w3-image w3-round-large" src="logo.png" alt="App" width="100">
+      <h1 class="w3-jumbo"><b>OnDot</b></h1>
+      <h1 class="w3-xxxlarge w3-text-blue"><b>Track your Hours in College</b></h1>
+      <p><span class="w3-xlarge">No more attendance shortage.</span> Our app helps you keep track of your College Attendance and gives you insights bout how ahead or behind you are in your Courses.
+      The University now has made Attendance mandatory which can make Keeping Track of your attendance Tiring, The app provides you with a Clean Material Interface that Connects to your College ERP and Displays your Data in a more Appealing UI.</p>
+      <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
+        <i class="fa fa-download"></i> View Releases
+      </button>
+      <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> Android 5.0+
+        <ul><b>Features</b>
+          <li>No Ads</li>
+          <li>Dark Mode</li>
+          <li>Stable - Beta</li>
+          <li>Material Design</li>
+      </ul>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="app_ss1.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <button class="w3-button w3-block w3-padding-large w3-flat-belize-hole" onclick="document.getElementById('download').style.display='block'">
+          <i class="fa fa-download"></i> Download Application
+        </button>
+        <img src="/w3images/img_app.jpg" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <ul class="breadcrumb">
+    <li><a href="../../">Random Wanderer</a></li>
+    <li><a href="../../resources">Resources</a></li>
+    <li>Repo</li>
+    <li><a href="#">OnDot</a></li>
+    <li>1.0</li>
+  </ul>
+
+<!-- Modal -->
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">DOWNLOAD</h2><i class="fa fa-android w3-large w3-right"></i>
+      <p>Version 1.0</p>
+
+      <h4>Whats New!</h4>
+      <ul>
+      <li>Added Offline Viewing</li>
+      <li>Removed Redundant Resources</li>
+      <li>Added Experimental Release Module</li>
+    </ul>
+        <br><br>
+      <a class="w3-button w3-block w3-padding-large w3-flat-belize-hole w3-margin-bottom" onclick="window.location.assign('releases/OnDot_v1.0.apk');">App Dowload v1.0</a>
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+      <img class="w3-image w3-round-large w3-hide-small" src="logo.png" alt="App" width="335" height="471">
+    </div>
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Utility</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>No more Attendance Shortage..</b></h1>
+      <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+  <h1 class="w3-jumbo"><b>Features</b></h1>
+  <p>This app is just so lorem ipsum.</p>
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <i class="fa fa-bolt w3-text-orange w3-jumbo"></i>
+      <p>Fast</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-heart w3-text-red w3-jumbo"></i>
+      <p>Loved</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-camera w3-text-yellow w3-jumbo"></i>
+      <p>Clarity</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-battery-full w3-text-green w3-jumbo"></i>
+      <p>Power</p>
+    </div>
+  </div>
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <i class="fa fa-diamond w3-text-white w3-jumbo"></i>
+      <p>Sharp</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-cloud w3-text-blue w3-jumbo"></i>
+      <p>Cloud</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-globe w3-text-amber w3-jumbo"></i>
+      <p>Global</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-hdd-o w3-text-cyan w3-jumbo"></i>
+      <p>Storage</p>
+    </div>
+  </div>
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <i class="fa fa-user w3-text-sand w3-jumbo"></i>
+      <p>Safe</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-shield w3-text-orange w3-jumbo"></i>
+      <p>Stabile</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-wifi w3-text-grey w3-jumbo"></i>
+      <p>Connected</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-image w3-text-pink w3-jumbo"></i>
+      <p>HD</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+<a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
+<p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
+and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
+</footer>
+<script>
+  var loc="../../"
+</script>
+<script src="../../js/common.js"></script>
+<script src="../../js/popular.js"></script>
+<script src="../../js/blog.js"></script>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</body></html>
