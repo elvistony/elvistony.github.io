@@ -43,7 +43,6 @@ ul.breadcrumb li {
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
-  padding: 8px;
   color: black;
   content: "/\00a0";
 }
@@ -65,7 +64,7 @@ ul.breadcrumb li a:hover {
 <!-- Navbar-->
 <div class="w3-top">
   <div class="w3-bar transp w3-card" id="myNavbar">
-    <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">Random Wanderer</a>
+    <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">RW-Developer</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="../../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
@@ -90,7 +89,7 @@ ul.breadcrumb li a:hover {
 
 <!-- Top Bar -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-<div class="w3-text-grey w3-center w3-flat-belize-hole" style="padding:24px 48px;"></div>
+<div class="w3-text-grey w3-center w3-flat-pomegranate" style="padding:24px 48px;"></div>
 </header>
 
 <!-- The App Section -->
@@ -98,40 +97,67 @@ ul.breadcrumb li a:hover {
   <div class="w3-row-padding">
     <div class="w3-col l8 m6">
       <img class="w3-image w3-round-large" src="logo.png" alt="App" width="100">
-      <h1 class="w3-jumbo"><b>OnDot</b></h1>
-      <h1 class="w3-xxxlarge w3-text-blue"><b>Track your Hours in College</b></h1>
-      <p><span class="w3-xlarge">No more attendance shortage.</span> Our app helps you keep track of your College Attendance and gives you insights bout how ahead or behind you are in your Courses.
+      <h1 class="w3-jumbo"><b>OnDot</b><span class="w3-large w3-margin"> 1.0-beta</span></h1>
+      <h1 class="w3-xxlarge w3-text-blue"><b>Track your Hours in College</b></h1>
+      <p><span class="w3-xlarge">No more FE.</span> Our app helps you keep track of your College Attendance and gives you insights bout how ahead or behind you are in your Courses.
       The University now has made Attendance mandatory which can make Keeping Track of your attendance Tiring, The app provides you with a Clean Material Interface that Connects to your College ERP and Displays your Data in a more Appealing UI.</p>
       <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
         <i class="fa fa-download"></i> View Releases
       </button>
-      <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> Android 5.0+
+      <p>Available for <br><div class="w3-card w3-padding"><i class="fa fa-android w3-xlarge w3-text-blue"></i>  Android 5.0+</div>
         <ul><b>Features</b>
           <li>No Ads</li>
           <li>Dark Mode</li>
           <li>Stable - Beta</li>
           <li>Material Design</li>
+          <li>Added Experimental Features</li>
       </ul>
     </div>
     <div class="w3-col l4 m6">
-      <img src="app_ss1.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-content w3-display-container w3-right w3-margin">
+        <h3 class="w3-center w3-black">OnDot<span class="w3-large w3-margin"> screenshots</span></h3>
+  <img class="mySlides w3-animate-opacity" src="app_ss1.png" style="width:100%">
+  <img class="mySlides w3-animate-opacity" src="app_ss2.png" style="width:100%">
+  <button class="w3-button w3-black w3-display-left w3-opacity" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right  w3-opacity" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+<br>
+</div>
       <div class="w3-center w3-hide-large w3-hide-medium">
         <button class="w3-button w3-block w3-padding-large w3-flat-belize-hole" onclick="document.getElementById('download').style.display='block'">
           <i class="fa fa-download"></i> Download Application
-        </button>
-        <img src="/w3images/img_app.jpg" class="w3-image w3-margin-top" width="335" height="471">
-      </div>
+        </button></div>
     </div>
   </div>
 </div>
 
 
   <ul class="breadcrumb">
-    <li><a href="../../">Random Wanderer</a></li>
+    <li><a href="../../">RW-Home</a></li>
     <li><a href="../../resources">Resources</a></li>
     <li>Repo</li>
     <li><a href="#">OnDot</a></li>
-    <li>1.0</li>
+    <li>1.0-beta</li>
   </ul>
 
 <!-- Modal -->
@@ -140,7 +166,7 @@ ul.breadcrumb li a:hover {
     <div class="w3-container w3-white">
       <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
       <h2 class="w3-wide">DOWNLOAD</h2><i class="fa fa-android w3-large w3-right"></i>
-      <p>Version 1.0</p>
+      <p>Version 1.0 - Beta</p>
 
       <h4>Whats New!</h4>
       <ul>
@@ -149,7 +175,7 @@ ul.breadcrumb li a:hover {
       <li>Added Experimental Release Module</li>
     </ul>
         <br><br>
-      <a class="w3-button w3-block w3-padding-large w3-flat-belize-hole w3-margin-bottom" onclick="window.location.assign('releases/OnDot_v1.0.apk');">App Dowload v1.0</a>
+      <a class="w3-button w3-block w3-padding-large w3-flat-belize-hole w3-hover-blue w3-margin-bottom" onclick="window.location.assign('releases/OnDot_v1.0.apk');">App Dowload v1.0-beta<br> (Free)</a>
     </div>
   </div>
 </div>
@@ -161,8 +187,8 @@ ul.breadcrumb li a:hover {
       <img class="w3-image w3-round-large w3-hide-small" src="logo.png" alt="App" width="335" height="471">
     </div>
     <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>Utility</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>No more Attendance Shortage..</b></h1>
+      <h1 class="w3-jumbo"><b>Be On <span class="w3-medium">the</span> Dot</b></h1>
+      <h1 class="w3-xlarge w3-text-red"><b>No more FE.</b></h1>
       <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </div>
