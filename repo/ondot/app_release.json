@@ -1,0 +1,23 @@
+{
+  "ondot":[
+    {
+      "version":"1.0",
+      "release":"beta"
+      "whats_new":["Dark Mode",
+        "Experimental Feature Testing",
+        "Fixed Bugs",
+        "More Stability - Beta Testing"
+      ]
+      "date_release":"13/6/2020"
+    },
+    {
+      "version":"1.2",
+      "release":"beta"
+      "whats_new":["Dark Mode - Enhanced",
+        "Experimental Feature-Fixed Errors",
+        "Fixed Landscape Crashing Issues"
+      ]
+      "date_release":"23/6/2020"
+    }
+  ]
+}
