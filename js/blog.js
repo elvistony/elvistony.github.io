@@ -36,3 +36,30 @@ activatePopups()
 function GetTitle(url){
   return loadFile('https://textance.herokuapp.com/title/'+url)
 }
+
+function activateImgModals(){
+  s_links = document.getElementsByClassName('imgModal');
+  i=0
+  for (link of s_links){
+    link.setAttribute("onclick","ImageModal(this);")
+    i+=1
+  }
+}
+activateImgModals()
+
+function ImageModal(image) {
+  var ele = image.cloneNode(true);
+  ele.classList.remove("w3-half")
+  ele.classList.remove("w3-col")
+  image.outerHTML +=`
+  <div class="w3-modal" onclick="ImageModalDismiss(this)" style="display: block;">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class=" w3-animate-zoom">
+      `+ele.outerHTML+`
+    </div>
+  </div>
+  `
+}
+function ImageModalDismiss(imgDiv) {
+  imgDiv.outerHTML=""
+}

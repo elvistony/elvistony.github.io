@@ -83,87 +83,89 @@
   and the User files in <codespan>/home</codespan>
   <br><br>
   A sneak peak of my Desktop.
-  <br><img src="resource_0.jpg" class="fithalf w3-image w3-fluid w3-center">
+  <br><img src="resource_0.jpg" class="fithalf w3-image imgModal w3-fluid w3-center">
 
   <hr>
   <h3>Steps to Install Linux</h3>
   <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step0')">0. Making a Bootable USB<i class="w3-padding fa fa-plus w3-right"></i></div>
-  <div id="step0" class="w3-container w3-hide w3-light-gray">
+  <div id="step0" class="w3-container">
       <f-letter>N</f-letter>ow to get started, We must first make a Bootable USB using a tool. Based on what OS you currently have, we choose a suitable tool<br>
       <div class="w3-row w3-margin">
         <div class="w3-half w3-card-1 w3-center w3-white">
-          <img src="https://rufus.ie/pics/rufus-128.png" class="fithalf w3-image w3-fluid">
+          <img src="https://rufus.ie/pics/rufus-128.png" class="fithalf w3-image imgModal w3-fluid" style="width:111px;">
           <p class="w3-block w3-gray">Rufus</p>
-          <a class="w3-button w3-block w3-sand w3-small" href="https://rufus.ie/">Download (Windows) - Easier</a>
+          <a class="w3-button w3-block w3-sand w3-small" href="https://rufus.ie/">Download (Windows) - Easier and (Recommended)</a>
         </div>
         <div class="w3-half w3-card-1 w3-center w3-white">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UNetbootin_icon.svg/924px-UNetbootin_icon.svg.png" class="fithalf w3-image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UNetbootin_icon.svg/924px-UNetbootin_icon.svg.png"  style="width:100px;" class="fithalf imgModal w3-image">
           <p class="w3-block w3-gray">UNetbootin</p>
           <a class="w3-button w3-block w3-sand w3-small" href="https://unetbootin.github.io/">Download (Windows | Linux)</a>
         </div>
-
       </div>
   </div>
   <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step1')">1.Pre-flight Check<i class="w3-padding fa fa-plus w3-right"></i></div>
-  <div id="step1" class="w3-container w3-hide w3-light-gray">
-    Before plunging into the world of Linux, we need to ensure we have enough storage for the Installation.
+  <div id="step1" class="w3-container w3-hide">
+    <br>
+    <f-letter>B</f-letter>efore plunging into the world of Linux, we need to ensure we have enough storage for the Installation.
     If you're on windows, you could use the Disk Partition utility to Save up some space for linux.
     <br>
     <codespan>Navigate to Control Panel -> Disk Management</codespan>If you're on Windows 8 or 10, you could search it directly using Search/Cortana.
-    <br><img src="resource_1.jpg" class="fithalf w3-image w3-fluid w3-center">
+    <br><img src="resource_1.jpg" class="fithalf w3-image imgModal w3-fluid w3-center">
     <br>
-    <div class="w3-panel w3-danger">Note: This step is risky and No responsibility will be taken if any Data is lost or your current OS is not Booting.</div>
+    <div class="w3-panel w3-red">Note: This step is risky <i class="w3-small">No responsibility will be taken if any Data is lost or your current OS is not Booting.</i></div>
+    <div class="w3-panel w3-orange"> If you have a tech buddy, as for their help, as this step is crucial yet Risky too.</div>
     Now, the risky business, Create an Unformated partition by either Shrinking an existing partition or deleting an entire partition(Deleting, will cause all your data on that partition to be lost).
     <br>
     We plan to install Linux as separate partitions, but is irrelevant at this step.
-    <br> Linux can be minimally installed on 10GB storage, but I'd recommend a minimum of 20GB and a maximum of 200GB for Linux.
+    <br><br> Linux can be minimally installed on 10GB storage, but I'd recommend a minimum of 20GB and a maximum of 200GB for Linux.
     If you have ample storage (250GB or more), I'll help you create a Shared Partition that's accessible to both Windows and Linux (stay tuned...).
     <br><br>
     <i>Tip: Remember the Size of the partition as it helps in identifying it in the Linux setup.</i>
     After preparing an Unformated partition, We are now ready for the Next Step.
-
+    <br>
   </div>
   <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step2')">2. Enabling USB Boot in BIOS<i class="w3-padding fa fa-plus w3-right"></i></div>
-  <div id="step2" class="w3-container w3-hide w3-light-gray">
+  <div id="step2" class="w3-container w3-hide">
     Next, We need to enable the USB-Boot Option in the BIOS.
-    <img src="resource_2.jpg" class="fithalf w3-image w3-fluid w3-center">
+    <div class="w3-row">
+      <img src="resource_2a.jpg" class="w3-image imgModal w3-half w3-border w3-fluid w3-center">
+      <img src="resource_2b.jpg" class="w3-half w3-image imgModal  w3-border w3-fluid w3-center"><br>
+    </div>
     <br><br>It is fairly simple, Plug-in your USB Device into the system and  reboot your system while pressing the <codespan>F12</codespan> or <codespan>F2</codespan>
     <br> For some Systems, these Keys might change, If u face dificulties checkout the Hotkeys List <a class="w3-button w3-gray w3-small" target="_blank" href="https://www.disk-image.com/faq-bootmenu.htm">Here</a>.
-    <br><br>
-    <br><br>
-    <img src="resource_2a.jpg" class="fithalf w3-image w3-fluid w3-center">
+    <br>
+
     Disable Secure Boot. Now some system have been known to face issues booting to Windows after Toggling this option. So, it's better to Try booting to Windows (with Secure Boot OFF)
     Toggle the Secure Boot Back ON, if u face issues.
 
     <br><br>
     Assuming there was no Issues, Re enter the BIOS. using the keys mentioned in your system (on the right side of your bios screen), push the USB Boot Entry up the Boot Priority.
-    <img src="resource_2b.jpg" class="fithalf w3-image w3-fluid w3-center">
 
   </div>
   <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step3')">3. Begining the Installation<i class="w3-padding fa fa-plus w3-right"></i></div>
-  <div id="step3" class="w3-container w3-hide w3-light-gray">
+  <div id="step3" class="w3-container w3-hide">
     While Booting (after setting USB Boot Priority),
     <br>
-    <img src="resource_3a.jpg" class="fithalf w3-image w3-fluid w3-center"><br>
+    <img src="resource_3a.jpg" class="fithalf w3-image imgModal w3-fluid w3-center"><br>
     <br>We Select the <codespan>Install KDE</codespan> option. and Follow the Wizard.
     <br>
     You will boot to a GUI Environment, Plasma (psst, this is a sneak peek to the real deal,hehe). Click the icon <codespan>Install KDE</codespan> and follow the Wizard.
-    <img src="resource_3b.jpg" class="fithalf w3-image w3-fluid w3-center"><br>
+    <img src="resource_3b.jpg" class="fithalf w3-image imgModal w3-fluid w3-center"><br>
     Once you reach a page asking where to Install, <br>
-    <img src="resource_3c.jpg" class="fithalf w3-image w3-fluid w3-center"><br>
+    <img src="resource_3c.jpg" class="fithalf w3-image imgModal w3-fluid w3-center"><br>
     <br>Here, Select:<codespan>Manual Installation</codespan>. After a few moments, all the available partitions are seen as a list.
     <br><br>Locate the Unformated partition (that match the size we allocated in windows multiplied by 1024) and select <codespan>Mount Point: \ </codespan> with 30% of the Unformated drive (do the math and select the number of Megabytes 1GB=1024MB).
     After setting  <codespan>/</codespan>, click the left over 70% and set <codespan>Mount Point: home</codespan>
-    <img src="resource_3d.jpg" class="fithalf w3-image w3-fluid w3-center"><br>
+    <img src="resource_3d.jpg" class="fithalf w3-image imgModal w3-fluid w3-center"><br>
     <br>You may set <codespan>Format partition</codespan>but that's optional. <i>Select <codespan>Partition type: ext4</codespan> for best performance.</i>
     <br><br>
     Continue the Wizard, and wait for the prompt to Reboot.
   </div>
   <div class="w3-button w3-black w3-block w3-left-align" onclick="Accordian('step4')">4. Taking Linux for a spin<i class="w3-padding fa fa-plus w3-right"></i></div>
-  <div id="step4" class="w3-container w3-hide w3-light-gray">
+  <div id="step4" class="w3-container w3-hide">
     Well, if you reached this step, You have installed Linux (hopefully). So Fireup the System and Select KDE from the <codespan>Grub Boot Menu</codespan>.
     Although, I'd recommend testing whether Windows works first and then Rebooting into Linux. Hehe just for a last precaution.
-    <br><img src="resource_4.jpg" class="fithalf w3-image w3-fluid w3-center">
+    <br><img src="resource_4.jpg" class="fithalf w3-image imgModal w3-fluid w3-center">
 
     <br><br>
     If you don't find Windows, dont fret, its uncommon but definitely possible that Linux didn't detect it properly. So Head over to Linux, Log-in to the system,<br>
