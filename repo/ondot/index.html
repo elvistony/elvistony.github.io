@@ -26,45 +26,13 @@
   gtag('js', new Date());
   gtag('config', 'UA-165692854-1');
 </script>
-
-<style>
-/* Style the list */
-ul.breadcrumb {
-  padding: 16px 16px;
-  list-style: none;
-  background-color: #eee;
-}
-
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  color: black;
-  content: "/\00a0";
-}
-
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-</style>
+<link rel="stylesheet" href="../../css/dev.css">
 </head>
 <body>
 <!-- Navbar-->
 <div class="w3-top">
   <div class="w3-bar transp w3-card" id="myNavbar">
-    <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">RW-Developer</a>
+    <a href="../../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">RW<span class="w3-small"> Developer</span></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="../../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
@@ -92,6 +60,13 @@ ul.breadcrumb li a:hover {
 <div class="w3-text-grey w3-center w3-flat-pomegranate" style="padding:24px 48px;"></div>
 </header>
 
+<ul class="breadcrumb w3-white">
+  <li><a href="../../">RW-Home</a></li>
+  <li><a href="../../resources">Resources</a></li>
+  <li>Repo</li>
+  <li><a href="#">OnDot</a></li>
+  <li>1.0-beta</li>
+</ul>
 <!-- The App Section -->
 <div class="w3-padding-64 w3-white">
   <div class="w3-row-padding">
@@ -101,10 +76,12 @@ ul.breadcrumb li a:hover {
       <h1 class="w3-xxlarge w3-text-blue"><b>Track your Hours in College</b></h1>
       <p><span class="w3-xlarge">No more FE.</span> Our app helps you keep track of your College Attendance and gives you insights bout how ahead or behind you are in your Courses.
       The University now has made Attendance mandatory which can make Keeping Track of your attendance Tiring, The app provides you with a Clean Material Interface that Connects to your College ERP and Displays your Data in a more Appealing UI.</p>
-      <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
-        <i class="fa fa-download"></i> View Releases
-      </button>
-      <p>Available for <br><div class="w3-card w3-padding"><i class="fa fa-android w3-xlarge w3-text-blue"></i>  Android 5.0+</div>
+
+      <p>Available for <br><div class="w3-card w3-padding w3-margin"><br><i class="fa fa-android w3-xlarge w3-text-blue"></i>  Android 5.0+
+        <br><button class="w3-button w3-small w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
+          <i class="fa fa-download"></i> View Releases
+        </button>
+        <b class="w3-right">File Size: (5.5 MB)</b>
         <ul><b>Features</b>
           <li>No Ads</li>
           <li>Dark Mode</li>
@@ -112,7 +89,9 @@ ul.breadcrumb li a:hover {
           <li>Material Design</li>
           <li>Added Experimental Features</li>
       </ul>
+      </div>
     </div>
+
     <div class="w3-col l4 m6">
       <div class="w3-content w3-display-container w3-right w3-margin">
         <h3 class="w3-center w3-black">OnDot<span class="w3-large w3-margin"> screenshots</span></h3>
@@ -151,15 +130,6 @@ function showDivs(n) {
   </div>
 </div>
 
-
-  <ul class="breadcrumb">
-    <li><a href="../../">RW-Home</a></li>
-    <li><a href="../../resources">Resources</a></li>
-    <li>Repo</li>
-    <li><a href="#">OnDot</a></li>
-    <li>1.0-beta</li>
-  </ul>
-
 <!-- Modal -->
 <div id="download" class="w3-modal w3-animate-opacity">
   <div class="w3-modal-content" style="padding:32px">
@@ -176,6 +146,7 @@ function showDivs(n) {
     </ul>
         <br><br>
       <a class="w3-button w3-block w3-padding-large w3-flat-belize-hole w3-hover-blue w3-margin-bottom" onclick="window.location.assign('#');">App Dowload v1.0-beta<br> (Free)</a>
+      <a href="../../donate" class="w3-button w3-block w3-border w3-green w3-hover-blue">Support my Work</a>
     </div>
   </div>
 </div>
@@ -189,16 +160,15 @@ function showDivs(n) {
     <div class="w3-col l8 m6">
       <h1 class="w3-jumbo"><b>Be On <span class="w3-medium">the</span> Dot</b></h1>
       <h1 class="w3-xlarge w3-text-red"><b>No more FE.</b></h1>
-      <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p><span class="w3-xlarge">An innovative solution to this age old problem.</span> Check your current status of your Attendance in Each subject. Get Exclusive Insights based on your Data and Use them to your Advantage!<br><br>Be Up-to-date with the latest releases with more Addons from the ERP.</p>
     </div>
   </div>
 </div>
 
 <!-- Features Section -->
-<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+<div class="w3-container w3-padding-64 w3-center">
   <h1 class="w3-jumbo"><b>Features</b></h1>
-  <p>This app is just so lorem ipsum.</p>
+  <p>This app is just so simple and elegant.</p>
 
   <div class="w3-row" style="margin-top:64px">
     <div class="w3-col s3">
@@ -210,50 +180,12 @@ function showDivs(n) {
       <p>Loved</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-camera w3-text-yellow w3-jumbo"></i>
-      <p>Clarity</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-battery-full w3-text-green w3-jumbo"></i>
-      <p>Power</p>
-    </div>
-  </div>
-
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-diamond w3-text-white w3-jumbo"></i>
-      <p>Sharp</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-cloud w3-text-blue w3-jumbo"></i>
-      <p>Cloud</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-globe w3-text-amber w3-jumbo"></i>
-      <p>Global</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-hdd-o w3-text-cyan w3-jumbo"></i>
-      <p>Storage</p>
-    </div>
-  </div>
-
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-user w3-text-sand w3-jumbo"></i>
+      <i class="fa fa-user w3-text-orange w3-jumbo"></i>
       <p>Safe</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-shield w3-text-orange w3-jumbo"></i>
-      <p>Stabile</p>
     </div>
     <div class="w3-col s3">
       <i class="fa fa-wifi w3-text-grey w3-jumbo"></i>
       <p>Connected</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-image w3-text-pink w3-jumbo"></i>
-      <p>HD</p>
     </div>
   </div>
 </div>
@@ -261,6 +193,7 @@ function showDivs(n) {
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-32">
 <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
+<a href="donate/" class="w3-button w3-orange w3-small">Support My Website</a>
 <p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
 and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
 </footer>

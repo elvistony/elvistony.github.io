@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="../css/css.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/nav_back.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165692854-1"></script>
@@ -28,19 +29,17 @@
   <!-- Navbar-->
   <div class="w3-top">
     <div class="w3-bar transp w3-card" id="myNavbar">
-      <a href="../" class="w3-bar-item w3-button w3-hover-indigo w3-wide">Random Wanderer</a>
+      <a href="../" class="w3-bar-item w3-button w3-hover-purple w3-wide">Random Wanderer</a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
-        <a href="../" class="w3-bar-item w3-button w3-hover-indigo">Home</a>
-        <a href="../blog/" class="w3-bar-item w3-button w3-hover-indigo">Blog</a>
-        <a href="../resources/" class="w3-bar-item w3-button w3-hover-indigo"> Resources</a>
-        <a href="../about/" class="w3-bar-item w3-button w3-hover-indigo"> About Me</a>
-
+        <a href="../" class="w3-bar-item w3-button w3-hover-purple">Home</a>
+        <a href="../blog/" class="w3-bar-item w3-button w3-hover-purple">Blog</a>
+        <a href="../resources/" class="w3-bar-item w3-button w3-hover-purple"> Resources</a>
+        <a href="../about/" class="w3-bar-item w3-button w3-hover-purple"> About Me</a>
       </div>
       <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-blue w3-hide-large w3-hide-medium" onclick="w3_open()">
         <i class="fa fa-bars"></i>
       </a>
-
     </div>
   </div>
   <!-- Sidebar on small screens when clicking the menu icon -->
@@ -48,16 +47,25 @@
     <a  class="w3-padding w3-white w3-text-indigo w3-bar-item"> RW </a>
     <a href="../" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
     <a href="../blog" onclick="w3_close()" class="w3-bar-item w3-button">Blog</a>
-    <a href="../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-blue w3-button">Resources</a>
+    <a href="../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-purple w3-button">Resources</a>
     <a href="../about/" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
-
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-gray w3-small">Close </a>
   </nav>
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide w3-margin-bottom" style="max-width:1500px;" id="home">
-  <div class="w3-text-grey w3-center w3-indigo" style="padding:24px 48px"></div>
-</header>
 
+<header class="w3-display-container w3-wide"  id="home">
+  <div class="waveWrapper waveAnimation w3-row" style="height:140px;">
+    <div class="waveWrapperInner bgTop">
+      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+    </div>
+  </div>
+</header>
 
 <!-- Grid -->
   <div class="w3-row w3-padding w3-margin-top " id="posts">
@@ -65,25 +73,20 @@
     <div class="w3-col l8 s12" id="">
       <!-- Container (About Section) -->
       <div class=" w3-container w3-margin-top" id="about">
-        <div class="w3-bar w3-block w3-indigo w3-xxlarge w3-padding-16">
-        <h3 class="w3-margin-left">ABOUT ME</h3>
+        <div class="w3-bar w3-xxlarge w3-padding-16">
+        <h2 class="w3-margin-left">ABOUT ME</h2>
       </div>
         <p class=""><em></em></p>
         <p><f-letter>I'm</f-letter> often come across as a silent, unnoticed being. It <i>kinda</i> takes time in breaking the shell. But I've heard, I can be a pest to some (If you manage to Break the Ice).
            I'm maintaining this blog to share with the web my Experiences in two of my <i>favorite</i> Domains; Nature and Technology.
            Hope y'all (my Dearest Readers) will get along.</p>
+           <br>If you are interested in buying me a cup of coffee, it'll be much Appretiated.<br><br>
+           <a href="../donate" class="w3-button w3-block w3-border w3-hover-purple">Support my Blog</a>
         <p class="w3-center"><i>P.S. You're free to contact me via mail</i></p>
         <div class="w3-row">
-          <div class="w3-col m6 w3-center w3-padding-large">
-            <p>
-            <img src="https://svgsilh.com/svg_v2/42387.svg" class="w3-round w3-image  w3-hover-opacity-off" alt="Photo of Me" width="300" height="200">
-          </div>
-
           <!-- Hide this text on small devices -->
-          <div class="w3-col m6  w3-padding-large">
-            <b><i class="fa fa-user w3-margin-right"></i>Elvis Tony Raphael Kollannur</b></p><br>
+          <div class="w3-padding-md">
             <p>I'm currently pursuing my Bachelors in the domain of Computer Science at Vidya Academy of Science and Technology.</p>
-            <p></p>
           </div>
         </div>
       </div>
@@ -101,76 +104,71 @@
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Data Science | Web Developer | App Developer | Database</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Thrissur, Kerala, India</p>
-          <i class="w3-button w3-hover-red fa fa-google " onclick="Accordian('emal')"></i>
-          <div id="emal" class="w3-container w3-hide">
-            <p>elvistonyrency &#64; gmail <dot>.</dot> com</p>
-          </div>          <hr>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-purple"></i>Data Scientist | Web Developer | App Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-purple"></i>Thrissur, Kerala, India</p>
+          <i class="w3-padding w3-text-red fa fa-google"></i>elvistonyrency &#64; gmail <dot>.</dot> com<hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Python - Data Science | Machine Learning</p>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-purple"></i>Skills</b></p>
+          <p>Python - Data Scientist | Machine Learning</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-purple" style="width:80%">80%</div>
           </div>
           <p>C++ | C | Java</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-purple" style="width:75%">75%</div>
           </div>
           <p>HTML | Javascript</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:86%">85%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-purple" style="width:86%">85%</div>
           </div>
           <p>PHP | MySQL </p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-purple" style="width:75%">75%</div>
           </div>
           <p>Office Apps</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-purple" style="width:90%">90%</div>
           </div>
           <br>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-purple"></i>Languages</b></p>
           <p>English</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            <div class="w3-round-xlarge w3-purple" style="height:24px;width:100%"></div>
           </div>
           <p>Malayalam</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            <div class="w3-round-xlarge w3-purple" style="height:24px;width:55%"></div>
           </div>
           <p>Hindi</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            <div class="w3-round-xlarge w3-purple" style="height:24px;width:55%"></div>
           </div>
           <p>Japanese</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:20%"></div>
+            <div class="w3-round-xlarge w3-purple" style="height:24px;width:20%"></div>
           </div>
           <p>Arabic</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:20%"></div>
+            <div class="w3-round-xlarge w3-purple" style="height:24px;width:20%"></div>
           </div>
           <p>French</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:20%"></div>
+            <div class="w3-round-xlarge w3-purple" style="height:24px;width:20%"></div>
           </div>
           <br>
         </div>
       </div><br>
-
     <!-- END About/Intro Menu -->
     </div>
-
   <!-- END GRID -->
   </div>
-
 <!-- END w3-content -->
 </div>
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-32">
 <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
+<a href="../donate/" class="w3-button w3-orange w3-small">Support My Website</a>
 <p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
 and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
 </footer>
