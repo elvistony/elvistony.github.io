@@ -7,7 +7,7 @@
 <title>OnDot</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="Track your hours in College - Vidya ERP" name="description" />
+<meta content="On Dot - Track your hours in College - Vidya ERP - OnDot KTU" name="description" />
 <meta content="Elvis Tony" name="author" />
 <meta content="OnDot - Android App" property="og:title" />
 
@@ -16,8 +16,25 @@
 <link rel="stylesheet" href="../../css/css.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../../css/common.css">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="../../css/blog.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+  .bg_gray{
+    background-color: #1F1C37;
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+  .fill-available{
+    width: -moz-available;
+    width: -webkit-fill-available; 
+  }
+</style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165692854-1"></script>
 <script>
@@ -67,106 +84,65 @@
   <li><a href="#">OnDot</a></li>
   <li>1.0-beta</li>
 </ul>
-<!-- The App Section -->
-<div class="w3-padding-64 w3-white">
-  <div class="w3-row-padding">
-    <div class="w3-col l8 m6">
-      <img class="w3-image w3-round-large" src="logo.png" alt="App" width="100">
-      <h1 class="w3-jumbo"><b>OnDot</b><span class="w3-large w3-margin"> 1.0-beta</span></h1>
-      <h1 class="w3-xxlarge w3-text-blue"><b>Track your Hours in College</b></h1>
-      <p><span class="w3-xlarge">No more FE.</span> Our app helps you keep track of your College Attendance and gives you insights bout how ahead or behind you are in your Courses.
-      The University now has made Attendance mandatory which can make Keeping Track of your attendance Tiring, The app provides you with a Clean Material Interface that Connects to your College ERP and Displays your Data in a more Appealing UI.</p>
-
-      <p>Available for <br><div class="w3-card w3-padding w3-margin"><br><i class="fa fa-android w3-xlarge w3-text-blue"></i>  Android 5.0+
-        <br><button class="w3-button w3-small w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
-          <i class="fa fa-download"></i> View Releases
-        </button>
-        <b class="w3-right">File Size: (5.5 MB)</b>
-        <ul><b>Features</b>
-          <li>No Ads</li>
-          <li>Dark Mode</li>
-          <li>Stable - Beta</li>
-          <li>Material Design</li>
-          <li>Added Experimental Features</li>
-      </ul>
-      </div>
+<hr>
+<!-- First Grid -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center"><br><br><br>
+      <img src="logo.png" width="300px" class="center" >
     </div>
-
-    <div class="w3-col l4 m6">
-      <div class="w3-content w3-display-container w3-right w3-margin">
-        <h3 class="w3-center w3-black">OnDot<span class="w3-large w3-margin"> screenshots</span></h3>
-  <img class="mySlides w3-animate-opacity" src="app_ss1.png" style="width:100%">
-  <img class="mySlides w3-animate-opacity" src="app_ss2.png" style="width:100%">
-  <button class="w3-button w3-black w3-display-left w3-opacity" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right  w3-opacity" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<br>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-<br>
-</div>
-      <div class="w3-center w3-hide-large w3-hide-medium">
-        <button class="w3-button w3-block w3-padding-large w3-flat-belize-hole" onclick="document.getElementById('download').style.display='block'">
-          <i class="fa fa-download"></i> Download Application
-        </button></div>
+    <div class="w3-twothird w3-content">
+      <h1 class="w3-jumbo w3-text-blue">On Dot</h1>
+      <h1 class="w3-xlarge w3-text-orange style_text"><b>Track your Hours in College</b></h1>
+      <p class=""><span class="w3-xlarge ">No more FE.</span> Our app helps you keep track of our College Attendance and gives you insights about <i class="w3-text-orange">how ahead or behind you</i> are in your Courses.
+        The University now has made Attendance mandatory which can make Keeping Track of your attendance Tiring.
+      <br> The app provides you with a Clean Material Interface that Connects to your College ERP and Displays your Data in a more Appealing UI.</p>
     </div>
   </div>
 </div>
 
-<!-- Modal -->
-<div id="download" class="w3-modal w3-animate-opacity">
-  <div class="w3-modal-content" style="padding:32px">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
-      <h2 class="w3-wide">DOWNLOAD</h2><i class="fa fa-android w3-large w3-right"></i>
-      <p>Version 1.0 - Beta</p>
-
-      <h4>Whats New!</h4>
-      <ul>
-      <li>Added Offline Viewing</li>
-      <li>Removed Redundant Resources</li>
-      <li>Added Experimental Release Module</li>
-    </ul>
-        <br><br>
-      <a class="w3-button w3-block w3-padding-large w3-flat-belize-hole w3-hover-blue w3-margin-bottom" onclick="window.location.assign('#');">App Dowload v1.0-beta<br> (Free)</a>
-      <a href="../../donate" class="w3-button w3-block w3-border w3-green w3-hover-blue">Support my Work</a>
+<!-- Second Grid -->
+<div class="w3-row-padding bg_gray w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird w3-content"><br><br>
+      <h1 class="w3-xxlarge w3-text-orange">Get an Overview of Your Presence</h1>
+      <h4 class="w3-text-white">See your Overall Attendance Stats.</h4><p class="w3-text-white"> Our App is equipped with a polished Dashboard that Shows an Overview for each Course and current Stats.</p>
+    </div>
+    <div class="w3-third w3-center">
+      <img src="app_ss_b.jpg"  class="center w3-round-xlarge" >
     </div>
   </div>
 </div>
 
-<!-- Clarity Section -->
-<div class="w3-padding-64 w3-light-grey">
-  <div class="w3-row-padding">
-    <div class="w3-col l4 m6">
-      <img class="w3-image w3-round-large w3-hide-small" src="logo.png" alt="App" width="335" height="471">
+<!-- Third Grid -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="app_ss_a.jpg"  class="center w3-round-xlarge" >
     </div>
-    <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>Be On <span class="w3-medium">the</span> Dot</b></h1>
-      <h1 class="w3-xlarge w3-text-red"><b>No more FE.</b></h1>
-      <p><span class="w3-xlarge">An innovative solution to this age old problem.</span> Check your current status of your Attendance in Each subject. Get Exclusive Insights based on your Data and Use them to your Advantage!<br><br>Be Up-to-date with the latest releases with more Addons from the ERP.</p>
+    <div class="w3-twothird w3-content"><br><br>
+      <h1 class="w3-xxlarge w3-text-orange">Get Insights into Each Course</h1>
+      <h4>Course-specific Attendance stats</h4><p class=""> Our App is equipped with a polished Dashboard that Shows an Overview for each Course and current Stats.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Grid -->
+<div class="w3-row-padding bg_gray w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird w3-content">
+      <h1 class="w3-xxlarge w3-text-orange">Continous Development</h1>
+      <h4 class="w3-text-white">Give our Experimental addons a spin.</h4><p class="w3-text-white"> Our app has included a <span class="w3-hover-text-blue w3-text-orange">Experimental Addon <b class="w3-text-orange">*</b></span> that aims to add Features directly from the ERP.</p>
+      <p class="w3-text-orange">*Currently includes <span class="w3-text-pink">Simple Due Addon</span> and <span class="w3-text-pink">Due Detail Addon</span> (under Testing)</p>
+    </div>
+    <div class="w3-third w3-center">
+      <img src="loop.png"  class="center w3-round-xlarge" >
     </div>
   </div>
 </div>
 
 <!-- Features Section -->
-<div class="w3-container w3-padding-64 w3-center">
+<div class="w3-container  w3-padding-64 w3-center">
   <h1 class="w3-jumbo"><b>Features</b></h1>
   <p>This app is just so simple and elegant.</p>
 
@@ -180,8 +156,8 @@ function showDivs(n) {
       <p>Loved</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-user w3-text-orange w3-jumbo"></i>
-      <p>Safe</p>
+      <i id="daynight" class="fa fa-moon-o  w3-text-gray w3-animate-left w3-jumbo"></i>
+      <p>Dark Mode</p>
     </div>
     <div class="w3-col s3">
       <i class="fa fa-wifi w3-text-grey w3-jumbo"></i>
@@ -190,10 +166,93 @@ function showDivs(n) {
   </div>
 </div>
 
+<script>
+
+</script>
+
+
+<!-- Sizth Grid -->
+<div class="w3-row-padding bg_gray w3-text-white w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="logo.png"  class="center" >
+    </div>
+    <div class="w3-large w3-twothird w3-content"><br>
+      <ul><h3>Features</h3>
+        <li>No Ads</li>
+        <li>Dark Mode</li>
+        <li>Stable - Beta</li>
+        <li>Material Design</li>
+        <li>Added Experimental Features</li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Seventh Grid -->
+<div class="w3-row-padding w3-white  w3-padding-64 w3-container">
+  <div class="w3-content w3-center">
+    <h1 class="w3-xxlarge w3-text-green">Download Now</h1>
+    <h1 class="w3-xlarge w3-text-green">Available for Android <span class="w3-small w3-text-orange">5.0 Lollipop and Above</span></h1>
+    <h6 class="">Our App has taken 2 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br><br>
+    <!-- <a href="../../donate/" class="w3-button w3-hover-indigo">Please support us with a cup of coffee</a><br><br> -->
+    <div class="w3-row bg_gray w3-text-white w3-padding-32 w3-margin">
+      <div class="fill-available" style="margin:20px;">
+        <input style="width:inherit;" type="range" min="0" max="6" steps="1" value="3"  oninput="donate(this)" >
+        <table style="width: inherit;">
+          <tr><td class="w3-left">$0</td><td>$0.5</td><td class="w3-right">$1</td></tr>
+        </table>
+      </div>
+      <div class="w3-padding" style="margin:20px;">
+        <h3 class="w3-third w3-padding w3-indigo" style="letter-spacing: 5px;" id="donate_val">$1</h3>
+        <h3 class="w3-twothird w3-button w3-white w3-hover-indigo" onclick="go_donate()" id="donate_but">Support <span class="w3-small w3-text-blue">with PayPal</span> & Download</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function donate(ele){
+    var donate_val=document.getElementById("donate_val");
+    var donate_but=document.getElementById("donate_but");
+    if(ele.value==0){
+      donate_but.innerHTML='DOWNLOAD  <span class="w3-small w3-text-blue">(Without Support)</span>';
+      donate_but.setAttribute("onclick","go_download()")
+    }else{
+      donate_but.innerHTML='Support <span class="w3-small w3-text-blue">with PayPal</span> & Download'
+      donate_but.setAttribute("onclick","go_donate()")
+    }
+    var value = ""+((ele.value/6)*2)
+    donate_val.innerHTML="$"+ value.substr(0, 3);
+  }
+  function go_donate(){
+    var donate_go=document.getElementById("donate_go").submit()
+  }
+  function go_download(){
+    window.location.href = "download/";
+  }
+</script>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" id="donate_go" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_xclick">
+  <input type="hidden" name="business" value="ZDLPM2QHFQD5W">
+  <input type="hidden" name="lc" value="IN">
+  <input type="hidden" name="item_name" value="Support OnDot - RW Devs">
+  <input type="hidden" name="button_subtype" value="services">
+  <input type="hidden" name="no_note" value="1">
+  <input type="hidden" name="no_shipping" value="1">
+  <input type="hidden" name="rm" value="1">
+  <input type="hidden" name="return" value="https://elvistony.github.io/repo/ondot/download/">
+  <input type="hidden" name="cancel_return" value="https://elvistony.github.io/repo/ondot/">
+  <input type="hidden" name="currency_code" value="USD">
+  <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_SM.gif:NonHosted">
+  <input  type="submit" style="visibility: hidden;" src="donate_button_sm.png" name="btnSubmit" alt="PayPal – The safer, easier way to pay online!">
+</form>
+
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-32">
 <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
-<a href="donate/" class="w3-button w3-orange w3-small">Support My Website</a>
+<a href="../../donate/" class="w3-button w3-orange w3-small">Support My Website</a>
 <p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
 and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
 </footer>
