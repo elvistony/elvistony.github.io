@@ -14,10 +14,12 @@
       "version":"1.2",
       "release":"beta",
       "whats_new":["Dark Mode - Enhanced",
-        "Experimental Feature-Fixed Errors",
-        "Fixed Landscape Crashing Issues"
+        "Experimental Feature - Enhanced",
+        "Fixed Landscape Crashing Issues",
+        "Removed Floating Action Button",
+        "Added Swipe to Reload Feature"
       ],
-      "date_release":"23/6/2020"
+      "date_release":"3/7/2020"
     }
   ]
 }
