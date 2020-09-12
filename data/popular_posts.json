@@ -15,19 +15,6 @@
          "link": "../blog/what-platform-i-work-on-and-why/"
       },
       {
-         "title": "A Glimpse into my Garden",
-         "description": "A lil journey through the species in my Garden",
-         "date": "April 27, 2020",
-         "image": "../blog/a-glimpse-into-my-garden/title.jpg",
-         "tags": [
-            "Nature",
-            "Garden",
-            "Flowers",
-            "Kerala"
-         ],
-         "link": "../blog/a-glimpse-into-my-garden/"
-      },
-      {
          "title": "Installing Linux on your system",
          "description": "A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you.",
          "date": "May 05, 2020",
@@ -39,6 +26,18 @@
             "Free and Open Source"
          ],
          "link": "../blog/installing-linux-on-your-system/"
+      },{
+         "title": "Web Development The Easy Way",
+         "description": "Making your Own Custom Website and Host it too!",
+         "date": "Aug 15, 2020",
+         "image": "../blog/web-dev-intro/title.png",
+         "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Website Hosting"
+         ],
+         "link": "../blog/web-dev-intro/"
       }
    ]
 }

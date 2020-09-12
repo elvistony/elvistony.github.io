@@ -26,6 +26,19 @@
             "Free and Open Source"
          ],
          "link": "../blog/installing-linux-on-your-system/"
+      },
+      {
+         "title": "Web Development The Easy Way",
+         "description": "Making your Own Custom Website and Host it too!",
+         "date": "Aug 15, 2020",
+         "image": "../blog/web-dev-intro/title.png",
+         "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Website Hosting"
+         ],
+         "link": "../blog/web-dev-intro/"
       }
    ]
 }
