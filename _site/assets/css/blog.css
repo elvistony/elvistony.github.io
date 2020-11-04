@@ -1,0 +1,26 @@
+/* f-letter{
+    font-size: larger;
+    font-weight: 300;
+} */
+
+.t-gray{
+    color: gray;
+}
+
+.htag[title]:hover:after {
+    content: attr(title);
+    position: absolute;
+    background: orange;
+    color: white;
+    border-radius: 20px 20px 20px 0px;
+    padding: 10px;
+    width: max-content;
+    top: -150%;
+    left: 0px;
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}

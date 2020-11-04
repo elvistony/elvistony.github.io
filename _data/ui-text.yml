@@ -1,0 +1,115 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_links                 : "Skip links"
+  skip_primary_nav           : "Skip to primary navigation"
+  skip_content               : "Skip to content"
+  skip_footer                : "Skip to footer"
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle menu"
+  search_label               : "Toggle search"
+  toc_label                  : "On this page"
+  ext_link_label             : "Direct link"
+  less_than                  : "less than"
+  minute_read                : "minute read"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Updated:"
+  comments_label             : "Leave a comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn more"
+  related_label              : "You may also enjoy"
+  follow_label               : "Follow:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_label_text          : "Enter your search term..."
+  search_placeholder_text    : "Enter your search term..."
+  search_algolia_no_results  : "No results"
+  results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+
+
+# Malayalam
+# -----------------
+ml: &DEFAULT_ML
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "പേജ്"
+  pagination_previous        : "തിരികെ"
+  pagination_next            : "മുന്നോട്ട്"
+  breadcrumb_home_label      : "ഹോം"
+  breadcrumb_separator       : "/"
+  menu_label                 : "ടോഗിൾ മെനു"
+  search_label               : "ടോഗിൾ സെർച്ച്"
+  toc_label                  : "ഈ പേജിൽ"
+  ext_link_label             : "ലിങ്കിലേക് പോകാൻ"
+  less_than                  : "ഏതാണ്ട്"
+  minute_read                : "മിനിറ്റ് ദൈർഖ്യം"
+  share_on_label             : "ഷെയർ  ചെയ്യുവാൻ "
+  meta_label                 :
+  tags_label                 : "ടാഗുകൾ:"
+  categories_label           : "വിഭാഗങ്ങൾ:"
+  date_label                 : "അവസാന മാറ്റം:"
+  comments_label             : "അഭിപ്രായം രേഖപ്പെടുത്തുക"
+  comments_title             : "അഭിപ്രായങ്ങൾ"
+  more_label                 : "കൂടുതൽ  അറിയുവാൻ"
+  related_label              : "നിങ്ങൾക് ഇതും ഇഷ്ടപ്പെട്ടേക്കാം"
+  follow_label               : "പിന്തുടരുക:"
+  feed_label                 : "ഫീഡ്"
+  powered_by                 : "പവേർഡ് ബൈ"
+  website_label              : "വെബ്സൈറ്റ്"
+  email_label                : "ഇ-മെയിൽ"
+  recent_posts               : "സമീപകാല പോസ്റ്റുകൾ"
+  undefined_wpm              : "Config.yml ലെ words_per_minute പരാമീറ്റർ നിർവചിച്ചിട്ടില്ല."
+  comment_form_info          : "നിങ്ങളുടെ ഇമെയിൽ വിലാസം പ്രസിദ്ധീകരിക്കില്ല. ആവശ്യമായ ഫീൽഡുകൾ അടയാളപ്പെടുത്തി."
+  comment_form_comment_label : "കമന്റ്"
+  comment_form_md_info       : "Markdown സപ്പോർട്ട് ചെയ്യുന്നതാണ്."
+  comment_form_name_label    : "പേര്"
+  comment_form_email_label   : "ഇ-മെയിൽ"
+  comment_form_website_label : "വെബ്സൈറ് (ഓപ്ഷണൽ)"
+  comment_btn_submit         : "അഭിപ്രായം രേഖപ്പെടുത്തുക"
+  comment_btn_submitted      : "രേഖപ്പെടുത്തി"
+  comment_success_msg        : "നിങ്ങളുടെ അഭിപ്രായത്തിന് നന്ദി! ഇത് അംഗീകരിച്ചുകഴിഞ്ഞാൽ ഇത് സൈറ്റിൽ പ്രദർശിപ്പിക്കും."
+  comment_error_msg          : "ക്ഷമിക്കണം, നിങ്ങളുടെ സമർപ്പണവുമായി ബന്ധപ്പെട്ട് ഒരു പിശകുണ്ടായിരുന്നു. ആവശ്യമായ എല്ലാ ഫീൽഡുകളും പൂർത്തിയായിട്ടുണ്ടെന്ന് ഉറപ്പുവരുത്തുക, വീണ്ടും ശ്രമിക്കുക."
+  loading_label              : "ലോഡിംഗ്..."
+  search_label_text          :
+  search_placeholder_text    : "നിങ്ങളുടെ തിരയൽ പദം നൽകുക..."
+  search_algolia_no_results  :
+  results_found              : "ഫലം (കൾ) കണ്ടെത്തി"
+  back_to_top                : "മുകളിലേയ്ക്ക്"
+ml-IN:
+  <<: *DEFAULT_ML
