@@ -7,7 +7,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Random Wanderer"
 title_separator          : "|"
-subtitle                 : "LVZ's Blog"
+subtitle                 : "LVZ's Blog (v2.0)"
 name                     : "Elvis Tony Raphael Kollannur"
 description              : "Hey There, I'm Elvis Tony, Welcome to my blog!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -23,13 +23,10 @@ words_per_minute         : 200
 author:
   name             : "Elvis Tony Raphael"
   avatar           : "/assets/img/author.jpg"  
-  bio              : "I'm a Dreamer and a 'Coder'"
+  bio              : "I'm a Dreamer during the day N' 'Coder' at night!"
   location         : "Kerala, India"
   email            : "elvistonyrency[at]gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:elvistonyrency[at]gmail.com"
     - label: "My Website"
       icon: "fas fa-fw fa-link"
       url: "https://elvistony.github.io/"
@@ -39,9 +36,12 @@ author:
     - label: "@elvistony"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/elvistony"
+    - label: "@elvis-tony"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/elvis-tony"
     - label: "@lvz-tony"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/lvz.tony"
 
 # Site Footer
 footer:

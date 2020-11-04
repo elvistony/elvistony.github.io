@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Random Wanderer</title>
-<meta name="description" content="Hey There, I’m Elvis Tony, Welcome to my blog!">
+<!-- begin _includes/seo.html --><title>My Projects | Random Wanderer</title>
+<meta name="description" content="RW-Dev Projects - Elvis Tony’s Projects">
 
 
   <meta name="author" content="Elvis Tony Raphael">
@@ -20,11 +20,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Random Wanderer">
-<meta property="og:title" content="Random Wanderer">
+<meta property="og:title" content="My Projects">
 <meta property="og:url" content="http://localhost:4000/projects/">
 
 
-  <meta property="og:description" content="Hey There, I’m Elvis Tony, Welcome to my blog!">
+  <meta property="og:description" content="RW-Dev Projects - Elvis Tony’s Projects">
 
 
 
@@ -92,9 +92,19 @@
 
 
     <!-- <link rel="stylesheet" href="/assets/css/w3.css"> -->
+
+<meta name="theme-color" content="#241024">
 <link rel="stylesheet" href="/assets/css/blog.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165692854-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-165692854-1');
+</script>
   </head>
 
   <body class="layout--single">
@@ -120,14 +130,12 @@
         
         <a class="site-title" href="/">
           Random Wanderer
-          <span class="site-subtitle">LVZ's Blog</span>
+          <span class="site-subtitle">LVZ's Blog (v2.0)</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/">Home</a>
             </li><li class="masthead__menu-item">
               <a href="/posts/">Posts</a>
-            </li><li class="masthead__menu-item">
-              <a href="/tags/">Tags</a>
             </li><li class="masthead__menu-item">
               <a href="/projects/">Projects</a>
             </li><li class="masthead__menu-item">
@@ -172,7 +180,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>I’m a Dreamer and a ‘Coder’</p>
+        <p>I’m a Dreamer during the day N’ ‘Coder’ at night!</p>
 
       </div>
     
@@ -190,10 +198,6 @@
       
         
           
-            <li><a href="mailto:elvistonyrency[at]gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
             <li><a href="https://elvistony.github.io/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">My Website</span></a></li>
           
         
@@ -206,7 +210,11 @@
           
         
           
-            <li><a href="https://instagram.com/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">@lvz-tony</span></a></li>
+            <li><a href="https://linkedin.com/in/elvis-tony" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">@elvis-tony</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/lvz.tony" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">@lvz-tony</span></a></li>
           
         
       
@@ -283,7 +291,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    
+    <meta itemprop="headline" content="My Projects">
     
     
     
@@ -291,7 +299,8 @@
     <div class="page__inner-wrap">
       
         <header>
-          
+          <h1 id="page-title" class="page__title" itemprop="headline">My Projects
+</h1>
           
 
 
@@ -300,40 +309,45 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="projects">Projects</h2>
-
-<h3 id="ondot">OnDot</h3>
+        <h3 id="ondot">OnDot</h3>
 <p><em>Keep track of your college attendance and much more!</em></p>
 <div class="text-right">
-    <a href="on-dot/" class="btn--warning btn">Check it Out</a>
+    <a href="#on-dot" class="btn--warning btn">Check it Out</a>
 </div>
 <hr />
 
 <h3 id="board-io">Board-IO</h3>
 <p><em>Draw N’ Share your strokes Live using P2P connections!</em></p>
 <div class="text-right">
-    <a href="" class="btn--success btn">Check it Out</a>
+    <a href="/board-io/" class="btn--success btn">Check it Out</a>
 </div>
 <hr />
 
 <h3 id="html--javascript">HTML | Javascript</h3>
 <p><em>A Simple HTML | Javascript Playground with Dark Mode and Offline mode!</em></p>
 <div class="text-right">
-    <a href="" class="btn--danger btn">Check it Out</a>
+    <a href="/js-env/" class="btn--danger btn">Check it Out</a>
+</div>
+<hr />
+
+<h3 id="class-timetable">Class Timetable</h3>
+<p><em>Keep you and your class up-to-date with a simple Timetable that is Google-Form Controlled!</em></p>
+<div class="text-right">
+    <a href="/time-table/" class="btn--success btn">Check it Out</a>
 </div>
 <hr />
 
 <h3 id="e-greeting-site">E-Greeting Site</h3>
 <p><em>Send your greetings to your loved ones with this simple E-Greeting Card,</em></p>
 <div class="text-right">
-    <a href="greet/" class="btn--warning btn">Check it Out</a>
+    <a href="/greet/" class="btn--warning btn">Check it Out</a>
 </div>
 <hr />
 
 <h3 id="pdf-to-xlsx-converter">PDF to XLSX Converter</h3>
 <p><em>Convert <strong>KTU Result PDF</strong> to an editable Branch-wise XLSX Document</em></p>
 <div class="text-right">
-    <a href="greet/" class="btn--warning btn">Check it Out</a>
+    <a href="#pdf-to-xlsx" class="btn--danger btn">Check it Out</a>
 </div>
 <hr />
 

@@ -22,6 +22,9 @@ layout: archive
     <h2 class="archive__subtitle">More Posts by the Same Author</h2>
     <div class="entries-{{ entries_layout }}">
       {% for post in year.items %}
+        {% if forloop.index > 3 %}
+          {% break %}
+        {% endif %}
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>

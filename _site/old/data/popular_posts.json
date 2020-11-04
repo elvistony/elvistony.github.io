@@ -1,0 +1,43 @@
+{
+   "posts": [
+      {
+         "title": "What Platform I work on, and Why?",
+         "description": "The Reason why I switched from Windows to GNU Linux",
+         "date": "April 18, 2020",
+         "image": "../blog/what-platform-i-work-on-and-why/title.jpg",
+         "tags": [
+            "Linux",
+            "Windows",
+            "Open Source",
+            "Essential",
+            "Full Control"
+         ],
+         "link": "../blog/what-platform-i-work-on-and-why/"
+      },
+      {
+         "title": "Installing Linux on your system",
+         "description": "A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you.",
+         "date": "May 05, 2020",
+         "image": "../blog/installing-linux-on-your-system/title.jpg",
+         "tags": [
+            "KDE Neon",
+            "Plasma Desktop",
+            "Linux",
+            "Free and Open Source"
+         ],
+         "link": "../blog/installing-linux-on-your-system/"
+      },{
+         "title": "Web Development The Easy Way",
+         "description": "Making your Own Custom Website and Host it too!",
+         "date": "Aug 15, 2020",
+         "image": "../blog/web-dev-intro/title.png",
+         "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Website Hosting"
+         ],
+         "link": "../blog/web-dev-intro/"
+      }
+   ]
+}

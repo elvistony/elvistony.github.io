@@ -2,6 +2,7 @@
 layout: home
 title: Posts
 permalink: posts/
+description: RW-Dev Posts - Elvis Tony's Posts
 author_profile: true
 ---
 You're now at my Library!

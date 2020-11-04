@@ -1,0 +1,174 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>RW - Web Development The Easy Way</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta content="Web Dev the Easy Way | Introduction to Web Development." name="description" />
+  <meta content="Elvis Tony" name="author" />
+  <meta content="Starting your Journey on Web Development" property="og:title" />
+
+  <link rel="stylesheet" href="../../css/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+  <link rel="stylesheet" href="../../css/css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/blog.css">
+  <link rel="stylesheet" href="../../css/nav_back.css">
+
+  <style>
+    .inblock{
+      display: flex;
+      margin-right: 2px;
+      size: 2px;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165692854-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-165692854-1');
+  </script>
+</head>
+<body>
+
+  <!-- Navbar-->
+  <div class="w3-top">
+    <div class="w3-bar transp w3-card" id="myNavbar">
+      <a href="../../" class="w3-bar-item w3-button w3-hover-purple w3-wide">Random Wanderer</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="../../" class="w3-bar-item w3-button w3-hover-purple">Home</a>
+        <a href="../../blog/" class="w3-bar-item w3-button w3-hover-purple">Blog</a>
+        <a href="../../resources/" class="w3-bar-item w3-button w3-hover-purple"> Resources</a>
+        <a href="../../about/" class="w3-bar-item w3-button w3-hover-purple"> About Me</a>
+      </div>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hover-blue w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a  class="w3-padding w3-white w3-text-indigo w3-bar-item"> RW </a>
+    <a href="../../" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="../../blog" onclick="w3_close()" class="w3-bar-item w3-button">Blog</a>
+    <a href="../../resources/" onclick="w3_close()" class="w3-bar-item w3-hover-purple w3-button">Resources</a>
+    <a href="../../about/" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-gray w3-small">Close </a>
+  </nav>
+  <!-- Header -->
+
+  <header class="w3-display-container w3-wide"  id="home">
+  <div class="waveWrapper waveAnimation w3-row" style="height:140px;">
+    <div class="waveWrapperInner bgTop">
+      <div class="wave waveTop" style="background-image: url('../../img/wave-top.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle" style="background-image: url('../../img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom" style="background-image: url('../../img/wave-bot.png')"></div>
+    </div>
+  </div>
+  </header>
+
+<!-- Content Begins -->
+  <div class="w3-row w3-container" >
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12 w3-container w3-margin-top w3-margin-bottom" >
+    <img src="title.png" alt="Title Image Not Loaded" style="width:100%">
+    <div class="w3-container w3-margin-top">
+      <h3><b>Learn Web Development</b></h3><span class="w3-opacity w3-right">Aug 15, 2020</span>
+  <h5>A Simple 10 - Tutorial Series that'll jump start your Experience with Web Dev.</h5>
+<span class="w3-blue-gray w3-tag w3-round">HTML 5</span>
+<span class="w3-blue-gray w3-tag w3-round">CSS 3</span>
+<span class="w3-blue-gray w3-tag w3-round">JavaScript</span>
+<span class="w3-blue-gray w3-tag w3-round">JS</span>
+<span class="w3-blue-gray w3-tag w3-round">PHP</span>
+</div>
+<div class="w3-container ">
+  <p><f-letter>W</f-letter>eb Development can seem indimidating at first and its fine to be so, After all everything is now on the Web, that's why we must be too!</p>
+  <p>A wise old Man said,</p>
+  <div class="w3-panel w3-sand">Getting the right tutorial is as important as making your first cup of tea <i class="fa fa-coffee"></i>, You either love it <i class="fa fa-heart"></i> and have it everyday, or dislike it for the rest of your life.</div>
+  <p>We'll be learning how to make your Own Website, </p>
+  <p >So Watcha waitin' for, Jump right in!
+  <br><br>
+  <div class="w3-container">
+    <button class="w3-button w3-orange w3-round" onclick="Accordian('topics')">Topics <i class="fa fa-arrow-down"></i></button>
+    <button class="w3-button w3-orange w3-round w3-right">Get Started Now <i class="fa fa-arrow-right"></i></button>
+  </div><br>
+  <div id="topics" class="w3-container w3-padding-top w3-hide ">
+    <ol class="w3-ul w3-hoverable">
+      <li><img src="logos/html.png" class="w3-bar-item w3-margin-right" style="width:35px">Web Dev Vs Web Design</li>
+      <li><img src="logos/xampp.png" class="w3-bar-item w3-margin-right" style="width:35px">Make Your Own Server</li>
+      <li class="w3-small" style="text-align: right;">Host Your Website for Free! <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w3-bar-item w3-margin-right" style="width:25px"></li>
+      <li><img src="logos/google.png" class="w3-bar-item w3-margin-right" style="width:35px">Gather your Tools!</li>
+      <li><img src="logos/html.png" class="w3-bar-item w3-margin-right" style="width:35px">Your Very First Website!</li>
+      <li><img src="logos/css.png" class="w3-bar-item w3-margin-right" style="width:35px;">Adding a little Style to plain ol’ HTML</li>
+      <li><img src="logos/js.png" class="w3-bar-item w3-margin-right" style="width:35px">Make a Dynamic Website.</li>
+      <li><img src="logos/js.png" class="w3-bar-item w3-margin-right" style="width:35px">Sharing Data between your Pages</li>
+      <li><img src="logos/html.png" class="w3-bar-item w3-margin-right" style="width:35px">Creating Forms for your Website</li>
+      <li><img src="logos/html.png" class="w3-bar-item w3-margin-right" style="width:35px">Validating Forms using JavaScript</li>
+    </ul>
+</div>
+
+  <br>
+  All the Best and Bon Voyage!
+</div>
+      <i class="w3-small w3-right w3-margin"> Posted by - Elvis </i>
+    </div>
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin-top">
+        <img src="../../img/author.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-padding">
+          <h4>Random Wanderer<i class="w3-small"> - Elvis Tony</i></h4>
+          <hr>
+          <i>"Nature and Technology has gotta go together, Only once both are in a Balance, we Advance to a new Age."</i>
+        </div>
+        <div class="w3-row w3-xlarge  w3-center w3-padding">
+          <hr>
+          <a class="w3-button w3-hover-deep-orange w3-small" href="../../about/">My Portfolio</a>
+          <a href="https://www.facebook.com/elvis.tony.rk"><i class="w3-button w3-hover-indigo fa fa-facebook-official "></i></a>
+          <a href="https://www.instagram.com/lvz.tony/"><i class="w3-button w3-hover-red fa fa-instagram "></i></a>
+          <a href="https://twitter.com/lvz_tony"><i class="w3-button w3-hover-blue fa fa-twitter "></i></a>
+          <a href="https://www.linkedin.com/in/elvis-tony/"><i class="w3-button w3-hover-blue fa fa-linkedin "></i></a>
+          <i class="w3-button w3-hover-red fa fa-google " onclick="Accordian('emal')"></i>
+          <div id="emal" class="w3-container w3-hide">
+            <p>elvistonyrency &#64; gmail <dot>.</dot> com</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding">
+          <h3>Popular Posts</h3><hr>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white" id="popularposts"></ul>
+      </div>
+
+      <hr>
+    </div>
+    </div>
+    <!-- END w3-content -->
+    </div>
+    <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+<a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right "></i>Scroll Up</a>
+<a href="../../donate/" class="w3-button w3-orange w3-small">Support My Website</a>
+<p>Proudly Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-small w3-button w3-hover-green w3-wide ">w3.css</a>
+and Hosted on <a href="https://gitlab.com" title="GITLAB" target="_blank" class="w3-button w3-black  w3-hover-orange"><i class="w3-small w3-hover-red fa fa-gitlab "> </i>  Gitlab.com</a> and <a href="https://github.com" title="GITHUB" target="_blank" class="w3-button w3-black  w3-hover-white"><i class="w3-small w3-hover-red fa fa-github "> </i>  Github.com</a></p>
+</footer>
+<script>
+  var loc="../../"
+</script>
+<script src="../../js/common.js"></script>
+<script src="../../js/popular.js"></script>
+<script src="../../js/blog.js"></script>
+</body></html>

@@ -1,0 +1,15 @@
+{
+   "posts":[
+      {
+         "title":"Fatima's Painting (Pathu's Art)",
+         "description":"Jaw Dropping Art by Mehwish",
+         "date":"DATE",
+         "image":"img/tornado.svg",
+         "tags":[
+            "new",
+            "corona"
+         ],
+         "link":"#2"
+      }
+   ]
+}
