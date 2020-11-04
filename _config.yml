@@ -27,9 +27,6 @@ author:
   location         : "Kerala, India"
   email            : "elvistonyrency[at]gmail.com"
   links:
-    - label: "My Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://elvistony.github.io/"
     - label: "@lvz-tony"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/lvz-tony"

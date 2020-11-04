@@ -7,16 +7,22 @@
     color: gray;
 }
 
+.htag{
+    transition: 1s ease;
+    margin: 0px;
+}
+
 .htag[title]:hover:after {
     content: attr(title);
     position: absolute;
     background: orange;
-    color: white;
+    color: black;
     border-radius: 20px 20px 20px 0px;
-    padding: 10px;
+    padding: 5px 15px;
     width: max-content;
     top: -150%;
     left: 0px;
+    
 }
 
 a{
