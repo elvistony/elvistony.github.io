@@ -190,3 +190,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+search_provider: google
+google:
+  search_engine_id       : cd6a6ab969ce415ab
+  instant_search         : false

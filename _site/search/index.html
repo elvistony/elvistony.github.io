@@ -95,6 +95,7 @@
 
 <meta name="theme-color" content="#241024">
 <link rel="stylesheet" href="/assets/css/blog.css">
+
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -168,8 +169,12 @@
     
 
     <p>Search through my posts, and click away!</p>
-<input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
-        <div id="results" class="results"></div></div>
+<form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+        <input type="text" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+        </form>
+        <div id="results" class="results">
+          <gcse:searchresults-only></gcse:searchresults-only>
+        </div></div>
 </div>
 
     </div>
@@ -216,11 +221,30 @@
   <script src="/assets/js/main.min.js"></script>
 
 
+<script>
+  (function () {
+    var cx = 'cd6a6ab969ce415ab';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
 
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
 
-<script src="/assets/js/lunr/lunr.min.js"></script>
-<script src="/assets/js/lunr/lunr-store.js"></script>
-<script src="/assets/js/lunr/lunr-en.js"></script>
+  
+</script>
 
 
 

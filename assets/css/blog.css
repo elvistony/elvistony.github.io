@@ -30,3 +30,13 @@ a{
     display: inline-block;
     margin-top: 20px;
 }
+
+.badge{
+    font-size: 12px;
+    background: white;
+    border-radius: 5px;
+    padding: 1px 5px;
+    color: black;
+    text-align: center;
+    margin-right: 5px;
+}

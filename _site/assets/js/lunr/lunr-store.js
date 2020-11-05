@@ -19,7 +19,7 @@ var store = [{
       },{
         "title": "Making a TimeTable Web-App",
         "excerpt":"The Making of a Simple Timetable WebApp Lockdown, thats one word everyone is afraid of right after the Popular Term “Covid-19”. March 24th, rumours spread in our class like wild fire. The day before our internal exams.”Guys, I think this Covid thing is serious.” just then our WhatsApp group is...","categories": ["Code"],
-        "tags": [],
+        "tags": ["2020","Covid","Google-Meet"],
         "url": "http://localhost:4000/posts/code/making-a-timetable-app/",
         "teaser": null
       },{
