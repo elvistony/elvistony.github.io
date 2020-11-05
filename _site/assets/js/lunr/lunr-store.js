@@ -28,4 +28,10 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/posts/experiences/my-first-live-stream/",
         "teaser": null
+      },{
+        "title": "Host your Own Timetable Web-App",
+        "excerpt":"So, you want to host one of this for your class, you’ve come to the right place. What is this Web-app? The timetable web-app is a simple app to display the day’s Class Timetable. It supports the publishing of alternate schedules or fall-back to the regular timetable all in the...","categories": ["Code"],
+        "tags": ["DIY","2020","Covid","Google-Meet"],
+        "url": "http://localhost:4000/posts/code/host-your-own-timetable/",
+        "teaser": null
       }]

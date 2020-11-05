@@ -5,12 +5,13 @@ title: My Projects
 description : RW-Dev Projects - Elvis Tony's Projects
 author_profile: true
 breadcrumbs: true
+classes: wide
 ---
 
 ### OnDot
 _Keep track of your college attendance and much more!_
 <div class="text-right">
-    <a href="#on-dot" class="btn--warning btn">Check it Out</a>
+    <a href="/repo/ondot/" class="btn--warning btn">Check it Out</a>
 </div>
 <hr>
 

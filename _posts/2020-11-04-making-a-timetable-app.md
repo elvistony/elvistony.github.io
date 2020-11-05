@@ -5,13 +5,17 @@ date:   2020-11-04 11:48:18 +0530
 categories: Code
 tags: 2020 Covid Google-Meet
 breadcrumbs: true
+classes: wide
 permalink : /posts/:categories/:title/
+header:
+  overlay_image: /assets/img/timetable/timetable-head.png
+  overlay_filter: 0.9 
 ---
 _The Making of a Simple Timetable WebApp_
 
 Lockdown, thats one word everyone is afraid of right after the Popular Term "Covid-19".
 
-March 24th, rumours spread in our class like wild fire. The day before our internal exams."Guys, I think this Covid thing is serious." just then our WhatsApp group is flooded with the news of a nation-wide lockdown.... [Read More](/posts/experiences/day-before-lockdown/)
+March 24th, rumours spread in our class like wild fire. The day before our internal exams."Guys, I think this Covid thing is serious." just then our WhatsApp group is flooded with the news of a nation-wide lockdown.... <a class="htag" title="Day Before Lockdown" href="/posts/experiences/day-before-lockdown/">Read More</a>
 
 Days passed with us having to stare at a computer screen for hours at a stretch. Our class Representative <a class="htag" title="Thira" href="#">Athira M.R</a> helped us join the classes on time and prepared a WhatsApp message with the necessary class Google Classroom links. To be honest, it was tough for both of us especially since she had to get the links from her laptop to her phone and we'd have to the the vice-versa too! 
 
@@ -21,13 +25,20 @@ Things advanced further when <a class="htag" title="Aishu" target="_blank" href=
 
 For a fun lil experiment we decided to add a count-down to show which subject comes. Its still buggy but works most of the while :wink!
 
+
+
 Just when I thought the work on the Web-app was done, <a class="htag" title="Diya" target="_blank" href="#">Diya Rajan</a> and <a class="htag" title="Aishu" target="_blank" href="#">Aishwarya Rajan</a>, ok hang on, they're not sisters, they just happened to have the same surname :smileyFace! . Returning to our discussion, they had a feature request, they said they faced a slow-down since everytime they click the links on our Page, they had to shift their google accounts which was really annoying.
 
 After googling a bit, we found a solution which allowed us to set which account is to be invoked with each link. Now to get things lil more interesting, we added a notification sound whenever a period finishes! Along with this update, we threw in a `Dark Theme` too!
 
-So Hopefully this concludes our work on this Project
-You can see my Code Here 
+{% include figure image_path="/assets/img/timetable/timetable-head.png" alt="Time-Table (Current)"  %}
+
+So Hopefully this concludes our work on this Project. You can see my Code Here.
+
+
+
 <div class="text-right">
+    <a href="/posts/code/host-your-own-timetable/" class="btn--success btn">Host your Own!</a>
     <a href="https://github.com/elvistony/time-table/" target="_blank" class="btn--danger btn">Code</a>
     <a href="https://elvistony.github.io/time-table/" target="_blank" class="btn--warning btn">Web-App</a>
 </div>

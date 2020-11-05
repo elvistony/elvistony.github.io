@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/posts/code/host-your-own-timetable/</loc>
+      
+        <lastmod>2020-11-04T11:48:18+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/posts/experiences/my-first-live-stream/</loc>
       
         <lastmod>2020-11-04T11:48:18+05:30</lastmod>
@@ -79,9 +94,24 @@
   
     
     <url>
+      <loc>http://localhost:4000/projects/ondot/</loc>
+      
+        <lastmod>2020-08-15T11:48:18+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +126,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,7 +141,7 @@
     <url>
       <loc>http://localhost:4000/assets/js/lunr/lunr-en.js</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,7 +156,7 @@
     <url>
       <loc>http://localhost:4000/assets/js/lunr/lunr-gr.js</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -141,7 +171,7 @@
     <url>
       <loc>http://localhost:4000/assets/js/lunr/lunr-store.js</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -156,7 +186,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +201,7 @@
     <url>
       <loc>http://localhost:4000/posts/</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,7 +216,7 @@
     <url>
       <loc>http://localhost:4000/projects/</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,7 +231,7 @@
     <url>
       <loc>http://localhost:4000/search/</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -218,7 +248,7 @@
     <url>
       <loc>http://localhost:4000/robots.txt</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -233,7 +263,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -248,7 +278,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css.map</loc>
       
-        <lastmod>2020-11-05T10:19:12+05:30</lastmod>
+        <lastmod>2020-11-05T22:54:50+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>

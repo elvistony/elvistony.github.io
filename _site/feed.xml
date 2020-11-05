@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-05T10:19:12+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-05T22:54:50+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Lockdown, thats one word everyone is afraid of right after the Popular Term “Covid-19”.&lt;/p&gt;
 
-&lt;p&gt;March 24th, rumours spread in our class like wild fire. The day before our internal exams.”Guys, I think this Covid thing is serious.” just then our WhatsApp group is flooded with the news of a nation-wide lockdown…. &lt;a href=&quot;/posts/experiences/day-before-lockdown/&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;March 24th, rumours spread in our class like wild fire. The day before our internal exams.”Guys, I think this Covid thing is serious.” just then our WhatsApp group is flooded with the news of a nation-wide lockdown…. &lt;a class=&quot;htag&quot; title=&quot;Day Before Lockdown&quot; href=&quot;/posts/experiences/day-before-lockdown/&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Days passed with us having to stare at a computer screen for hours at a stretch. Our class Representative &lt;a class=&quot;htag&quot; title=&quot;Thira&quot; href=&quot;#&quot;&gt;Athira M.R&lt;/a&gt; helped us join the classes on time and prepared a WhatsApp message with the necessary class Google Classroom links. To be honest, it was tough for both of us especially since she had to get the links from her laptop to her phone and we’d have to the the vice-versa too!&lt;/p&gt;
 
@@ -16,12 +16,45 @@
 
 &lt;p&gt;After googling a bit, we found a solution which allowed us to set which account is to be invoked with each link. Now to get things lil more interesting, we added a notification sound whenever a period finishes! Along with this update, we threw in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dark Theme&lt;/code&gt; too!&lt;/p&gt;
 
-&lt;p&gt;So Hopefully this concludes our work on this Project
-You can see my Code Here&lt;/p&gt;
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/img/timetable/timetable-head.png&quot; alt=&quot;Time-Table (Current)&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;So Hopefully this concludes our work on this Project. You can see my Code Here.&lt;/p&gt;
+
 &lt;div class=&quot;text-right&quot;&gt;
+    &lt;a href=&quot;/posts/code/host-your-own-timetable/&quot; class=&quot;btn--success btn&quot;&gt;Host your Own!&lt;/a&gt;
     &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--danger btn&quot;&gt;Code&lt;/a&gt;
     &lt;a href=&quot;https://elvistony.github.io/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Web-App&lt;/a&gt;
-&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">The Making of a Simple Timetable WebApp</summary></entry><entry><title type="html">My First Live Stream Event</title><link href="http://localhost:4000/posts/experiences/my-first-live-stream/" rel="alternate" type="text/html" title="My First Live Stream Event" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/experiences/my-first-live-stream</id><content type="html" xml:base="http://localhost:4000/posts/experiences/my-first-live-stream/">&lt;p&gt;Days were nearing, the day to finally host the live event…&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Experiences" /><summary type="html">Days were nearing, the day to finally host the live event…</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">The Making of a Simple Timetable WebApp</summary></entry><entry><title type="html">My First Live Stream Event</title><link href="http://localhost:4000/posts/experiences/my-first-live-stream/" rel="alternate" type="text/html" title="My First Live Stream Event" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/experiences/my-first-live-stream</id><content type="html" xml:base="http://localhost:4000/posts/experiences/my-first-live-stream/">&lt;p&gt;Days were nearing, the day to finally host the live event…&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Experiences" /><summary type="html">Days were nearing, the day to finally host the live event…</summary></entry><entry><title type="html">Host your Own Timetable Web-App</title><link href="http://localhost:4000/posts/code/host-your-own-timetable/" rel="alternate" type="text/html" title="Host your Own Timetable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/host-your-own-timetable</id><content type="html" xml:base="http://localhost:4000/posts/code/host-your-own-timetable/">&lt;p&gt;So, you want to host one of this for your class, you’ve come to the right place.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-this-web-app&quot;&gt;What is this Web-app?&lt;/h2&gt;
+
+&lt;p&gt;The timetable web-app is a simple app to display the day’s Class Timetable.&lt;/p&gt;
+
+&lt;p&gt;It supports the publishing of alternate schedules or fall-back to the regular timetable all in the control of an easy to use Google Form. The app also features Google Account pre-selection, Dark Mode and also a Notification when its time for the next Period!&lt;/p&gt;
+
+&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+&lt;p&gt;I’m gonna assume a few things here,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You know how to use Github&lt;/li&gt;
+  &lt;li&gt;You have an account in Github&lt;/li&gt;
+  &lt;li&gt;You know basics of programming (optional)&lt;/li&gt;
+  &lt;li&gt;You know how to make Google Forms and Google Sheet Responses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hosting&quot;&gt;Hosting&lt;/h2&gt;
+
+&lt;h3 id=&quot;forking-my-repository&quot;&gt;Forking my Repository&lt;/h3&gt;
+&lt;p&gt;Head over to &lt;a href=&quot;https://github.com/elvistony/time-table&quot; target=&quot;_blank&quot; class=&quot;btn&quot;&gt;Github&lt;/a&gt; and fork my repository.&lt;/p&gt;
+
+&lt;p&gt;So Hopefully this concludes our work on this Project.
+You can see my Code Here&lt;/p&gt;
+
+&lt;div class=&quot;text-right&quot;&gt;
+    &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--success btn&quot;&gt;Host your Own!&lt;/a&gt;
+    &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--danger btn&quot;&gt;Code&lt;/a&gt;
+    &lt;a href=&quot;https://elvistony.github.io/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Web-App&lt;/a&gt;
+&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">So, you want to host one of this for your class, you’ve come to the right place.</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--success&quot;&gt;Flowers are the way to a woman’s heart.&lt;/p&gt;
 

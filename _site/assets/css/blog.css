@@ -40,3 +40,19 @@ a{
     text-align: center;
     margin-right: 5px;
 }
+
+.w3-col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.w3-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w3-content{
+    max-width: 980px;
+}
