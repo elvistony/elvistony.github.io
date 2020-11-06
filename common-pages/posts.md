@@ -4,6 +4,7 @@ title: Posts
 permalink: posts/
 description: RW-Dev Posts - Elvis Tony's Posts
 author_profile: true
+classes: wide
 ---
 You're now at my Library!
 

@@ -11,7 +11,7 @@ classes: wide
 ### OnDot
 _Keep track of your college attendance and much more!_
 <div class="text-right">
-    <a href="/repo/ondot/" class="btn--warning btn">Check it Out</a>
+    <a href="/projects/ondot/" class="btn--warning btn">Check it Out</a>
 </div>
 <hr>
 
