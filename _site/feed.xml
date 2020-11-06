@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-06T12:17:48+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-06T15:18:39+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Lockdown, thats one word everyone is afraid of right after the Popular Term “Covid-19”.&lt;/p&gt;
+&lt;p&gt;Lockdown, that’s one word everyone is afraid of right after the trending term “COVID-19”.&lt;/p&gt;
 
-&lt;p&gt;March 24th, rumours spread in our class like wild fire. The day before our internal exams.”Guys, I think this Covid thing is serious.” just then our WhatsApp group is flooded with the news of a nation-wide lockdown…. &lt;a class=&quot;htag&quot; title=&quot;Day Before Lockdown&quot; href=&quot;/posts/experiences/day-before-lockdown/&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;March 24th, rumours spread in our class like wild fire - The day before our internal exams.&lt;/p&gt;
 
-&lt;p&gt;Days passed with us having to stare at a computer screen for hours at a stretch. Our class Representative &lt;a class=&quot;htag&quot; title=&quot;Thira&quot; href=&quot;#&quot;&gt;Athira M.R&lt;/a&gt; helped us join the classes on time and prepared a WhatsApp message with the necessary class Google Classroom links. To be honest, it was tough for both of us especially since she had to get the links from her laptop to her phone and we’d have to the the vice-versa too!&lt;/p&gt;
+&lt;p&gt;“Guys, I think this Covid thing is serious…” Moments later, our WhatsApp group was flooded with the news of a nation-wide lockdown….&lt;a class=&quot;htag&quot; title=&quot;Day Before Lockdown&quot; href=&quot;/posts/experiences/day-before-lockdown/&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Thats when we came up with a simple solution to host the timetable online. It was pretty basic at first, the page would just show a predefined timetable with the Google Classroom Links. This worked fine for a couple of days until when teachers began changing the timetable and substituting teachers. &lt;em&gt;Google Forms enters the scene.&lt;/em&gt; Using a google form we updated the timetable dynamically. She’d fill in the form in the morning and we’d just have to refresh our Page to see the new Timetable.&lt;/p&gt;
+&lt;p&gt;Days passed with us having to stare at a computer screen for hours at a stretch. Our class representative &lt;a class=&quot;htag&quot; title=&quot;Thira&quot; href=&quot;#&quot;&gt;Athira M.R&lt;/a&gt; helped us join the classes. Everyday She’d prepare a WhatsApp message with the necessary &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Google Classroom&lt;/code&gt; links and share it to our group. To be honest, it was tough for most of us especially since she had to get the links from her laptop to her phone and we’d have to do the vice-versa!&lt;/p&gt;
 
-&lt;p&gt;Things advanced further when &lt;a class=&quot;htag&quot; title=&quot;Aishu&quot; target=&quot;_blank&quot; href=&quot;http://aishwaryajoyy.c1.biz/&quot;&gt;Aishwarya Joy&lt;/a&gt; came up with a rather better use of Google Meet links instead of the Classroom Links which was one hurdle less to get into the Session. After collaborating with her, We upgraded our Timetable website to now support Meet-Links also!&lt;/p&gt;
+&lt;p&gt;That’s when we came up with a simple solution to host the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Time-Table Online&lt;/code&gt;. It was pretty basic at first, the page would just show a predefined timetable with the Google Classroom Links. This worked fine for a couple of days until when teachers began changing the timetable and substituting teachers.&lt;/p&gt;
 
-&lt;p&gt;For a fun lil experiment we decided to add a count-down to show which subject comes. Its still buggy but works most of the while :wink!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Google Forms enters the scene.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Just when I thought the work on the Web-app was done, &lt;a class=&quot;htag&quot; title=&quot;Diya&quot; target=&quot;_blank&quot; href=&quot;#&quot;&gt;Diya Rajan&lt;/a&gt; and &lt;a class=&quot;htag&quot; title=&quot;Aishu&quot; target=&quot;_blank&quot; href=&quot;#&quot;&gt;Aishwarya Rajan&lt;/a&gt;, ok hang on, they’re not sisters, they just happened to have the same surname :smileyFace! . Returning to our discussion, they had a feature request, they said they faced a slow-down since everytime they click the links on our Page, they had to shift their google accounts which was really annoying.&lt;/p&gt;
+&lt;p&gt;Using a google form we updated the timetable dynamically. She’d fill in the form in the morning and we’d just have to refresh our Page to see the new Timetable.&lt;/p&gt;
 
-&lt;p&gt;After googling a bit, we found a solution which allowed us to set which account is to be invoked with each link. Now to get things lil more interesting, we added a notification sound whenever a period finishes! Along with this update, we threw in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dark Theme&lt;/code&gt; too!&lt;/p&gt;
+&lt;p&gt;Things advanced when &lt;a class=&quot;htag&quot; title=&quot;Aishu's Timetable Site&quot; target=&quot;_blank&quot; href=&quot;http://aishwaryajoyy.c1.biz/&quot;&gt;Aishwarya Joy&lt;/a&gt; came up with a rather interesting solution using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Google Meet&lt;/code&gt; links instead of the Classroom Links which was one hurdle less to get into the Session. After collaborating with her, We upgraded our Timetable website to now support Meet-Links also!&lt;/p&gt;
+
+&lt;p&gt;For a fun lil experiment we decided to add a count-down to show which subject comes. Its still buggy but works most of the while :wink wink!&lt;/p&gt;
+
+&lt;p&gt;Just when I thought the work on the Web-app was done, &lt;a class=&quot;htag&quot; title=&quot;Diya&quot; target=&quot;_blank&quot; href=&quot;#&quot;&gt;Diya Rajan&lt;/a&gt; and &lt;a class=&quot;htag&quot; title=&quot;Aishu&quot; target=&quot;_blank&quot; href=&quot;#&quot;&gt;Aishwarya Rajan&lt;/a&gt;, &lt;em&gt;ok hang on, they’re not sisters, they just happened to have the same surname :smileyFace!  Ahem…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Returning to our discussion, they had a feature request, they said they faced a slow-down since everytime they click the links on our Page, they had to shift their google accounts which was really annoying.&lt;/p&gt;
+
+&lt;p&gt;After googling a bit, we found a solution which allowed us to set which account was to be invoked with each link. Now to get things lil more interesting, we added a notification sound whenever a period finishes! Along with this update, we threw in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dark Theme&lt;/code&gt; too!&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
   &lt;img src=&quot;/assets/img/timetable/timetable-head.png&quot; alt=&quot;Time-Table (Current)&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;So Hopefully this concludes our work on this Project. You can see my Code Here.&lt;/p&gt;
+&lt;p&gt;So Hopefully this concludes our work on this Project.You can see my Code Here.&lt;/p&gt;
 
 &lt;div class=&quot;text-right&quot;&gt;
     &lt;a href=&quot;/posts/code/host-your-own-timetable/&quot; class=&quot;btn--success btn&quot;&gt;Host your Own!&lt;/a&gt;
     &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--danger btn&quot;&gt;Code&lt;/a&gt;
     &lt;a href=&quot;https://elvistony.github.io/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Web-App&lt;/a&gt;
-&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">The Making of a Simple Timetable WebApp</summary></entry><entry><title type="html">My First Live Stream Event</title><link href="http://localhost:4000/posts/experiences/my-first-live-stream/" rel="alternate" type="text/html" title="My First Live Stream Event" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/experiences/my-first-live-stream</id><content type="html" xml:base="http://localhost:4000/posts/experiences/my-first-live-stream/">&lt;p&gt;Days were nearing, the day to finally host the live event…&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Experiences" /><summary type="html">Days were nearing, the day to finally host the live event…</summary></entry><entry><title type="html">Host your Own Timetable Web-App</title><link href="http://localhost:4000/posts/code/host-your-own-timetable/" rel="alternate" type="text/html" title="Host your Own Timetable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/host-your-own-timetable</id><content type="html" xml:base="http://localhost:4000/posts/code/host-your-own-timetable/">&lt;p&gt;So, you want to host one of this for your class, you’ve come to the right place.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">The Making of a Simple Timetable WebApp</summary></entry><entry><title type="html">Host your Own Timetable Web-App</title><link href="http://localhost:4000/posts/code/host-your-own-timetable/" rel="alternate" type="text/html" title="Host your Own Timetable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/host-your-own-timetable</id><content type="html" xml:base="http://localhost:4000/posts/code/host-your-own-timetable/">&lt;p&gt;So, you want to host one of this for your class, you’ve come to the right place.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-this-web-app&quot;&gt;What is this Web-app?&lt;/h2&gt;
 
@@ -36,24 +44,40 @@
 &lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
 &lt;p&gt;I’m gonna assume a few things here,&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;You know how to use Github&lt;/li&gt;
-  &lt;li&gt;You have an account in Github&lt;/li&gt;
-  &lt;li&gt;You know basics of programming (optional)&lt;/li&gt;
-  &lt;li&gt;You know how to make Google Forms and Google Sheet Responses&lt;/li&gt;
+  &lt;li&gt;You know how to use Github.&lt;/li&gt;
+  &lt;li&gt;You have an account in Github.&lt;/li&gt;
+  &lt;li&gt;You know basics of programming (optional).&lt;/li&gt;
+  &lt;li&gt;You know how to make Google Forms and Google Sheet Responses.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;hosting&quot;&gt;Hosting&lt;/h2&gt;
 
 &lt;h3 id=&quot;forking-my-repository&quot;&gt;Forking my Repository&lt;/h3&gt;
-&lt;p&gt;Head over to &lt;a href=&quot;https://github.com/elvistony/time-table&quot; target=&quot;_blank&quot; class=&quot;btn&quot;&gt;Github&lt;/a&gt; and fork my repository.&lt;/p&gt;
+&lt;p&gt;Head over to Github.com and fork my repository.&lt;/p&gt;
 
-&lt;p&gt;So Hopefully this concludes our work on this Project.
-You can see my Code Here&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/elvistony/time-table&quot; target=&quot;_blank&quot; class=&quot;btn btn--warning&quot;&gt;github.com/elvistony/..&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In your fork, be sure to enable Github pages for your branch. To enable Gh-pages navigate to :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Settings &amp;gt; Github Pages &amp;gt; Select Branch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Wait for Github to respond with&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Your site is published at ..../time-table/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the link and See if the Deployment is successful and the page loads correctly or not.&lt;/p&gt;
+
+&lt;p&gt;//Figure Here&lt;/p&gt;
+
+&lt;h3 id=&quot;setting-up-a-google-form&quot;&gt;Setting Up a Google Form&lt;/h3&gt;
+&lt;p&gt;Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn--warning&quot; href=&quot;https://docs.google.com/forms/d/1S983Y_j3rZiZQHmnsZL7a2FrJQb0cj0zCVBQNTbx_Cs/copy&quot; target=&quot;_blank&quot;&gt;Make a Copy - Google Form&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To be continued . . .&lt;/p&gt;
 
 &lt;div class=&quot;text-right&quot;&gt;
-    &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--success btn&quot;&gt;Host your Own!&lt;/a&gt;
-    &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--danger btn&quot;&gt;Code&lt;/a&gt;
-    &lt;a href=&quot;https://elvistony.github.io/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Web-App&lt;/a&gt;
+    &lt;a href=&quot;https://elvistony.github.io/code/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Making the Web-App&lt;/a&gt;
 &lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">So, you want to host one of this for your class, you’ve come to the right place.</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--success&quot;&gt;Flowers are the way to a woman’s heart.&lt;/p&gt;
@@ -117,7 +141,7 @@ You can see my Code Here&lt;/p&gt;
     
   
   
-&lt;/figure&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Nature" /><summary type="html">A lil journey through the species in my Garden</summary></entry><entry><title type="html">Installing Linux on your System</title><link href="http://localhost:4000/posts/linux/guides/installing-linux/" rel="alternate" type="text/html" title="Installing Linux on your System" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/linux/guides/installing-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/guides/installing-linux/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Nature" /><summary type="html">A lil journey through the species in my Garden</summary></entry><entry><title type="html">Installing Linux on your System</title><link href="http://localhost:4000/posts/guides/linux/installing-linux/" rel="alternate" type="text/html" title="Installing Linux on your System" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/guides/linux/installing-linux</id><content type="html" xml:base="http://localhost:4000/posts/guides/linux/installing-linux/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -133,17 +157,14 @@ You can see my Code Here&lt;/p&gt;
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Linux" /><category term="Guides" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Why I Chose Linux</title><link href="http://localhost:4000/posts/linux/reviews/why-i-chose-linux/" rel="alternate" type="text/html" title="Why I Chose Linux" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/linux/reviews/why-i-chose-linux</id><content type="html" xml:base="http://localhost:4000/posts/linux/reviews/why-i-chose-linux/">&lt;p&gt;Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Guides" /><category term="Linux" /><category term="Linux" /><category term="GNU" /><category term="FOSS" /><category term="Developer" /><category term="OS" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Why I Chose Linux</title><link href="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/" rel="alternate" type="text/html" title="Why I Chose Linux" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/reviews/linux/why-i-chose-linux</id><content type="html" xml:base="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/">&lt;p&gt;Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.&lt;/p&gt;
 
 &lt;p&gt;Yeah, returning to the Title of our Discussion, The Reason for me to Switch to Linux was mainly this.&lt;/p&gt;
 
 &lt;p&gt;This has been haunting me ever since I Upgraded my  to Windows 8.1 and even to Windows 10 (and my Windows is genuine, just to be clear). The worst part was having to re-code the projects i was working on (or even lose the undo history, which is almost as dreadful), This was when I looked towards Linux, hoping for a solution.&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;/assets/img/why-i-chose-linux/boot-error.jpg&quot; alt=&quot;this is a placeholder image&quot; /&gt;&lt;figcaption&gt;
-      The Blue Screen of Death
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
+  &lt;img src=&quot;/assets/img/why-i-chose-linux/boot-error.jpg&quot; alt=&quot;this is a placeholder image&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Haha, I guess I veered off course again, So just recently, bout 2 years ago I met  An Open source Techie, &lt;a class=&quot;htag&quot; href=&quot;https://subinsb.com&quot; target=&quot;_blank&quot; title=&quot;Subin's Blog&quot;&gt;Subin&lt;/a&gt;. He offered to install on my Lap a famous OS, namely &lt;a class=&quot;htag&quot; href=&quot;https://neon.kde.org&quot; target=&quot;_blank&quot; title=&quot;KDE Neon&quot;&gt;KDE Neon&lt;/a&gt;  An OS based on  At first I hated it, it felt so hard to use the terminal for most of the tasks.
 Why don’t we take a look at a few points why I didn’t use Linux&lt;/p&gt;
@@ -154,4 +175,4 @@ Why don’t we take a look at a few points why I didn’t use Linux&lt;/p&gt;
   &lt;li&gt;Accessibility: Touchpad Gestures and other Shortcuts was a must, especially for an Ex-windows User&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;So we’ve made clear, quite a few limitations of Linux, and you’ll be wondering why the title doesn’t agree. Well lets put it this way, What if we could solve all these shortfalls ourselves. Just a Lil tinkering would fix up this ol’ guy. I’ve planned on uploading a few posts on how they’re done. So stay tuned.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Linux" /><category term="Reviews" /><summary type="html">Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.</summary></entry></feed>
+&lt;p&gt;So we’ve made clear, quite a few limitations of Linux, and you’ll be wondering why the title doesn’t agree. Well lets put it this way, What if we could solve all these shortfalls ourselves. Just a Lil tinkering would fix up this ol’ guy. I’ve planned on uploading a few posts on how they’re done. So stay tuned.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Reviews" /><category term="Linux" /><category term="Linux" /><category term="GNU" /><category term="FOSS" /><category term="Developer" /><category term="OS" /><summary type="html">Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.</summary></entry></feed>

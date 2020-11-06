@@ -3,7 +3,8 @@ layout: posts
 title:  "Why I Chose Linux"
 subtitle : "The Reason why I switched from Windows to GNU Linux"
 date:   2020-11-01 11:48:18 +0530
-categories: Linux Reviews
+categories: Reviews Linux
+tags: Linux GNU FOSS Developer OS
 breadcrumbs: true
 permalink : /posts/:categories/:title/
 ---
@@ -16,7 +17,7 @@ Yeah, returning to the Title of our Discussion, The Reason for me to Switch to L
 
 This has been haunting me ever since I Upgraded my  to Windows 8.1 and even to Windows 10 (and my Windows is genuine, just to be clear). The worst part was having to re-code the projects i was working on (or even lose the undo history, which is almost as dreadful), This was when I looked towards Linux, hoping for a solution.
 
-{% include figure image_path="/assets/img/why-i-chose-linux/boot-error.jpg" alt="this is a placeholder image" caption="The Blue Screen of Death" %}
+{% include figure image_path="/assets/img/why-i-chose-linux/boot-error.jpg" alt="this is a placeholder image"%}
 
 
 Haha, I guess I veered off course again, So just recently, bout 2 years ago I met  An Open source Techie, <a class="htag" href="https://subinsb.com" target="_blank" title="Subin's Blog">Subin</a>. He offered to install on my Lap a famous OS, namely <a class="htag" href="https://neon.kde.org" target="_blank" title="KDE Neon">KDE Neon</a>  An OS based on  At first I hated it, it felt so hard to use the terminal for most of the tasks.

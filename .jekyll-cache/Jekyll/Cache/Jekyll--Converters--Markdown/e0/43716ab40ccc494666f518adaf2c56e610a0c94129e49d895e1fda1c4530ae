@@ -1,18 +1,10 @@
----
-layout: default
-title:  "OnDot - Android App - Vidya ERP"
-description: "Track your attendance and lot more using OnDot"
-date:   2020-08-15 11:48:18 +0530
-author_show: false
-permalink : /projects/ondot/
----
-<div>
+I"z!<div>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-white w3-text-white w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-third w3-center"><br>
-      <img src="/assets/repo/ondot/logo.png" width="300px" class="center" >
+    <div class="w3-third w3-center"><br />
+      <img src="/assets/repo/ondot/logo.png" width="300px" class="center" />
     </div>
     <div class="w3-twothird w3-content">
       <h1 class="w3-jumbo w3-text-blue">On Dot</h1>
@@ -26,12 +18,12 @@ permalink : /projects/ondot/
 <!-- Second Grid -->
 <div class="w3-row-padding  w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-twothird w3-content"><br><br>
+    <div class="w3-twothird w3-content"><br /><br />
       <h1 class="w3-xxlarge w3-text-orange">Get an Overview of Your Presence</h1>
-      <h4 >See your Overall Attendance Stats.</h4><p> Our App is equipped with a polished Dashboard that Shows an Overview for each Course and current Stats.</p>
+      <h4>See your Overall Attendance Stats.</h4><p> Our App is equipped with a polished Dashboard that Shows an Overview for each Course and current Stats.</p>
     </div>
     <div class="w3-third w3-center">
-      <img src="/assets/repo/ondot/app_ss_b.jpg"  class="center w3-round-xlarge" >
+      <img src="/assets/repo/ondot/app_ss_b.jpg" class="center w3-round-xlarge" />
     </div>
   </div>
 </div>
@@ -40,9 +32,9 @@ permalink : /projects/ondot/
 <div class="w3-row-padding w3-white w3-text-white w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="/assets/repo/ondot/app_ss_a.jpg"  class="center w3-round-xlarge" >
+      <img src="/assets/repo/ondot/app_ss_a.jpg" class="center w3-round-xlarge" />
     </div>
-    <div class="w3-twothird w3-content"><br><br>
+    <div class="w3-twothird w3-content"><br /><br />
       <h1 class="w3-xxlarge w3-text-orange">Get Insights into Each Course</h1>
       <h4>Course-specific Attendance stats</h4><p class=""> Our App is equipped with a polished Dashboard that Shows an Overview for each Course and current Stats.</p>
     </div>
@@ -54,7 +46,7 @@ permalink : /projects/ondot/
   <div class="w3-content">
     <div class="w3-twothird w3-content">
       <h1 class="w3-xxlarge w3-text-orange">Continous Development</h1>
-      <h4 >Give our Experimental addons a spin.</h4><p> Our app has included a <span class="w3-hover-text-blue w3-text-orange">Experimental Addon <b class="w3-text-orange">*</b></span> that aims to add Features directly from the ERP.</p>
+      <h4>Give our Experimental addons a spin.</h4><p> Our app has included a <span class="w3-hover-text-blue w3-text-orange">Experimental Addon <b class="w3-text-orange">*</b></span> that aims to add Features directly from the ERP.</p>
       <p class="w3-text-orange">*Currently includes <span class="w3-text-pink">Simple Due Addon</span> and <span class="w3-text-pink">Due Detail Addon</span> (under Testing)</p>
     </div>
     <div class="w3-third w3-center">
@@ -97,7 +89,7 @@ permalink : /projects/ondot/
 <div class="w3-row-padding  w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="/assets/repo/ondot/logo.png"  class="center" >
+      <img src="/assets/repo/ondot/logo.png" class="center" />
     </div>
     <div class="w3-large w3-twothird w3-content">
       <ul><h3>Features</h3>
@@ -116,19 +108,19 @@ permalink : /projects/ondot/
   <div class="w3-content w3-center">
     <h1 class="w3-xxlarge w3-text-green">Download Now</h1>
     <h1 class="w3-xlarge w3-text-green">Available for Android <span class="w3-small w3-text-orange">5.0 Lollipop and Above</span></h1>
-    <h6 class="">Our App has taken 2 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br><br>
+    <h6 class="">Our App has taken 2 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br /><br />
     <!-- <a href="../../donate/" class="w3-button w3-hover-indigo">Please support us with a cup of coffee</a><br><br> -->
     <p class="w3-center"> v1.3.0     |     Size:  5.7 MB </p>
     <div class="w3-row w3-white w3-padding-32 w3-margin">
       <div class="fill-available" style="margin:20px;">
-        <input style="display:flex;box-shadow:none;" type="range" min="0" max="6" steps="1" value="3"  oninput="donate(this)" >
+        <input style="display:flex;box-shadow:none;" type="range" min="0" max="6" steps="1" value="3" oninput="donate(this)" />
         <table style="display:inline-table;">
           <tr><td style="text-align: left;">&#8377;0</td><td style="padding-left: 45px;">&#8377;20</td><td style="text-align: right;">&#8377;40</td></tr>
         </table>
       </div>
       <div class="" style="margin:20px;">
         <h3 class="w3-third btn btn--info" style="letter-spacing: 5px;" id="donate_val">&#8377;20<span class="w3-right">😘</span></h3>
-        <h3 class="w3-twothird btn btn--warning" onclick="go_donate(20)" id="donate_but">Support <span class="w3-small w3-text-blue">via PayPal</span> & Download</h3>
+        <h3 class="w3-twothird btn btn--warning" onclick="go_donate(20)" id="donate_but">Support <span class="w3-small w3-text-blue">via PayPal</span> &amp; Download</h3>
       </div>
     </div>
   </div>
@@ -170,7 +162,7 @@ permalink : /projects/ondot/
     <div class="w3-row w3-center w3-padding-16">
       <div class="w3-half w3-padding w3-margin-bottom">
         <div class="bg_gray w3-round-large w3-text-white">
-          <img src="/assets/img/author.jpg" style="width: 40%;border-radius: 50%;" >
+          <img src="/assets/img/author.jpg" style="width: 40%;border-radius: 50%;" />
           <div class="w3-container">
             <h3>Elvis Tony</h3>
             <p class="w3-opacity">App Developer and Innovator</p>
@@ -180,7 +172,7 @@ permalink : /projects/ondot/
 
       <div class="w3-half w3-padding w3-margin-bottom w3-padding-16">
         <div class="bg_gray w3-round-large w3-text-white ">
-          <img src="/assets/repo/ondot/athira.jpg" class="w3-center" style="width: 40%;border-radius: 50%;">
+          <img src="/assets/repo/ondot/athira.jpg" class="w3-center" style="width: 40%;border-radius: 50%;" />
           <div class="w3-container">
             <h3>Athira Rengith</h3>
             <p class="w3-opacity">Aesthetic Design Advisor</p>
@@ -198,9 +190,9 @@ permalink : /projects/ondot/
     <div class="w3-row">
     <div class="w3-half">
         <h4 class="w3-center">Post a Comment</h4>
-      {% raw %}
+      
       <iframe class="bg_gray w3-hide-small" src="https://docs.google.com/forms/d/e/1FAIpQLSchvL51qn1OT4-Aw5B9g9IyD8P2FDArnuxG19hwOCOBFJs3KA/viewform?embedded=true" style="    height: 800px;margin-top: 6px;width:100%" onload="loaded()" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      {% endraw %}
+      
       </div>
       <div class="w3-half w3-text-white">
           <h4 class="w3-center">Others have Reviewed</h4>
@@ -213,3 +205,5 @@ permalink : /projects/ondot/
 <script src="/assets/repo/ondot/comments.js"></script>
 
 <!-- <p>https://gitlab.com/elvistony/on-dot-releases/uploads/2b00593b45d2f64805aab34c8367f09a/OnDot_v1.3.0.apk</p> -->
+</div></div>
+:ET

@@ -32,9 +32,12 @@ _A Simple HTML | Javascript Playground with Dark Mode and Offline mode!_
 ### Class Timetable
 _Keep you and your class up-to-date with a simple Timetable that is Google-Form Controlled!_
 <div class="text-right">
+    <a href="/posts/code/host-your-own-timetable/" class="btn--warning btn">Host your Own!</a>
     <a href="/time-table/" class="btn--success btn">Check it Out</a>
 </div>
 <hr>
+
+
 
 ### E-Greeting Site
 _Send your greetings to your loved ones with this simple E-Greeting Card,_

@@ -22,27 +22,44 @@ It supports the publishing of alternate schedules or fall-back to the regular ti
 
 ## Assumptions
 I'm gonna assume a few things here,
- - You know how to use Github
- - You have an account in Github
- - You know basics of programming (optional)
- - You know how to make Google Forms and Google Sheet Responses
+ - You know how to use Github.
+ - You have an account in Github.
+ - You know basics of programming (optional).
+ - You know how to make Google Forms and Google Sheet Responses.
 
 ## Hosting
 
 ### Forking my Repository
-Head over to <a href="https://github.com/elvistony/time-table" target="_blank" class="btn">Github</a> and fork my repository.
+Head over to Github.com and fork my repository.
+
+<a href="https://github.com/elvistony/time-table" target="_blank" class="btn btn--warning">github.com/elvistony/..</a>
+
+In your fork, be sure to enable Github pages for your branch. To enable Gh-pages navigate to :
+
+`Settings > Github Pages > Select Branch`
+
+Wait for Github to respond with 
+
+`Your site is published at ..../time-table/`
+
+Click the link and See if the Deployment is successful and the page loads correctly or not.
+
+//Figure Here
+
+### Setting Up a Google Form
+Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.
+
+<a class="btn btn--warning" href="https://docs.google.com/forms/d/1S983Y_j3rZiZQHmnsZL7a2FrJQb0cj0zCVBQNTbx_Cs/copy" target="_blank">Make a Copy - Google Form</a>
+
+
+To be continued . . .
 
 
 
 
-
-So Hopefully this concludes our work on this Project.
-You can see my Code Here 
 
 
 <div class="text-right">
-    <a href="https://github.com/elvistony/time-table/" target="_blank" class="btn--success btn">Host your Own!</a>
-    <a href="https://github.com/elvistony/time-table/" target="_blank" class="btn--danger btn">Code</a>
-    <a href="https://elvistony.github.io/time-table/" target="_blank" class="btn--warning btn">Web-App</a>
+    <a href="https://elvistony.github.io/code/" target="_blank" class="btn--warning btn">Making the Web-App</a>
 </div>
 

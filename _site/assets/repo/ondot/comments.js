@@ -70,7 +70,7 @@ function rendercomments(data){
             divele.innerHTML += `
             <div class="w3-round-large w3-white w3-margin comment">
                 <h5><b>`+value["Name"]+`</b><span style="float:right" >`+"⭐️".repeat(parseInt(value["Rating"]))+"🔸".repeat(5-parseInt(value["Rating"]))+`</span></h5>
-                <p class="">`+value["Comment"].substr(1,value["Comment"].length-2)+`<br><span class="comment-tstamp">`+getComDate(value["Time"])+`</span></p>
+                <p class="">`+value["Comment"]+`<br><span class="comment-tstamp">`+getComDate(value["Time"])+`</span></p>
             </div>`;
 
             console.log(value)

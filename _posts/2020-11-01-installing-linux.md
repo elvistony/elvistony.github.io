@@ -2,7 +2,8 @@
 layout: posts
 title:  "Installing Linux on your System"
 date:   2020-11-01 11:48:18 +0530
-categories: Linux Guides
+categories: Guides Linux
+tags: Linux GNU FOSS Developer OS
 breadcrumbs: true
 permalink : /posts/:categories/:title/
 ---
