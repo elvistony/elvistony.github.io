@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-06T15:18:39+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-07T23:35:15+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Lockdown, that’s one word everyone is afraid of right after the trending term “COVID-19”.&lt;/p&gt;
 
@@ -33,7 +33,12 @@
     &lt;a href=&quot;/posts/code/host-your-own-timetable/&quot; class=&quot;btn--success btn&quot;&gt;Host your Own!&lt;/a&gt;
     &lt;a href=&quot;https://github.com/elvistony/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--danger btn&quot;&gt;Code&lt;/a&gt;
     &lt;a href=&quot;https://elvistony.github.io/time-table/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Web-App&lt;/a&gt;
-&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">The Making of a Simple Timetable WebApp</summary></entry><entry><title type="html">Host your Own Timetable Web-App</title><link href="http://localhost:4000/posts/code/host-your-own-timetable/" rel="alternate" type="text/html" title="Host your Own Timetable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/host-your-own-timetable</id><content type="html" xml:base="http://localhost:4000/posts/code/host-your-own-timetable/">&lt;p&gt;So, you want to host one of this for your class, you’ve come to the right place.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="COVID-19" /><category term="Experiences" /><summary type="html">The Making of a Simple Timetable WebApp</summary></entry><entry><title type="html">Host your Own Timetable Web-App</title><link href="http://localhost:4000/posts/code/host-your-own-timetable/" rel="alternate" type="text/html" title="Host your Own Timetable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/host-your-own-timetable</id><content type="html" xml:base="http://localhost:4000/posts/code/host-your-own-timetable/">&lt;p&gt;&lt;em&gt;DIY Guide for Hosting the Timetable Web-app&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So, you want to host one of this for your class, you’ve come to the right place.
+&lt;a class=&quot;btn btn--warning&quot; href=&quot;https://elvistony.github.io/time-table/&quot; target=&quot;_blank&quot;&gt;Time-table&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
 
 &lt;h2 id=&quot;what-is-this-web-app&quot;&gt;What is this Web-app?&lt;/h2&gt;
 
@@ -50,12 +55,12 @@
   &lt;li&gt;You know how to make Google Forms and Google Sheet Responses.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;hosting&quot;&gt;Hosting&lt;/h2&gt;
+&lt;h1 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h1&gt;
 
-&lt;h3 id=&quot;forking-my-repository&quot;&gt;Forking my Repository&lt;/h3&gt;
+&lt;h2 id=&quot;forking-my-repository&quot;&gt;Forking my Repository&lt;/h2&gt;
 &lt;p&gt;Head over to Github.com and fork my repository.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/elvistony/time-table&quot; target=&quot;_blank&quot; class=&quot;btn btn--warning&quot;&gt;github.com/elvistony/..&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/elvistony/time-table&quot; target=&quot;_blank&quot; class=&quot;btn btn--warning&quot;&gt;github.com/elvistony/time-table/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In your fork, be sure to enable Github pages for your branch. To enable Gh-pages navigate to :&lt;/p&gt;
 
@@ -69,16 +74,102 @@
 
 &lt;p&gt;//Figure Here&lt;/p&gt;
 
-&lt;h3 id=&quot;setting-up-a-google-form&quot;&gt;Setting Up a Google Form&lt;/h3&gt;
+&lt;h2 id=&quot;setting-up-a-google-form&quot;&gt;Setting Up a Google Form&lt;/h2&gt;
 &lt;p&gt;Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn--warning&quot; href=&quot;https://docs.google.com/forms/d/1S983Y_j3rZiZQHmnsZL7a2FrJQb0cj0zCVBQNTbx_Cs/copy&quot; target=&quot;_blank&quot;&gt;Make a Copy - Google Form&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;To be continued . . .&lt;/p&gt;
+&lt;h2 id=&quot;setting-up-a-responses-sheet&quot;&gt;Setting Up a Responses Sheet&lt;/h2&gt;
+&lt;p&gt;In your form, Go to the Responses tab and Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spreadsheet&lt;/code&gt; icon to generate a Responses Sheet.&lt;/p&gt;
 
+&lt;p&gt;Go to the Responses Sheet and Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Share&lt;/code&gt; button on the top right. Copy the ID of the sheet which is in the form. Ensure you grant &lt;strong&gt;Only View&lt;/strong&gt; privileges in the Share Tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://docs.google.com/spreadsheets/d/&lt;/code&gt;ID-HERE&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/edit?usp=sharing&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy that ID and keep it for the next step.&lt;/p&gt;
+
+&lt;h2 id=&quot;modifying-links-in-web-app&quot;&gt;Modifying Links in Web-App&lt;/h2&gt;
+
+&lt;p&gt;In your Github fork, navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/js/common.js&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Scroll down a bit and look for the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sheet_id&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Replace the existing ID with the ID you copied in the prev step.&lt;/p&gt;
+
+&lt;p&gt;The variable should now look like: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sheet_id=&quot;1a2b3c4d5e...6f7g8h&quot;&lt;/code&gt;;&lt;/p&gt;
+
+&lt;p&gt;Your WebApp is now configured to source from the sheet!&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-supporting-sheets&quot;&gt;Adding Supporting Sheets&lt;/h2&gt;
+
+&lt;p&gt;Open the supporting sheets with the link below,&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn--warning&quot; href=&quot;https://docs.google.com/spreadsheets/d/1L4MTqM4wl_IW01cYab7dudN3-IjCEFdYIvbTAw3xSnI/view&quot; target=&quot;_blank&quot;&gt;Add Supporting Sheets&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On the bottom you’ll see 4 sheets &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Links | TimeTable | TimeStart | TimeEnd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Right click each of those &lt;strong&gt;4 sheets&lt;/strong&gt; and Click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Copy to &amp;gt; Existing SpreadSheet&lt;/code&gt; and select the Responses Spreadsheet.&lt;/p&gt;
+
+&lt;p&gt;Now Open your updated Responses Sheet and ensure you now Have 5 Sheets.&lt;/p&gt;
+
+&lt;p&gt;Rename the Main Response Sheet (First Sheet) as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Today&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;updating-the-sheet&quot;&gt;Updating the Sheet&lt;/h2&gt;
+
+&lt;p&gt;Update the Sheet with your Content.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sheet: Links&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Row 1 =&amp;gt; Subjects&lt;/li&gt;
+  &lt;li&gt;Row 2 =&amp;gt; Class Room IDs
+    &lt;ul&gt;
+      &lt;li&gt;like  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/c/abcdefg&lt;/code&gt;&lt;br /&gt;
+  &lt;em&gt;Paste only the /c/abcd… portion, ignore anything after ‘?’&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Row 3 =&amp;gt; Colors as HEX&lt;/li&gt;
+  &lt;li&gt;Row 4 =&amp;gt; Meet Links
+    &lt;ul&gt;
+      &lt;li&gt;like  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://meet.google.com/lookup/abcedfg&lt;/code&gt;&lt;br /&gt;
+&lt;em&gt;Remove anything after ‘?….’&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Sheet: TimeTable&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fill in your Timetable&lt;/li&gt;
+  &lt;li&gt;Ensure the period(1st row) and days(1st column) aren’t modified.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Sheet: TimeStart and Sheet: TimeEnd&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Like the previous, Edit the timings for Normal Days.&lt;/li&gt;
+  &lt;li&gt;If you follow the same timetable for all the days, Copy the same timings to Friday’s row.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;final-touches&quot;&gt;Final Touches&lt;/h2&gt;
+
+&lt;p&gt;Go to your Form, and update the Options for Period 1,2,3,4,5 to the same ones entered in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sheet: Links&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ensure the spellings are maintained and no Spaces are present.&lt;/p&gt;
+
+&lt;h1 id=&quot;test-run&quot;&gt;Test Run!&lt;/h1&gt;
+
+&lt;p&gt;Go to your Hosted App using the URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://username.github.io/time-table/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Replace your Github Username with the above link and Check it out!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hope it helps!&lt;/p&gt;
+
+&lt;p&gt;Read the More about the Backstory behind this…&lt;/p&gt;
 &lt;div class=&quot;text-right&quot;&gt;
     &lt;a href=&quot;https://elvistony.github.io/code/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Making the Web-App&lt;/a&gt;
-&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="Covid" /><category term="Google-Meet" /><summary type="html">So, you want to host one of this for your class, you’ve come to the right place.</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="COVID-19" /><category term="Projects" /><summary type="html">DIY Guide for Hosting the Timetable Web-app</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--success&quot;&gt;Flowers are the way to a woman’s heart.&lt;/p&gt;
 
@@ -141,23 +232,7 @@
     
   
   
-&lt;/figure&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Nature" /><summary type="html">A lil journey through the species in my Garden</summary></entry><entry><title type="html">Installing Linux on your System</title><link href="http://localhost:4000/posts/guides/linux/installing-linux/" rel="alternate" type="text/html" title="Installing Linux on your System" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/guides/linux/installing-linux</id><content type="html" xml:base="http://localhost:4000/posts/guides/linux/installing-linux/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Guides" /><category term="Linux" /><category term="Linux" /><category term="GNU" /><category term="FOSS" /><category term="Developer" /><category term="OS" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Why I Chose Linux</title><link href="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/" rel="alternate" type="text/html" title="Why I Chose Linux" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/reviews/linux/why-i-chose-linux</id><content type="html" xml:base="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/">&lt;p&gt;Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Nature" /><summary type="html">A lil journey through the species in my Garden</summary></entry><entry><title type="html">Installing Linux on your System</title><link href="http://localhost:4000/posts/guides/linux/installing-linux/" rel="alternate" type="text/html" title="Installing Linux on your System" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/guides/linux/installing-linux</id><content type="html" xml:base="http://localhost:4000/posts/guides/linux/installing-linux/"></content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Guides" /><category term="Linux" /><category term="Linux" /><category term="Installation" /><summary type="html"></summary></entry><entry><title type="html">Why I Chose Linux</title><link href="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/" rel="alternate" type="text/html" title="Why I Chose Linux" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/reviews/linux/why-i-chose-linux</id><content type="html" xml:base="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/">&lt;p&gt;Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.&lt;/p&gt;
 
 &lt;p&gt;Yeah, returning to the Title of our Discussion, The Reason for me to Switch to Linux was mainly this.&lt;/p&gt;
 
@@ -175,4 +250,4 @@ Why don’t we take a look at a few points why I didn’t use Linux&lt;/p&gt;
   &lt;li&gt;Accessibility: Touchpad Gestures and other Shortcuts was a must, especially for an Ex-windows User&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;So we’ve made clear, quite a few limitations of Linux, and you’ll be wondering why the title doesn’t agree. Well lets put it this way, What if we could solve all these shortfalls ourselves. Just a Lil tinkering would fix up this ol’ guy. I’ve planned on uploading a few posts on how they’re done. So stay tuned.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Reviews" /><category term="Linux" /><category term="Linux" /><category term="GNU" /><category term="FOSS" /><category term="Developer" /><category term="OS" /><summary type="html">Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.</summary></entry></feed>
+&lt;p&gt;So we’ve made clear, quite a few limitations of Linux, and you’ll be wondering why the title doesn’t agree. Well lets put it this way, What if we could solve all these shortfalls ourselves. Just a Lil tinkering would fix up this ol’ guy. I’ve planned on uploading a few posts on how they’re done. So stay tuned.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Reviews" /><category term="Linux" /><category term="Linux" /><category term="Experiences" /><summary type="html">Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.</summary></entry></feed>

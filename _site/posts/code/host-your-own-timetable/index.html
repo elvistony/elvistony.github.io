@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Host your Own Timetable Web-App | Random Wanderer</title>
-<meta name="description" content="A DIY Guide in Hosting the Timetable Web-app">
+<meta name="description" content="A DIY Guide for Hosting the Timetable Web-app">
 
 
   <meta name="author" content="Elvis Tony Raphael">
@@ -26,9 +26,11 @@
 <meta property="og:url" content="http://localhost:4000/posts/code/host-your-own-timetable/">
 
 
-  <meta property="og:description" content="A DIY Guide in Hosting the Timetable Web-app">
+  <meta property="og:description" content="A DIY Guide for Hosting the Timetable Web-app">
 
 
+
+  <meta property="og:image" content="http://localhost:4000/assets/img/timetable/timetable-head.png">
 
 
 
@@ -112,7 +114,7 @@
 </script>
   </head>
 
-  <body class="layout--posts">
+  <body class="layout--single single">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -160,6 +162,58 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/img/timetable/timetable-head.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Host your Own Timetable Web-App
+
+        
+      </h1>
+      
+        <p class="page__lead"><em>DIY Guide for Hosting the Timetable Web-app</em>
+</p>
+      
+      
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
 
 
 
@@ -291,22 +345,50 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Host your Own Timetable Web-App">
+    <meta itemprop="description" content="DIY Guide for Hosting the Timetable Web-app">
+    <meta itemprop="datePublished" content="2020-11-04T11:48:18+05:30">
     
-      <h1 id="page-title" class="page__title">Host your Own Timetable Web-App</h1>
-      <div style="margin:5px;">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
         
-          <span class="badge"> DIY </span>
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#prerequisites">Prerequisites</a>
+    <ul>
+      <li><a href="#what-is-this-web-app">What is this Web-app?</a></li>
+      <li><a href="#assumptions">Assumptions</a></li>
+    </ul>
+  </li>
+  <li><a href="#getting-started">Getting Started</a>
+    <ul>
+      <li><a href="#forking-my-repository">Forking my Repository</a></li>
+      <li><a href="#setting-up-a-google-form">Setting Up a Google Form</a></li>
+      <li><a href="#setting-up-a-responses-sheet">Setting Up a Responses Sheet</a></li>
+      <li><a href="#modifying-links-in-web-app">Modifying Links in Web-App</a></li>
+      <li><a href="#adding-supporting-sheets">Adding Supporting Sheets</a></li>
+      <li><a href="#updating-the-sheet">Updating the Sheet</a></li>
+      <li><a href="#final-touches">Final Touches</a></li>
+    </ul>
+  </li>
+  <li><a href="#test-run">Test Run!</a></li>
+</ul>
+
+            </nav>
+          </aside>
         
-          <span class="badge"> 2020 </span>
-        
-          <span class="badge"> Covid </span>
-        
-          <span class="badge"> Google-Meet </span>
-        
-      </div>
-    
-    <p>So, you want to host one of this for your class, you’ve come to the right place.</p>
+        <p><em>DIY Guide for Hosting the Timetable Web-app</em></p>
+
+<p>So, you want to host one of this for your class, you’ve come to the right place.
+<a class="btn btn--warning" href="https://elvistony.github.io/time-table/" target="_blank">Time-table</a></p>
+
+<h1 id="prerequisites">Prerequisites</h1>
 
 <h2 id="what-is-this-web-app">What is this Web-app?</h2>
 
@@ -323,12 +405,12 @@
   <li>You know how to make Google Forms and Google Sheet Responses.</li>
 </ul>
 
-<h2 id="hosting">Hosting</h2>
+<h1 id="getting-started">Getting Started</h1>
 
-<h3 id="forking-my-repository">Forking my Repository</h3>
+<h2 id="forking-my-repository">Forking my Repository</h2>
 <p>Head over to Github.com and fork my repository.</p>
 
-<p><a href="https://github.com/elvistony/time-table" target="_blank" class="btn btn--warning">github.com/elvistony/..</a></p>
+<p><a href="https://github.com/elvistony/time-table" target="_blank" class="btn btn--warning">github.com/elvistony/time-table/</a></p>
 
 <p>In your fork, be sure to enable Github pages for your branch. To enable Gh-pages navigate to :</p>
 
@@ -342,95 +424,208 @@
 
 <p>//Figure Here</p>
 
-<h3 id="setting-up-a-google-form">Setting Up a Google Form</h3>
+<h2 id="setting-up-a-google-form">Setting Up a Google Form</h2>
 <p>Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.</p>
 
 <p><a class="btn btn--warning" href="https://docs.google.com/forms/d/1S983Y_j3rZiZQHmnsZL7a2FrJQb0cj0zCVBQNTbx_Cs/copy" target="_blank">Make a Copy - Google Form</a></p>
 
-<p>To be continued . . .</p>
+<h2 id="setting-up-a-responses-sheet">Setting Up a Responses Sheet</h2>
+<p>In your form, Go to the Responses tab and Click the <code class="language-plaintext highlighter-rouge">Spreadsheet</code> icon to generate a Responses Sheet.</p>
 
+<p>Go to the Responses Sheet and Click the <code class="language-plaintext highlighter-rouge">Share</code> button on the top right. Copy the ID of the sheet which is in the form. Ensure you grant <strong>Only View</strong> privileges in the Share Tab.</p>
+
+<p><code class="language-plaintext highlighter-rouge">https://docs.google.com/spreadsheets/d/</code>ID-HERE<code class="language-plaintext highlighter-rouge">/edit?usp=sharing</code></p>
+
+<p>Copy that ID and keep it for the next step.</p>
+
+<h2 id="modifying-links-in-web-app">Modifying Links in Web-App</h2>
+
+<p>In your Github fork, navigate to <code class="language-plaintext highlighter-rouge">/js/common.js</code>.</p>
+
+<p>Scroll down a bit and look for the variable <code class="language-plaintext highlighter-rouge">sheet_id</code></p>
+
+<p>Replace the existing ID with the ID you copied in the prev step.</p>
+
+<p>The variable should now look like: <code class="language-plaintext highlighter-rouge">sheet_id="1a2b3c4d5e...6f7g8h"</code>;</p>
+
+<p>Your WebApp is now configured to source from the sheet!</p>
+
+<h2 id="adding-supporting-sheets">Adding Supporting Sheets</h2>
+
+<p>Open the supporting sheets with the link below,</p>
+
+<p><a class="btn btn--warning" href="https://docs.google.com/spreadsheets/d/1L4MTqM4wl_IW01cYab7dudN3-IjCEFdYIvbTAw3xSnI/view" target="_blank">Add Supporting Sheets</a></p>
+
+<p>On the bottom you’ll see 4 sheets <code class="language-plaintext highlighter-rouge">Links | TimeTable | TimeStart | TimeEnd</code></p>
+
+<p>Right click each of those <strong>4 sheets</strong> and Click <code class="language-plaintext highlighter-rouge">Copy to &gt; Existing SpreadSheet</code> and select the Responses Spreadsheet.</p>
+
+<p>Now Open your updated Responses Sheet and ensure you now Have 5 Sheets.</p>
+
+<p>Rename the Main Response Sheet (First Sheet) as <code class="language-plaintext highlighter-rouge">Today</code></p>
+
+<h2 id="updating-the-sheet">Updating the Sheet</h2>
+
+<p>Update the Sheet with your Content.</p>
+
+<p><strong>Sheet: Links</strong></p>
+<ul>
+  <li>Row 1 =&gt; Subjects</li>
+  <li>Row 2 =&gt; Class Room IDs
+    <ul>
+      <li>like  <code class="language-plaintext highlighter-rouge">/c/abcdefg</code><br />
+  <em>Paste only the /c/abcd… portion, ignore anything after ‘?’</em></li>
+    </ul>
+  </li>
+  <li>Row 3 =&gt; Colors as HEX</li>
+  <li>Row 4 =&gt; Meet Links
+    <ul>
+      <li>like  <code class="language-plaintext highlighter-rouge">https://meet.google.com/lookup/abcedfg</code><br />
+<em>Remove anything after ‘?….’</em></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Sheet: TimeTable</strong></p>
+<ul>
+  <li>Fill in your Timetable</li>
+  <li>Ensure the period(1st row) and days(1st column) aren’t modified.</li>
+</ul>
+
+<p><strong>Sheet: TimeStart and Sheet: TimeEnd</strong></p>
+<ul>
+  <li>Like the previous, Edit the timings for Normal Days.</li>
+  <li>If you follow the same timetable for all the days, Copy the same timings to Friday’s row.</li>
+</ul>
+
+<h2 id="final-touches">Final Touches</h2>
+
+<p>Go to your Form, and update the Options for Period 1,2,3,4,5 to the same ones entered in <code class="language-plaintext highlighter-rouge">Sheet: Links</code>.</p>
+
+<p>Ensure the spellings are maintained and no Spaces are present.</p>
+
+<h1 id="test-run">Test Run!</h1>
+
+<p>Go to your Hosted App using the URL.</p>
+
+<p><code class="language-plaintext highlighter-rouge">https://username.github.io/time-table/</code></p>
+
+<p>Replace your Github Username with the above link and Check it out!</p>
+
+<hr />
+
+<p>Hope it helps!</p>
+
+<p>Read the More about the Backstory behind this…</p>
 <div class="text-right">
     <a href="https://elvistony.github.io/code/" target="_blank" class="btn--warning btn">Making the Web-App</a>
 </div>
 
 
+        
+      </section>
 
-<!-- <ul class="taxonomy__index">
+      <footer class="page__meta">
+        
+        
+  
+
+
   
   
-    <li>
-      <a href="#2020">
-        <strong>2020</strong> <span class="taxonomy__count">5</span>
-      </a>
-    </li>
   
-</ul> -->
 
-
-
-
-  <section id="2020" style="padding-top: 30px;" class="taxonomy__section">
-    <h2 class="archive__subtitle">More Posts by the Same Author</h2>
-    <div class="entries-list">
-      
-        
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/code/host-your-own-timetable/" rel="permalink">Host your Own Timetable Web-App
-</a>
-      
-    </h2>
-    <div style="margin:5px;">
-      
-        <span class="badge"> DIY </span>
-      
-        <span class="badge"> 2020 </span>
-      
-        <span class="badge"> Covid </span>
-      
-        <span class="badge"> Google-Meet </span>
-      
-    </div>
-    
-
-  <p class="page__meta">
-    
-
-    
-
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
     
       
       
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
+      <a href="/tags/#2020" class="page__taxonomy-item" rel="tag">2020</a><span class="sep">, </span>
     
+      
+      
+      <a href="/tags/#covid-19" class="page__taxonomy-item" rel="tag">COVID-19</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#diy" class="page__taxonomy-item" rel="tag">DIY</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#projects" class="page__taxonomy-item" rel="tag">Projects</a>
+    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">So, you want to host one of this for your class, you’ve come to the right place.
-</p>
-  </article>
-</div>
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#code" class="page__taxonomy-item" rel="tag">Code</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-11-04T11:48:18+05:30">November 4, 2020</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Host+your+Own+Timetable+Web-App%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcode%2Fhost-your-own-timetable%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcode%2Fhost-your-own-timetable%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fcode%2Fhost-your-own-timetable%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
 
       
+  <nav class="pagination">
+    
+      <a href="/posts/code/making-a-timetable-app/" class="pagination--pager" title="Making a TimeTable Web-App
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
         
-        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -441,11 +636,13 @@
     </h2>
     <div style="margin:5px;">
       
+        <span class="badge"> DIY </span>
+      
         <span class="badge"> 2020 </span>
       
-        <span class="badge"> Covid </span>
+        <span class="badge"> COVID-19 </span>
       
-        <span class="badge"> Google-Meet </span>
+        <span class="badge"> Experiences </span>
       
     </div>
     
@@ -474,13 +671,12 @@
   </article>
 </div>
 
-      
         
-        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -493,13 +689,7 @@
       
         <span class="badge"> Linux </span>
       
-        <span class="badge"> GNU </span>
-      
-        <span class="badge"> FOSS </span>
-      
-        <span class="badge"> Developer </span>
-      
-        <span class="badge"> OS </span>
+        <span class="badge"> Experiences </span>
       
     </div>
     
@@ -527,16 +717,103 @@
   </article>
 </div>
 
-      
         
           
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/guides/linux/installing-linux/" rel="permalink">Installing Linux on your System
+</a>
+      
+    </h2>
+    <div style="margin:5px;">
+      
+        <span class="badge"> Linux </span>
+      
+        <span class="badge"> Installation </span>
+      
     </div>
-    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-  </section>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
 
 
-  </div>
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
 </div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/nature/glimpse-into-my-garden/" rel="permalink">Glimpse into my Garden
+</a>
+      
+    </h2>
+    <div style="margin:5px;">
+      
+    </div>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A lil journey through the species in my Garden
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
     </div>
 
     

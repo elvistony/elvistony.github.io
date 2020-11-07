@@ -1,11 +1,12 @@
 ---
-layout: posts
+layout: single
 title:  "Why I Chose Linux"
 subtitle : "The Reason why I switched from Windows to GNU Linux"
 date:   2020-11-01 11:48:18 +0530
 categories: Reviews Linux
-tags: Linux GNU FOSS Developer OS
+tags: Linux Experiences
 breadcrumbs: true
+classes: wide
 permalink : /posts/:categories/:title/
 ---
 

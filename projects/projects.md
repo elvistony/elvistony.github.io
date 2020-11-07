@@ -38,7 +38,6 @@ _Keep you and your class up-to-date with a simple Timetable that is Google-Form 
 <hr>
 
 
-
 ### E-Greeting Site
 _Send your greetings to your loved ones with this simple E-Greeting Card,_
 <div class="text-right">

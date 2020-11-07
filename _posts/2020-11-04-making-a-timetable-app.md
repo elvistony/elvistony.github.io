@@ -1,9 +1,9 @@
 ---
-layout: posts
+layout: single
 title:  "Making a TimeTable Web-App"
 date:   2020-11-04 11:48:18 +0530
 categories: Code
-tags: 2020 Covid Google-Meet
+tags: DIY 2020 COVID-19 Experiences 
 breadcrumbs: true
 classes: wide
 permalink : /posts/:categories/:title/
