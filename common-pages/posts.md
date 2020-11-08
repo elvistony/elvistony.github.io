@@ -5,6 +5,9 @@ permalink: posts/
 description: RW-Dev Posts - Elvis Tony's Posts
 author_profile: true
 classes: wide
+sitemap:
+  priority: 0.7
+  changefreq: 'weekly'
 ---
 You're now at my Library!
 

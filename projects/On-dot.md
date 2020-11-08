@@ -4,6 +4,8 @@ title:  "OnDot - Android App - Vidya ERP"
 description: "Track your attendance and lot more using OnDot"
 date:   2020-08-15 11:48:18 +0530
 author_show: false
+sitemap:
+   priority: 0.7
 permalink : /projects/ondot/
 ---
 <div>
