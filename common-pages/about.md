@@ -4,3 +4,7 @@ title: About Me
 description: Elvis Tony (pen name-Random Wanderer)
 permalink: /about/
 ---
+
+I'm Elvis Tony,
+
+This page is in the oven, and will be ready soon!

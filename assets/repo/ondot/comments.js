@@ -1,7 +1,6 @@
 function readComments(){
 var request = new XMLHttpRequest();
     request.open('GET', 'https://cors-anywhere.herokuapp.com/docs.google.com/spreadsheets/d/e/2PACX-1vT31vop5-VeSry24J6gNBvVlaZbJl8KYFSOEuagS-ipaa3zwtTXvIuJawFZJnMHshXxXZv1px5lruPq/pub?output=csv', true);
-    document.getElementById("comments").innerHTML='<p class="w3-center w3-animate-fading">Fetching Reviews</p>'
     request.send(null);
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200) {
@@ -28,7 +27,7 @@ function parseText(text){
         element["Time"]=csvdata[0]
         element["Moderated"]=csvdata[4]
         data.push(element)
-        console.log(element)
+        //console.log(element)
     }
     
     return data
@@ -73,7 +72,7 @@ function rendercomments(data){
                 <p class="">`+value["Comment"]+`<br><span class="comment-tstamp">`+getComDate(value["Time"])+`</span></p>
             </div>`;
 
-            console.log(value)
+            //console.log(value)
         }
     }
 

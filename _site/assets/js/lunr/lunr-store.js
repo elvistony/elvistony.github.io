@@ -28,4 +28,10 @@ var store = [{
         "tags": ["DIY","2020","COVID-19","Projects"],
         "url": "http://localhost:4000/posts/code/host-your-own-timetable/",
         "teaser": null
+      },{
+        "title": "Dark Mode for Meet",
+        "excerpt":" ","categories": ["Code"],
+        "tags": ["DIY","Google-Meet"],
+        "url": "http://localhost:4000/posts/code/google-meet-js/",
+        "teaser": null
       }]
