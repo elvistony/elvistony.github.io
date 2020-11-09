@@ -3,7 +3,7 @@ layout: single
 title:  "Making a TimeTable Web-App"
 date:   2020-11-04 11:48:18 +0530
 categories: Code
-tags: DIY 2020 COVID-19 Experiences 
+tags: 2020 COVID-19 Experiences 
 breadcrumbs: true
 classes: wide
 permalink : /posts/:categories/:title/

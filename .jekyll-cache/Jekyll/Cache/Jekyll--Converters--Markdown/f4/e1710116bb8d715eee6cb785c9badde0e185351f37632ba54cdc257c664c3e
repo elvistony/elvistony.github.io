@@ -1,4 +1,4 @@
-I"z!<div>
+I"Á!<div>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-white w3-text-white w3-padding-64 w3-container">
@@ -149,7 +149,7 @@
     document.getElementById("donate_but").setAttribute("onclick","go_download()")
   }
   function go_download(){
-    window.location.href = "download/";
+    window.location.href = "https://drive.google.com/uc?export=download&id=16JYxzfdVY6YDV4U5YmEqin6R3jUuHn9g";
   }
 </script>
 
