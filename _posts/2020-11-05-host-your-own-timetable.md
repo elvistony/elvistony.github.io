@@ -27,7 +27,7 @@ The timetable web-app is a simple app to display the day's Class Timetable.
 
 It supports the publishing of alternate schedules or fall-back to the regular timetable all in the control of an easy to use Google Form. The app also features Google Account pre-selection, Dark Mode and also a Notification when its time for the next Period!
 
-## Assumptions
+<b>Assumptions</b>
 I'm gonna assume a few things here,
  - You know how to use Github.
  - You have an account in Github.
@@ -53,13 +53,15 @@ Click the link and See if the Deployment is successful and the page loads correc
 
 //Figure Here
 
-## Setting Up a Google Form
+## Backend Setup
+
+<b>Setting Up the Google Form</b>
 Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.
 
 <a class="btn btn--warning" href="https://docs.google.com/forms/d/1S983Y_j3rZiZQHmnsZL7a2FrJQb0cj0zCVBQNTbx_Cs/copy" target="_blank">Make a Copy - Google Form</a>
 
 
-## Setting Up a Responses Sheet
+<b>Setting Up the Response Sheet</b>
 In your form, Go to the Responses tab and Click the `Spreadsheet` icon to generate a Responses Sheet.
 
 Go to the Responses Sheet and Click the `Share` button on the top right. Copy the ID of the sheet which is in the form. Ensure you grant **Only View** privileges in the Share Tab.
@@ -86,7 +88,11 @@ Open the supporting sheets with the link below,
 
 <a class="btn btn--warning" href="https://docs.google.com/spreadsheets/d/1L4MTqM4wl_IW01cYab7dudN3-IjCEFdYIvbTAw3xSnI/view" target="_blank">Add Supporting Sheets</a>
 
-On the bottom you'll see 4 sheets `Links | TimeTable | TimeStart | TimeEnd`
+On the bottom you'll see 4 sheets
+ 
+<span style="padding: 5px;
+    color: black;
+    background: white;">Links | TimeTable | TimeStart | TimeEnd</span>
 
 Right click each of those **4 sheets** and Click `Copy to > Existing SpreadSheet` and select the Responses Spreadsheet.
 
@@ -128,7 +134,7 @@ Go to your Hosted App using the URL.
 
 `https://username.github.io/time-table/`
 
-Replace your Github Username with the above link and Check it out!
+Replace your Github Username in the above link and Check it out!
 
 <hr>
 

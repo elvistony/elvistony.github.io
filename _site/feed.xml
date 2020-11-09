@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-09T11:55:37+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-09T12:52:22+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Lockdown, that’s one word everyone is afraid of right after the trending term “COVID-19”.&lt;/p&gt;
 
@@ -46,8 +46,8 @@
 
 &lt;p&gt;It supports the publishing of alternate schedules or fall-back to the regular timetable all in the control of an easy to use Google Form. The app also features Google Account pre-selection, Dark Mode and also a Notification when its time for the next Period!&lt;/p&gt;
 
-&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
-&lt;p&gt;I’m gonna assume a few things here,&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Assumptions&lt;/b&gt;
+I’m gonna assume a few things here,&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;You know how to use Github.&lt;/li&gt;
   &lt;li&gt;You have an account in Github.&lt;/li&gt;
@@ -74,13 +74,15 @@
 
 &lt;p&gt;//Figure Here&lt;/p&gt;
 
-&lt;h2 id=&quot;setting-up-a-google-form&quot;&gt;Setting Up a Google Form&lt;/h2&gt;
-&lt;p&gt;Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.&lt;/p&gt;
+&lt;h2 id=&quot;backend-setup&quot;&gt;Backend Setup&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;Setting Up the Google Form&lt;/b&gt;
+Now to make a Google Form that works as the back-end panel, click the link below to Make a copy of the Form.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn--warning&quot; href=&quot;https://docs.google.com/forms/d/1S983Y_j3rZiZQHmnsZL7a2FrJQb0cj0zCVBQNTbx_Cs/copy&quot; target=&quot;_blank&quot;&gt;Make a Copy - Google Form&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;setting-up-a-responses-sheet&quot;&gt;Setting Up a Responses Sheet&lt;/h2&gt;
-&lt;p&gt;In your form, Go to the Responses tab and Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spreadsheet&lt;/code&gt; icon to generate a Responses Sheet.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Setting Up the Response Sheet&lt;/b&gt;
+In your form, Go to the Responses tab and Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spreadsheet&lt;/code&gt; icon to generate a Responses Sheet.&lt;/p&gt;
 
 &lt;p&gt;Go to the Responses Sheet and Click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Share&lt;/code&gt; button on the top right. Copy the ID of the sheet which is in the form. Ensure you grant &lt;strong&gt;Only View&lt;/strong&gt; privileges in the Share Tab.&lt;/p&gt;
 
@@ -106,7 +108,9 @@
 
 &lt;p&gt;&lt;a class=&quot;btn btn--warning&quot; href=&quot;https://docs.google.com/spreadsheets/d/1L4MTqM4wl_IW01cYab7dudN3-IjCEFdYIvbTAw3xSnI/view&quot; target=&quot;_blank&quot;&gt;Add Supporting Sheets&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;On the bottom you’ll see 4 sheets &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Links | TimeTable | TimeStart | TimeEnd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;On the bottom you’ll see 4 sheets&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;padding: 5px;     color: black;     background: white;&quot;&gt;Links | TimeTable | TimeStart | TimeEnd&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Right click each of those &lt;strong&gt;4 sheets&lt;/strong&gt; and Click &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Copy to &amp;gt; Existing SpreadSheet&lt;/code&gt; and select the Responses Spreadsheet.&lt;/p&gt;
 
@@ -160,7 +164,7 @@
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://username.github.io/time-table/&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Replace your Github Username with the above link and Check it out!&lt;/p&gt;
+&lt;p&gt;Replace your Github Username in the above link and Check it out!&lt;/p&gt;
 
 &lt;hr /&gt;
 
