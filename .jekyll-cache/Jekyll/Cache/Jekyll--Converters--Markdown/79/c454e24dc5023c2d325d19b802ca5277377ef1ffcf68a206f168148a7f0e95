@@ -1,0 +1,16 @@
+I"¹<!-- First Grid -->
+<div class="w3-row-padding w3-black w3-center w3-text-white w3-padding-64 w3-container">
+    <div class="w3-content w3-padding-64 ">
+        <h1 id="time">Counting the Days</h1>
+        <h2 class="w3-text-orange style_text">till our time in college runs out!</h2>
+    </div>
+    <div class="w3-content w3-padding-64">
+        <p>Of which..</p>
+        <h2 class="w3-text-orange style_text"><span id="day-holiday" class=" w3-xlarge"></span> are holidays</h2>
+    </div>
+    <div class="w3-content w3-padding-64">
+        <p>that means...</p>
+        <h2 class="w3-text-orange style_text"><span id="day-holiday" class=" w3-xlarge"></span> are college days</h2>
+    </div>
+</div>
+:ET

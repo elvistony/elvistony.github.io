@@ -1,0 +1,35 @@
+I"u<!-- First Grid -->
+<div class="w3-row-padding w3-black w3-center w3-text-white w3-padding-64 w3-container">
+    <div class="w3-content w3-padding-64 ">
+        <h1 id="time">Counting the Days</h1>
+        <h2 class="w3-text-orange style_text">till our time in college runs out!</h2>
+    </div>
+    <div class="w3-content w3-padding-64">
+        <p>Of which..</p>
+        <h2 class="w3-text-orange style_text"><span id="day-holiday" class=" w3-xlarge"></span> are holidays</h2>
+    </div>
+    <div class="w3-content w3-padding-64">
+        <p>that means...</p>
+        <h2 class="w3-text-orange style_text"><span id="day-college" class=" w3-xlarge"></span> are college days (<span id="week-college" class=" w3-xlarge"></span> weeks )</h2>
+    </div>
+    <div class="w3-content w3-padding-64">
+        <p style="color:green">don't feel remorse, spend your days Happy.</p>
+        <h2 class="w3-text-orange style_text"><span id="day-college" class=" w3-xlarge"></span> are college days (<span id="week-college" class=" w3-xlarge"></span> weeks )</h2>
+    </div>
+</div>
+<script>
+    // Set the date we're counting down to
+var countDownDate = new Date("Apr 1, 2021 12:00:00").getTime();
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  document.getElementById("time").innerHTML = days + "days " + hours + "hours ";
+  document.getElementById("day-holiday").innerHTML = Math.floor(((days/7)*2))+" days";
+  document.getElementById("day-college").innerHTML = Math.floor(days - ((days/7)*2))+" days";
+  document.getElementById("week-college").innerHTML = Math.floor((days - ((days/7)*2))/7)+""
+</script>
+:ET

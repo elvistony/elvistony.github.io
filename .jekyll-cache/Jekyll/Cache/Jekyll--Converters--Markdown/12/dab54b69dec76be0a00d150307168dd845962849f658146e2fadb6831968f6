@@ -1,0 +1,13 @@
+I"¡<!-- First Grid -->
+<div class="w3-row-padding w3-white w3-text-white w3-padding-64 w3-container">
+    <div class="w3-content w3-padding-64 w3-center">
+        <h1 id="time">On Dot</h1>
+        <h2 class="w3-text-orange style_text">till our time in college runs out!</h2>
+    </div>
+</div>
+<script>
+    // Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+</script>
+
+:ET
