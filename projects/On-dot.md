@@ -208,7 +208,8 @@ permalink : /projects/ondot/
           <h4 class="w3-center">Others have Reviewed</h4>
           <div class="w3-row" id="comments">
           <p class="w3-center w3-animate-fading">Fetching Reviews</p>
-          <svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          <div class="w3-center">
+            <svg version="1.1" id="L9" style="width: 20%;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
               <path fill="#fff" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
                 <animateTransform 
@@ -222,10 +223,11 @@ permalink : /projects/ondot/
             </path>
           </svg>
           </div>
+          </div>
       </div>
     </div>
 </div>
 
-<script src="/assets/repo/ondot/comments.js"></script>
+<script async src="/assets/repo/ondot/comments.js"></script>
 
 <!-- <p>https://gitlab.com/elvistony/on-dot-releases/uploads/2b00593b45d2f64805aab34c8367f09a/OnDot_v1.3.0.apk</p> -->

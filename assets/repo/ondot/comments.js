@@ -1,6 +1,6 @@
 function readComments(){
 var request = new XMLHttpRequest();
-    request.open('GET', 'https://cors-anywhere.herokuapp.com/docs.google.com/spreadsheets/d/e/2PACX-1vT31vop5-VeSry24J6gNBvVlaZbJl8KYFSOEuagS-ipaa3zwtTXvIuJawFZJnMHshXxXZv1px5lruPq/pub?output=csv', true);
+    request.open('GET', 'https://docs.google.com/spreadsheets/d/1aU6EG8ShxrWHUHMMLLiNw89J1euGuXd-yKGmxqnxJGA/gviz/tq?tqx=out:csv', true);
     request.send(null);
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200) {
@@ -10,28 +10,32 @@ var request = new XMLHttpRequest();
     }
 
 }
-
+var t = ""
 function parseText(text){
     var headers = (text.split("\n")[0]).split(",")
     var textdata=text.split('\n')
     var size = textdata.length
     var csvdata=[]
     var data = []
+    console.log(text)
+    
     for (var i=1;i<size;i++){
         var element = []
         csvdata = textdata[i]
-        csvdata=splitEntry(csvdata)
-        element["Name"]=csvdata[3]
-        element["Comment"]=csvdata[2]
-        element["Rating"]=csvdata[1]
-        element["Time"]=csvdata[0]
-        element["Moderated"]=csvdata[4]
+        csvdata= csvdata.split(",")
+        element["Name"]=csvdata[3].substr(1,csvdata[3].length-2)
+        element["Comment"]=csvdata[2].substr(1,csvdata[2].length-2)
+        element["Rating"]=csvdata[1].substr(1,csvdata[1].length-2)
+        element["Time"]=csvdata[0].substr(1,csvdata[0].length-2)
+        element["Moderated"]=csvdata[4].substr(1,csvdata[4].length-2)
         data.push(element)
-        //console.log(element)
+        console.log(element)
     }
     
     return data
 }
+
+
 
 function splitEntry(text){
     var elements=[];
@@ -131,6 +135,7 @@ readComments()
 
 
 var loadCounter = 0;
+
 function loaded(){
     loadCounter += 1;
     document.getElementsByClassName("exportHeader")[0].style.display="none"
