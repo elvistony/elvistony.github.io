@@ -5,16 +5,16 @@ var store = [{
         "url": "http://localhost:4000/posts/nature/glimpse-into-my-garden/",
         "teaser": null
       },{
-        "title": "Installing Linux on your System",
-        "excerpt":" ","categories": ["Guides","Linux"],
-        "tags": ["Linux","Installation"],
-        "url": "http://localhost:4000/posts/guides/linux/installing-linux/",
-        "teaser": null
-      },{
         "title": "Why I Chose Linux",
         "excerpt":"Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems...","categories": ["Reviews","Linux"],
         "tags": ["Linux","Experiences"],
         "url": "http://localhost:4000/posts/reviews/linux/why-i-chose-linux/",
+        "teaser": null
+      },{
+        "title": "Installing Linux on your System",
+        "excerpt":"A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you. Installing Linux is pretty straight forward almost as easy as installing Windows.In this guide I’ll be helping y’all install a linux flavour based on Ubuntu. KDE neon is the intersection of...","categories": ["Guides","Linux"],
+        "tags": ["DIY","Linux","Installation"],
+        "url": "http://localhost:4000/posts/guides/linux/installing-linux/",
         "teaser": null
       },{
         "title": "Making a TimeTable Web-App",

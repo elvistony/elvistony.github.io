@@ -81,6 +81,11 @@ a{
     font-size: 64px!important;
 }
 
+.highlighter-rouge{
+    background-color: rgb(141, 116, 141);
+    color: black;
+}
+
 .w3-padding-32 {
     padding-top: 32px!important;
     padding-bottom: 32px!important;
@@ -108,7 +113,7 @@ a{
 }
 
 .w3-tiny{
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 .w3-content, .w3-auto {

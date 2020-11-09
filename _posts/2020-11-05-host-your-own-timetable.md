@@ -142,6 +142,6 @@ Hope it helps!
 
 Read the More about the Backstory behind this...
 <div class="text-right">
-    <a href="https://elvistony.github.io/code/" target="_blank" class="btn--warning btn">Making the Web-App</a>
+    <a href="/posts/code/making-a-timetable-app/" target="_blank" class="btn--warning btn">Making the Web-App</a>
 </div>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-09T17:47:43+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-09T19:17:38+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Random Wanderer</title><subtitle>Hey There, I'm Elvis Tony, Welcome to my blog!</subtitle><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><entry><title type="html">Making a TimeTable Web-App</title><link href="http://localhost:4000/posts/code/making-a-timetable-app/" rel="alternate" type="text/html" title="Making a TimeTable Web-App" /><published>2020-11-04T11:48:18+05:30</published><updated>2020-11-04T11:48:18+05:30</updated><id>http://localhost:4000/posts/code/making-a-timetable-app</id><content type="html" xml:base="http://localhost:4000/posts/code/making-a-timetable-app/">&lt;p&gt;&lt;em&gt;The Making of a Simple Timetable WebApp&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Lockdown, that’s one word everyone is afraid of right after the trending term “COVID-19”.&lt;/p&gt;
 
@@ -172,8 +172,91 @@ In your form, Go to the Responses tab and Click the &lt;code class=&quot;languag
 
 &lt;p&gt;Read the More about the Backstory behind this…&lt;/p&gt;
 &lt;div class=&quot;text-right&quot;&gt;
-    &lt;a href=&quot;https://elvistony.github.io/code/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Making the Web-App&lt;/a&gt;
-&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="COVID-19" /><category term="Projects" /><summary type="html">DIY Guide for Hosting the Timetable Web-app</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
+    &lt;a href=&quot;/posts/code/making-a-timetable-app/&quot; target=&quot;_blank&quot; class=&quot;btn--warning btn&quot;&gt;Making the Web-App&lt;/a&gt;
+&lt;/div&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Code" /><category term="DIY" /><category term="2020" /><category term="COVID-19" /><category term="Projects" /><summary type="html">DIY Guide for Hosting the Timetable Web-app</summary></entry><entry><title type="html">Installing Linux on your System</title><link href="http://localhost:4000/posts/guides/linux/installing-linux/" rel="alternate" type="text/html" title="Installing Linux on your System" /><published>2020-11-01T11:50:18+05:30</published><updated>2020-11-01T11:50:18+05:30</updated><id>http://localhost:4000/posts/guides/linux/installing-linux</id><content type="html" xml:base="http://localhost:4000/posts/guides/linux/installing-linux/">&lt;p&gt;&lt;em&gt;A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Installing Linux is pretty straight forward almost as easy as installing Windows.In this guide I’ll be helping y’all install  a linux flavour based on Ubuntu.&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;KDE neon is the intersection of these needs using a stable Ubuntu long-term release as its core, packaging the hottest software fresh from the KDE Community ovens.&lt;/p&gt;
+
+&lt;p&gt;Before getting started with the Installation,We need to know a tiny difference of Linux and Windows Installation is the distribution of the System Files.&lt;/p&gt;
+
+&lt;p&gt;In Windows, the system files are stored in the Windows-Basic-Partition (Local Disk C:) in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:/Windows&lt;/code&gt; and the User files in  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:/Users/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In Linux, the system files are stored in the Root Drive in Global Root &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; and the User files in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/home&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;making-a-bootable-usb&quot;&gt;Making a Bootable USB&lt;/h2&gt;
+
+&lt;p&gt;Now to get started, We must first make a Bootable USB using a tool. Based on what OS you currently have, we choose a suitable tool&lt;/p&gt;
+&lt;div class=&quot;w3-row w3-margin&quot;&gt;
+    &lt;div class=&quot;w3-half w3-card-1 w3-center&quot;&gt;
+        &lt;img src=&quot;https://rufus.ie/pics/rufus-128.png&quot; class=&quot;fithalf w3-image imgModal w3-fluid&quot; style=&quot;width:111px;&quot; /&gt;
+        &lt;p class=&quot;w3-block w3-gray&quot;&gt;Rufus&lt;/p&gt;
+        &lt;a class=&quot;w3-block btn btn--success&quot; href=&quot;https://rufus.ie/&quot;&gt;Download (Windows)&lt;/a&gt;
+        &lt;p class=&quot;w3-tiny&quot;&gt;(Recommended)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;w3-half w3-card-1 w3-center&quot;&gt;
+        &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UNetbootin_icon.svg/924px-UNetbootin_icon.svg.png&quot; style=&quot;width:100px;&quot; class=&quot;fithalf imgModal w3-image&quot; /&gt;
+        &lt;p class=&quot;w3-block w3-gray&quot;&gt;UNetbootin&lt;/p&gt;
+        &lt;a class=&quot; w3-block btn btn--warning&quot; href=&quot;https://unetbootin.github.io/&quot;&gt;Download (Windows | Linux)&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;preflight-check&quot;&gt;Preflight Check&lt;/h2&gt;
+
+&lt;p&gt;Before plunging into the world of Linux, we need to ensure we have enough storage for the Installation. If you’re on windows, you could use the Disk Partition utility to Save up some space for linux.&lt;/p&gt;
+
+&lt;p&gt;Navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Control Panel -&amp;gt; Disk Management&lt;/code&gt;.&lt;br /&gt;
+If you’re on Windows 8 or 10, you could search it directly using Search/Cortana.&lt;/p&gt;
+
+&lt;p&gt;//figure here&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;Note: This step is risky No responsibility will be taken if any Data is lost or your current OS is not Booting.&lt;/p&gt;
+
+&lt;p class=&quot;notice--success&quot;&gt;Ask your Tech Buddy to help you out with this step.&lt;/p&gt;
+
+&lt;p&gt;Now, the risky business, Create an Unformated partition by either Shrinking an existing partition or deleting an entire partition(Deleting, will cause all your data on that partition to be lost).
+We plan to install Linux as separate partitions, but is irrelevant at this step.&lt;/p&gt;
+
+&lt;p&gt;Linux can be minimally installed on 10GB storage, but I’d recommend a minimum of 20GB and a maximum of 200GB for Linux. If you have ample storage (250GB or more), I’ll help you create a Shared Partition that’s accessible to both Windows and Linux (stay tuned…).&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;Tip: Remember the Size of the partition as it helps in identifying it in the Linux setup. After preparing an Unformated partition, We are now ready for the Next Step.&lt;/p&gt;
+
+&lt;h2 id=&quot;enabling-usb-boot&quot;&gt;Enabling USB Boot&lt;/h2&gt;
+
+&lt;p&gt;Next, We need to enable the USB-Boot Option in the BIOS.&lt;/p&gt;
+
+&lt;p&gt;It is fairly simple, Plug-in your USB Device into the system and reboot your system while pressing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F12&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F2&lt;/code&gt; For some Systems, these Keys might change.&lt;/p&gt;
+
+&lt;p&gt;If u face dificulties checkout the &lt;a href=&quot;https://www.disk-image.com/faq-bootmenu.htm&quot;&gt;Hotkeys List&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Disable Secure Boot. Now some system have been known to face issues booting to Windows after Toggling this option. So, it’s better to Try booting to Windows (with Secure Boot OFF) Toggle the Secure Boot Back ON, if u face issues.&lt;/p&gt;
+
+&lt;p&gt;Assuming there was no Issues, Re enter the BIOS. using the keys mentioned in your system (on the right side of your bios screen), push the USB Boot Entry &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;up&lt;/code&gt; the Boot Priority.&lt;/p&gt;
+
+&lt;h2 id=&quot;booting-from-usb&quot;&gt;Booting from USB&lt;/h2&gt;
+
+&lt;p&gt;While Booting (after setting USB Boot Priority),&lt;/p&gt;
+
+&lt;p&gt;We Select the Install KDE option. and Follow the Wizard.
+You will boot to a GUI Environment, Plasma &lt;em&gt;(psst, this is a sneak peek to the real deal,hehe)&lt;/em&gt;. Click the icon Install KDE and follow the Wizard. 
+Once you reach a page asking where to Install,&lt;/p&gt;
+
+&lt;p&gt;Select: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Manual Installation&lt;/code&gt; . After a few moments, all the available partitions are seen as a list.&lt;/p&gt;
+
+&lt;p&gt;Locate the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unformated partition&lt;/code&gt; (that match the size we allocated in windows multiplied by 1024) and select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mount Point: \&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30%&lt;/code&gt; of the Unformated partiton (do the math and select the number of Megabytes 1GB=1024MB). After setting /, click the left over &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70%&lt;/code&gt; and set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mount Point: \home&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You may set Format partitionbut that’s optional. Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Partition type: ext4&lt;/code&gt; for best performance.
+Continue the Wizard, and wait for the prompt to Reboot.&lt;/p&gt;
+
+&lt;h2 id=&quot;taking-it-for-a-spin&quot;&gt;Taking it for a spin!&lt;/h2&gt;
+
+&lt;p&gt;Well, if you reached this step, You have installed Linux (hopefully). So Fireup the System and Select KDE from the Grub Boot Menu. Although, I’d recommend testing whether Windows works first and then Rebooting into Linux. Hehe just for a last precaution.&lt;/p&gt;
+
+&lt;p&gt;If you don’t find Windows, dont fret, its uncommon but definitely possible that Linux didn’t detect it properly. So Head over to Linux, Log-in to the system,
+Press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+alt+T&lt;/code&gt; that should open a terminal and that type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo update-grub&lt;/code&gt; and type in your password. This should allow Grub to re-scan your Drive to locate missing OSes.&lt;/p&gt;
+
+&lt;p&gt;Have a great time in Linux, Stay Tuned.&lt;/p&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Guides" /><category term="Linux" /><category term="DIY" /><category term="Linux" /><category term="Installation" /><summary type="html">A Simple Guide on Installing KDE Neon on your System. If you are a programmer, Linux is for you.</summary></entry><entry><title type="html">Glimpse into my Garden</title><link href="http://localhost:4000/posts/nature/glimpse-into-my-garden/" rel="alternate" type="text/html" title="Glimpse into my Garden" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/nature/glimpse-into-my-garden</id><content type="html" xml:base="http://localhost:4000/posts/nature/glimpse-into-my-garden/">&lt;p&gt;&lt;em&gt;A lil journey through the species in my Garden&lt;/em&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--success&quot;&gt;Flowers are the way to a woman’s heart.&lt;/p&gt;
 
@@ -236,7 +319,7 @@ In your form, Go to the Responses tab and Click the &lt;code class=&quot;languag
     
   
   
-&lt;/figure&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Nature" /><summary type="html">A lil journey through the species in my Garden</summary></entry><entry><title type="html">Installing Linux on your System</title><link href="http://localhost:4000/posts/guides/linux/installing-linux/" rel="alternate" type="text/html" title="Installing Linux on your System" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/guides/linux/installing-linux</id><content type="html" xml:base="http://localhost:4000/posts/guides/linux/installing-linux/"></content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Guides" /><category term="Linux" /><category term="Linux" /><category term="Installation" /><summary type="html"></summary></entry><entry><title type="html">Why I Chose Linux</title><link href="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/" rel="alternate" type="text/html" title="Why I Chose Linux" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/reviews/linux/why-i-chose-linux</id><content type="html" xml:base="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/">&lt;p&gt;Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Elvis Tony Raphael</name><email>elvistonyrency[at]gmail.com</email></author><category term="Nature" /><summary type="html">A lil journey through the species in my Garden</summary></entry><entry><title type="html">Why I Chose Linux</title><link href="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/" rel="alternate" type="text/html" title="Why I Chose Linux" /><published>2020-11-01T11:48:18+05:30</published><updated>2020-11-01T11:48:18+05:30</updated><id>http://localhost:4000/posts/reviews/linux/why-i-chose-linux</id><content type="html" xml:base="http://localhost:4000/posts/reviews/linux/why-i-chose-linux/">&lt;p&gt;Windows, has been the only operating system I’ve used since I was 5, until last year. I still remember that Grey vibe of Windows 98. That soon was upgraded to Windows XP (called Windows Xperience by the community). To be completely honest with Y’all, I’ve probably boot-looped about 10 systems when I was a kid. That sure was a hell lotta scolding, coz it was always Mom to the rescue, there weren’t many Computer Engineers back in those times.&lt;/p&gt;
 
 &lt;p&gt;Yeah, returning to the Title of our Discussion, The Reason for me to Switch to Linux was mainly this.&lt;/p&gt;
 
