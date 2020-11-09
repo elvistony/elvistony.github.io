@@ -159,7 +159,7 @@ permalink : /projects/ondot/
     document.getElementById("donate_but").setAttribute("onclick","go_download()")
   }
   function go_download(){
-    window.location.href = "download/";
+    window.location.href = "https://drive.google.com/uc?export=download&id=16JYxzfdVY6YDV4U5YmEqin6R3jUuHn9g";
   }
 </script>
 
