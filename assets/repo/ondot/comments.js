@@ -17,7 +17,7 @@ function parseText(text){
     var size = textdata.length
     var csvdata=[]
     var data = []
-    console.log(text)
+    //console.log(text)
     
     for (var i=1;i<size;i++){
         var element = []
@@ -29,7 +29,7 @@ function parseText(text){
         element["Time"]=csvdata[0].substr(1,csvdata[0].length-2)
         element["Moderated"]=csvdata[4].substr(1,csvdata[4].length-2)
         data.push(element)
-        console.log(element)
+        //console.log(element)
     }
     
     return data
@@ -70,11 +70,11 @@ function rendercomments(data){
     for (let index = 0; index < data.length; index++) {
         value = data[index];
         if (true){
-            divele.innerHTML += `
+            divele.innerHTML = `
             <div class="w3-round-large w3-white w3-margin comment">
                 <h5><b>`+value["Name"]+`</b><span style="float:right" >`+"⭐️".repeat(parseInt(value["Rating"]))+"🔸".repeat(5-parseInt(value["Rating"]))+`</span></h5>
                 <p class="">`+value["Comment"]+`<br><span class="comment-tstamp">`+getComDate(value["Time"])+`</span></p>
-            </div>`;
+            </div>`+ divele.innerHTML;
 
             //console.log(value)
         }
@@ -106,7 +106,9 @@ function getComDate(date){
     var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
     var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"];
     var ndate = new Date(date);
-    var string_date = ""+days[ndate.getDay()]+", "+ndate.getDay()+" "+months[ndate.getMonth()]+" "+ndate.getFullYear()
+    //console.log(date)
+    var string_date = ""+days[ndate.getDay()]+", "+ndate.getDate()+" "+months[ndate.getMonth()]+" "+ndate.getFullYear()
+    //console.log(ndate)
     return string_date;
 }
 
@@ -138,7 +140,7 @@ var loadCounter = 0;
 
 function loaded(){
     loadCounter += 1;
-    document.getElementsByClassName("exportHeader")[0].style.display="none"
+    //document.getElementsByClassName("exportHeader")[0].style.display="none"
     if (loadCounter === 2) {
         document.getElementsByTagName('iframe')[0].style.height="250px";
     }
