@@ -1,7 +1,6 @@
 ---
 permalink: /resume/
 ---
-
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Elvis' E-Resume | Random Wanderer</title>
@@ -13,12 +12,55 @@ permalink: /resume/
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;counter-reset: page;}
+
+@page {
+  counter-increment: page;
+  
+}
+
+/* defaults  for screen */
+#print-foot {
+    display: none;
+}
+
+@page {
+    counter-increment: page;
+    counter-reset: page 1;
+}
+
+.super-script{
+  position: relative;
+  top: -8px;
+
+}
+
+/* print only */
+@media print {
+
+#print-foot {
+  display: block;
+  position: fixed;
+  bottom: 0pt;
+  right: 0pt;
+  color: var(--theme);
+  font-size: 100%;
+  
+}
+
+
+
+/* #print-foot:after { 
+    content: counter(page) " / 4" ;
+    counter-increment: page;
+} */
+}
 
 :root {
   --theme:rgb(0, 103, 129);
   --theme-complement:rgba(146, 227, 233, 0.87);
 }
+
 
 .mons{
   font-family: 'Montserrat', sans-serif;
@@ -31,6 +73,10 @@ h3{
 
 .no-page-break{
   page-break-inside:avoid;
+}
+
+.bookmark{
+  bookmark-level:1;
 }
 
 .w3-profile{
@@ -125,7 +171,7 @@ h3{
             </div>
           </center>
                     
-          <h3 style="font-size: 20px !important;">Elvis Tony Raphael Kollannur</h3>
+          <h3 class="w3-text-black" style="font-size: 20px !important;">Elvis Tony Raphael Kollannur</h3>
 
         </div>
         <div class="w3-container">
@@ -142,15 +188,17 @@ h3{
           <p class="w3-large mons  w3-text-theme"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-theme"></i>Skills</b></p>
           <span class="w3-tag-margin w3-tag w3-theme w3-round">Python3</span>
           <span class="w3-tag-margin w3-tag w3-theme w3-round">HTML5</span>
-          <span class="w3-tag-margin w3-tag w3-theme w3-round">JavaScript</span>
           <span class="w3-tag-margin w3-tag w3-theme w3-round">Git</span>
+
+          <span class="w3-tag-margin w3-tag w3-theme w3-round">JavaScript</span>
           <span class="w3-tag-margin w3-tag w3-theme w3-round">C++</span>
           <span class="w3-tag-margin w3-tag w3-theme w3-round">CSS</span>
-          <span class="w3-tag-margin w3-tag w3-theme w3-round">JSON</span>
           <span class="w3-tag-margin w3-tag w3-theme w3-round">PHP</span>
           <span class="w3-tag-margin w3-tag w3-theme-com w3-round">ML</span>
           <span class="w3-tag-margin w3-tag w3-theme-com w3-round">IoT</span>
-
+          <span class="w3-tag-margin w3-tag w3-theme-com w3-round">Cloud</span>
+          <span class="w3-tag-margin w3-tag w3-theme w3-round"><span class="w3-text-yellow">OS: </span>Linux</span>
+          <span class="w3-tag-margin w3-tag w3-theme w3-round"><span class="w3-text-yellow">OS: </span>Windows</span>
           <br>
           <hr>
           <div class="no-page-break">
@@ -186,9 +234,10 @@ h3{
 
         <!-- Objective Here -->
         <div>
-          <h3 class=" w3-text-theme  w3-padding w3-round"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Objective</h3>
+          <h3 class=" w3-text-theme bookmark w3-padding w3-round"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Summary</h3>
           <div class="w3-container no-page-break">
-            <p>Seeking a Creative and Challenging Role in the Domains of Data Science | Web Development |
+
+            <p>An Avid programmer, seeking a Creative and Challenging Role in the Domains of Data Science | Web Development |
               App Development.
               </p>          
           </div>
@@ -196,10 +245,11 @@ h3{
         
         <div class="">
           <div class="no-page-break">
-            <h3 class=" w3-text-theme w3-padding topic"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Education</h3>
+            <h3 class=" w3-text-theme bookmark w3-padding topic"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Education</h3>
             <div class="w3-container">
+              <p class="w3-tag w3-theme w3-small w3-right w3-round">CGPA till S6</p>
               <h5 class="w3-opacity"><b>B.Tech - Computer Science and Engineering</b></h5>
-              <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - <span class="w3-tag w3-theme-com w3-round">Ongoing</span> (2021)  </h6>
+              <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - <span class="w3-tag w3-theme-com w3-round">Ongoing <span class="w3-small w3-text-black">- S7 </span></span> (2021) </h6>
               <span class="w3-tag w3-theme w3-round w3-right">8.68 CGPA </span>
               <p>Vidya Academy of Science and Technology - <span title="Kalam Technical University"> KTU</span></p>
               <p class="w3-small">APJ Abdul Kalam Technological University</p>
@@ -207,14 +257,14 @@ h3{
             </div>  
           </div>
           <div class="w3-container no-page-break">
-            <h5 class="w3-opacity"><b>12 <span class="w3-small">th</span> Grade </b></h5>
+            <h5 class="w3-opacity"><b>12 <span class="w3-small super-script">th</span> Grade </b></h5>
             <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2017</h6>
             <p> Devamatha CMI Public School - <span title="Central Board of Secondary Education"> CBSE</span> <span class="w3-tag w3-theme w3-round w3-right"> 77% </span></p>
             <p class="w3-small">Central Board of Secondary Education</p>
             <hr>
           </div>
           <div class="w3-container no-page-break">
-            <h5 class="w3-opacity"><b>10 <span class="w3-small">th</span> Grade </b></h5>
+            <h5 class="w3-opacity"><b>10 <span class="w3-small super-script">th</span> Grade </b></h5>
             <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2015</h6>
             <p> Kailasnadha Vidyanikethan - <span title="Central Board of Secondary Education"> CBSE</span> <span class="w3-tag w3-theme w3-round w3-right"> 9.4 CGPA</span></p>
             <p class="w3-small">Central Board of Secondary Education</p>
@@ -224,7 +274,7 @@ h3{
 
         <!-- Work Experience Here -->
         <div>
-          <h3 class=" w3-text-theme  w3-padding topic"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Work Experience</h3>
+          <h3 class=" w3-text-theme bookmark w3-padding topic"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Work Experience</h3>
           <div class="w3-container no-page-break">
             <h5 class="w3-opacity"><b>Freelance Web Designer/Developer</b></h5>
             <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2019 - May 2020</h6>
@@ -276,11 +326,18 @@ h3{
           <p style="text-align: right;">Details: <a href="https://github.com/elvistony/resultPdfToXLSX" target="_blank" class="w3-button w3-hover-white w3-text-theme">github.com/elvistony/resultPdfToXLSX</a></p>
           <hr>
         </div>
+        <div class="w3-container no-page-break w3-margin-top">
+          <i class="fa w3-jumbo fa-fw fa-desktop  w3-text-theme w3-margin w3-left"></i>
+          <h5 class="w3-opacity"><b>Open Knowledge Repository - <span class="w3-tag w3-theme-com w3-opacity-off w3-round">Ongoing</span></b></h5>
+          <p>Using: <span class="w3-tag w3-theme w3-round">Vanilla JS</span> <span class="w3-tag w3-theme w3-round">Markdown</span> <span class="w3-tag w3-theme w3-round">JQuery</span> </p>
+          <p>A Complete Open Knowlege Repository with Addons for assisting Teachers.</p>
+          <hr>
+        </div>
           <p style="text-align:right;">More Projects: <a href="https://github.com/elvistony?tab=repositories" class="w3-button w3-hover-white w3-text-theme">github.com/elvistony/</a></p>
       </div>
 
       <div class="no-page-break">
-        <h3 class=" w3-text-theme  w3-padding topic"><i class="fa fa-laptop fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Online Courses</h3>
+        <h3 class=" w3-text-theme bookmark w3-padding topic"><i class="fa fa-laptop fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Online Courses</h3>
         <div class="w3-container" style="display: flex;justify-content: center;">
           <div class="acclaim">
             <a target="_blank" href="https://www.youracclaim.com/badges/be0e5afb-1d02-465c-b425-4f52939a9979/public_url">
@@ -329,7 +386,7 @@ h3{
 
     <!-- Certifications -->
       <div class="no-page-break">
-        <h3 class=" w3-text-theme  w3-padding topic"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Certifications</h3>
+        <h3 class=" w3-text-theme bookmark w3-padding topic"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>Certifications</h3>
         <div class="w3-container no-page-break">
           <img src="https://seeklogo.com/images/R/redhat-logo-259A623E59-seeklogo.com.png" style="width: 100px;float: left; margin: 10px;">
           <h5 class="w3-opacity"><b>RedHat Certified System Administrator</b></h5>
@@ -355,7 +412,7 @@ h3{
 
       <!--References Here -->
       <div class="no-page-break">
-        <h3 class=" w3-text-theme  w3-padding topic"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>References</h3>
+        <h3 class=" w3-text-theme bookmark w3-padding topic"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-theme"></i>References</h3>
         <div class="w3-container no-page-break">
           <h5 class="w3-opacity"><b>Asst. Prof. Sivadasan E.T.</b></h5>
           <b class="w3-text-theme"><i class="fa fa-suitcase fa-fw w3-margin-right"></i>Systems Manager - IT Division</b>
@@ -387,6 +444,9 @@ h3{
   </div>
   
   <!-- End Page Container -->
+</div>
+<div id="print-foot">
+   
 </div>
 
 <p class="w3-center no-print"><a href="https://drive.google.com/file/d/1jwdIJW87HjoaM0Q4wZ3o24RbiCHU68TM/view?usp=sharing" class="w3-small w3-theme w3-round-large w3-hover-teal w3-button w3-center" target="_blank"> <i class="fa fa-download fa-fw w3-margin-right"></i> Download PDF</a>  </p>
