@@ -5,11 +5,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Random Wanderer"
+title                    : "Elvis Tony"
 title_separator          : "|"
 subtitle                 : "LVZ's Blog (v2.0)"
-name                     : "Elvis Tony Raphael Kollannur"
-description              : "Hey There, I'm Elvis Tony, Welcome to my blog!"
+name                     : "Elvis Tony"
+description              : "Hello there! I'm Elvis Tony, lets dive into my Blog!"
 url                      : "https://elvistony.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -21,7 +21,7 @@ words_per_minute         : 200
 
 # Site Author
 author:
-  name             : "Elvis Tony Raphael"
+  name             : "Elvis Tony"
   avatar           : "/assets/img/author.jpg"  
   bio              : "I'm a Dreamer during the day N' 'Coder' at night!"
   location         : "Kerala, India"
@@ -55,8 +55,8 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -92,6 +92,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - old
 keep_files:
   - .git
   - .svn
@@ -186,10 +187,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      # read_time: true
       comments: # true
-      share: true
-      related: true
+      # share: true
+      # related: true
 
 search_provider: lunr
 #   google

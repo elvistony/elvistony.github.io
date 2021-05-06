@@ -29,7 +29,7 @@ body{
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #241024 20%, #241024 80%);
+    background-image: linear-gradient(to top, #17202A 20%, #17202A 80%);
 }
 .bgTop {
     z-index: 15;
@@ -121,7 +121,7 @@ body{
 }
 
 .theme-dark{
-    background-color: #241024;
+    background-color: #17202A;
 }
 .transp{
     background-color: transparent !important;

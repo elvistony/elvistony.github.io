@@ -1,63 +1,49 @@
 ---
-layout: single
-title:  "Dark Mode for Meet"
-date:   2020-11-04 11:48:18 +0530
+title:  "Google Meet Dark Mode"
+date:   2021-05-06
 categories: Code
 description: "Get a Dark'ish mode for Google Meet"
-tags: DIY Google-Meet
+tags: DIY Google-Meet Dark-Mode
 breadcrumbs: true
 permalink : /posts/:categories/:title/
-toc: true
-toc_sticky: true
-classes: single
 ---
+Google Meet is something we've all used especially after everyone had to stay indoors. Its one of the most polished interfaces out there, but with a few little tweaks, it could be a tad bit more interesting!
 
-Dark Mode is something everyone would fall for today, especially when the rise of Computer Screen time increases.
-
-Here's a tiny Javascript code that makes your Google Meet - forcefully use a Dark Theme.
-
-`Note: This does not enable dark mode for the participants of the meet.`
+Here's a tiny piece of code that could make your google meet experience a tad bit better!
 
 Now you can enable this in two ways!
 
- - Temporarily for a particular Meeting
- - Globally for all of your Google Meetings
+ - Temporarily for a particular Browser tab
+ - Permanantly for all Google Meets in the browser.
 
 #### Temporary Setup
 
-Head over to [Dark Meet JS](https://github.com/elvistony/meet-dark)
+Installation
+- Head over to [Google Meet Addons](https://github.com/elvistony/meet-addons)  
+- Select the Set you'd like to apply and navigate to that Documentation.
+- Here, I'll take [Dark Mode Minimal](https://github.com/elvistony/meet-addons/tree/master/dark-mode-minimal)
+- In your browser, create a new bookmark
+- In the URL portion, Enter the long code:
+_Triple click on the code to select the whole_
+- Name the Bookmark as anything you wish.
+- Voila! Its ready!
 
-Open the [Javascript File](https://github.com/elvistony/meet-dark/blob/master/js/darkmode.js)
-and copy the entire code.
-
-In your Google Meet tab, open the Console using `Ctrl+Shift+i` and select the `console` tab.
-
-Paste the code there and press enter.
-
-In 2 seconds the Google Meet should now toggle to the new Dark Mode!
+Usage
+- Launch your Google Meet
+- While keeping the current meet tab open, press the Bookmark we made.
+- After a few seconds, you'll see the difference.
 
 #### Permanant Solution
 
-This is done using a third-party extension that injects Javascript. You are free to use your own. 
+Installation
+- Head over to [Google Meet Addons](https://github.com/elvistony/meet-addons)  
+- Select the Set you'd like to apply and navigate to that JS File.
+- Copy all the code of the JS File.
+- Install a Chrome Addon/ Firefox Addon like CustomJavaScript
+- Open a google Meet session and click the CustomJavaScript extension.
+- Paste the code into the extension's window.
+- And voila! its done!
 
-I use [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en) - Chrome Extension.
-
-Install the Extension and Reload the Meeting Tab to enable the Extension on the domain.
-
-`Woah Woah....this post is not sponsored by any third-party application!...okay?`
-
-Head over to [Dark Meet JS](https://github.com/elvistony/meet-dark)
-
-Open the [Javascript File](https://github.com/elvistony/meet-dark/blob/master/js/darkmode.js)
-and copy the entire code.
-
-and Switch to the Meet Tab and click the CJS.
-
-Paste the Javascript Code and click Save.
-
-This should now work whenever you open a meeting in the browser.
-
-Stay Tuned for more!
-Toodles
-
+Usage
+- Nothing much, Just open your meeting and it should activate automatically!
 
