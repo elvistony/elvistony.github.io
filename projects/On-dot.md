@@ -61,7 +61,7 @@ permalink : /projects/ondot/
       <p>Sync ERP Dues directly via the Addon along with Due Breakup Functionality</p>
     </div>
     <div class="w3-third w3-center">
-      <i class="fa fa-retweet" style="font-size: 40vh;"></i>
+      <span class="w3-jumbo material-icons-outlined">update</span>
     </div>
   </div>
 </div>
@@ -73,19 +73,19 @@ permalink : /projects/ondot/
 
   <div class="w3-row" style="margin-top:64px">
     <div class="w3-col s3">
-      <i class="fa fa-bolt w3-text-orange w3-jumbo"></i>
+       <span class="w3-jumbo material-icons-outlined">bolt</span>
       <p>Fast</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-heart w3-text-red w3-jumbo"></i>
+      <span class="w3-jumbo material-icons-outlined">favorite</span>
       <p>Loved</p>
     </div>
     <div class="w3-col s3">
-      <i id="daynight" class="fa fa-moon  w3-text-white w3-animate-left w3-jumbo"></i>
+      <span id="daynight" class="w3-jumbo material-icons-outlined">dark_mode</span>
       <p>Dark Mode</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-wifi w3-text-pink w3-jumbo"></i>
+      <span class="w3-jumbo material-icons-outlined">connect_without_contact</span>
       <p>Connected</p>
     </div>
   </div>
@@ -119,9 +119,10 @@ permalink : /projects/ondot/
   <div class="w3-content w3-center">
     <h1 class="w3-xxlarge w3-text-green">Download Now</h1>
     <h1 class="w3-xlarge w3-text-green">Available for Android <span class="w3-small w3-text-orange">5.0 Lollipop and Above</span></h1>
-    <h6 class="">Our App has taken 2 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br><br>
+    <h6 class="">Our App has taken 5 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br><br>
+    <p>Latest Update Released on 19/05/2021</p>
     <!-- <a href="../../donate/" class="w3-button w3-hover-indigo">Please support us with a cup of coffee</a><br><br> -->
-    <p class="w3-center"> v1.4.0     |     Size:  5.7 MB </p>
+    <p class="w3-center"> v1.4.0     |     Size:  5.5 MB </p>
     <div class="w3-row w3-white w3-padding-32 w3-margin">
       <div class="fill-available" style="margin:20px;">
         <input style="display:flex;box-shadow:none;" type="range" min="0" max="6" steps="1" value="3"  oninput="donate(this)" >
@@ -149,18 +150,18 @@ permalink : /projects/ondot/
       donate_but.innerHTML='DOWNLOAD  <span class="w3-small w3-text-blue"> (Without Support)</span> ';
       donate_but.setAttribute("onclick","go_download()")
     }else{
-      donate_but.innerHTML='Support <span class="w3-small w3-text-blue">via PayPal</span> & Download'
+      donate_but.innerHTML='Support <span class="w3-small w3-text-blue">via Google Pay</span> & Download'
       donate_but.setAttribute("onclick","go_donate("+value+")")
     }
 
   }
   function go_donate(value){
-    window.open("https://www.paypal.me/elvistony/"+value,"_blank");
+    window.open("upi://pay?pa=andromedia.ltd@okicici&pn=OnDot Developer&tn=An Act of Kindness!&cu=INR&am="+value,"_blank");
     document.getElementById("donate_but").innerHTML="Thank you 😘, Download Now";
     document.getElementById("donate_but").setAttribute("onclick","go_download()")
   }
   function go_download(){
-    window.location.href = "https://drive.google.com/uc?export=download&id=16JYxzfdVY6YDV4U5YmEqin6R3jUuHn9g";
+    window.location.href = "https://drive.google.com/uc?export=download&id=1XN8N15t_J_Vl2L94bx--yMAe12dpFWhw";
   }
 </script>
 
