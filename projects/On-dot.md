@@ -61,7 +61,7 @@ permalink : /projects/ondot/
       <p>Sync ERP Dues directly via the Addon along with Due Breakup Functionality</p>
     </div>
     <div class="w3-third w3-center">
-      <span class="w3-jumbo material-icons-outlined">update</span>
+      <span style="font-size: 12em !important;" class="w3-jumbo material-icons material-icons-outlined">update</span>
     </div>
   </div>
 </div>
@@ -73,19 +73,19 @@ permalink : /projects/ondot/
 
   <div class="w3-row" style="margin-top:64px">
     <div class="w3-col s3">
-       <span class="w3-jumbo material-icons-outlined">bolt</span>
+       <span class="w3-jumbo material-icons w3-text-orange material-icons-outlined">bolt</span>
       <p>Fast</p>
     </div>
     <div class="w3-col s3">
-      <span class="w3-jumbo material-icons-outlined">favorite</span>
+      <span class="w3-jumbo material-icons w3-text-red material-icons-outlined">favorite</span>
       <p>Loved</p>
     </div>
     <div class="w3-col s3">
-      <span id="daynight" class="w3-jumbo material-icons-outlined">dark_mode</span>
+      <span id="daynight" class="w3-jumbo material-icons material-icons-outlined">dark_mode</span>
       <p>Dark Mode</p>
     </div>
     <div class="w3-col s3">
-      <span class="w3-jumbo material-icons-outlined">connect_without_contact</span>
+      <span class="w3-jumbo material-icons w3-text-blue material-icons-outlined">connect_without_contact</span>
       <p>Connected</p>
     </div>
   </div>
