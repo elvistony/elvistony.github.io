@@ -122,7 +122,7 @@ permalink : /projects/ondot/
     <h6 class="">Our App has taken 5 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br><br>
     <p>Latest Update Released on 19/05/2021</p>
     <!-- <a href="../../donate/" class="w3-button w3-hover-indigo">Please support us with a cup of coffee</a><br><br> -->
-    <p class="w3-center"> v1.4.0     |     Size:  5.5 MB </p>
+    <p class="w3-center"> v1.4.1    |     Size:  5.5 MB </p>
     <div class="w3-row w3-white w3-padding-32 w3-margin">
       <div class="fill-available" style="margin:20px;">
         <input style="display:flex;box-shadow:none;" type="range" min="0" max="6" steps="1" value="3"  oninput="donate(this)" >
@@ -161,7 +161,7 @@ permalink : /projects/ondot/
     document.getElementById("donate_but").setAttribute("onclick","go_download()")
   }
   function go_download(){
-    window.location.href = "https://drive.google.com/uc?export=download&id=1XN8N15t_J_Vl2L94bx--yMAe12dpFWhw";
+    window.location.href = "https://drive.google.com/uc?export=download&id=1Dlp5MCozbpUKZeeowTUUZ1UpDGkG5oAz";
   }
 </script>
 
