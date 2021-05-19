@@ -57,7 +57,8 @@ permalink : /projects/ondot/
     <div class="w3-twothird w3-content">
       <h1 class="w3-xxlarge w3-text-orange">Continous Development</h1>
       <h4 >Give our Experimental addons a spin.</h4><p> Our app has included a <span class="w3-hover-text-blue w3-text-orange">Experimental Addon <b class="w3-text-orange">*</b></span> that aims to add Features directly from the ERP.</p>
-      <p class="w3-text-orange">*Currently includes <span class="w3-text-pink">Simple Due Addon</span> and <span class="w3-text-pink">Due Detail Addon</span> (under Testing)</p>
+      <p class="w3-text-orange">*Currently includes <span class="w3-text-pink">ERP Finance Addon</span></p>
+      <p>Sync ERP Dues directly via the Addon along with Due Breakup Functionality</p>
     </div>
     <div class="w3-third w3-center">
       <i class="fa fa-retweet" style="font-size: 40vh;"></i>
@@ -114,13 +115,13 @@ permalink : /projects/ondot/
 </div>
 
 <!-- Seventh Grid -->
-<div class="w3-row-padding w3-white w3-text-white w3-padding-64 w3-container">
+<div id="download" class="w3-row-padding w3-white w3-text-white w3-padding-64 w3-container">
   <div class="w3-content w3-center">
     <h1 class="w3-xxlarge w3-text-green">Download Now</h1>
     <h1 class="w3-xlarge w3-text-green">Available for Android <span class="w3-small w3-text-orange">5.0 Lollipop and Above</span></h1>
     <h6 class="">Our App has taken 2 months+ of Development and Testing and Numerous Sleepless Nights.</h6><br><br>
     <!-- <a href="../../donate/" class="w3-button w3-hover-indigo">Please support us with a cup of coffee</a><br><br> -->
-    <p class="w3-center"> v1.3.0     |     Size:  5.7 MB </p>
+    <p class="w3-center"> v1.4.0     |     Size:  5.7 MB </p>
     <div class="w3-row w3-white w3-padding-32 w3-margin">
       <div class="fill-available" style="margin:20px;">
         <input style="display:flex;box-shadow:none;" type="range" min="0" max="6" steps="1" value="3"  oninput="donate(this)" >
@@ -130,7 +131,7 @@ permalink : /projects/ondot/
       </div>
       <div class="" style="margin:20px;">
         <h3 class="w3-third btn btn--info" style="letter-spacing: 5px;" id="donate_val">&#8377;20<span class="w3-right">😘</span></h3>
-        <h3 class="w3-twothird btn btn--warning" onclick="go_donate(20)" id="donate_but">Support <span class="w3-small w3-text-blue">via PayPal</span> & Download</h3>
+        <h3 class="w3-twothird btn btn--warning" onclick="go_donate(20)" id="donate_but">Support <span class="w3-small w3-text-blue">via Google Pay</span> & Download</h3>
       </div>
     </div>
   </div>

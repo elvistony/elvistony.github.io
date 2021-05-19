@@ -30,6 +30,17 @@
         "Enabled Swipe-down to reload Reature"
       ],
       "date_release":"5/11/2020"
+    },
+    {
+      "version":"1.4",
+      "release":"stable",
+      "whats_new":["Enhanced DarkMode",
+        "Repackaged ERP Due Section",
+        "Fixed Crash Issues",
+        "Added Help Tags",
+        "Possibly the Last Update"
+      ],
+      "date_release":"19/05/2021"
     }
   ]
 }
