@@ -135,6 +135,7 @@ permalink : /projects/ondot/
         <h3 class="w3-twothird btn btn--warning" onclick="go_donate(20)" id="donate_but">Support <span class="w3-small w3-text-blue">via Google Pay</span> & Download</h3>
       </div>
     </div>
+    <p>Exisiting Users may need to <b>uninstall the previous version</b> of the App before installing this update.</p>
   </div>
 </div>
 
