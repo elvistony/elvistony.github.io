@@ -20,7 +20,6 @@ So, you want to host one of this for your class, you've come to the right place.
 <a class="btn btn--warning" href="https://elvistony.github.io/time-table/" target="_blank">Time-table</a>
 
 # Prerequisites
-
 ## What is this Web-app?
 
 The timetable web-app is a simple app to display the day's Class Timetable.
@@ -35,7 +34,6 @@ I'm gonna assume a few things here,
  - You know how to make Google Forms and Google Sheet Responses.
 
 # Getting Started
-
 ## Forking my Repository
 Head over to Github.com and fork my repository.
 
@@ -71,7 +69,6 @@ Go to the Responses Sheet and Click the `Share` button on the top right. Copy th
 Copy that ID and keep it for the next step.
 
 ## Modifying Links in Web-App
-
 In your Github fork, navigate to `/js/common.js`.
 
 Scroll down a bit and look for the variable `sheet_id`
@@ -83,7 +80,6 @@ The variable should now look like: `sheet_id="1a2b3c4d5e...6f7g8h"`;
 Your WebApp is now configured to source from the sheet!
 
 ## Adding Supporting Sheets
-
 Open the supporting sheets with the link below,
 
 <a class="btn btn--warning" href="https://docs.google.com/spreadsheets/d/1L4MTqM4wl_IW01cYab7dudN3-IjCEFdYIvbTAw3xSnI/view" target="_blank">Add Supporting Sheets</a>
@@ -101,7 +97,6 @@ Now Open your updated Responses Sheet and ensure you now Have 5 Sheets.
 Rename the Main Response Sheet (First Sheet) as `Today`
 
 ## Updating the Sheet
-
 Update the Sheet with your Content.
 
 **Sheet: Links**
@@ -123,13 +118,11 @@ Update the Sheet with your Content.
  - If you follow the same timetable for all the days, Copy the same timings to Friday's row.
 
 ## Final Touches
-
 Go to your Form, and update the Options for Period 1,2,3,4,5 to the same ones entered in `Sheet: Links`.
 
 Ensure the spellings are maintained and no Spaces are present.
 
 # Test Run!
-
 Go to your Hosted App using the URL.
 
 `https://username.github.io/time-table/`

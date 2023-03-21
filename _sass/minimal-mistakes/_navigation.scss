@@ -539,12 +539,13 @@
 
   a {
     display: block;
-    padding: 0.25rem 0.75rem;
+    padding: 0rem 0.75rem;
     color: $muted-text-color;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
-
+    margin-top: 10px !important;
+ 
     &:hover {
       color: $text-color;
     }
