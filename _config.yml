@@ -23,7 +23,7 @@ words_per_minute         : 200
 author:
   name             : "Elvis Tony"
   avatar           : "/assets/img/author.jpg"  
-  bio              : "I'm a Dreamer during the day N' 'Coder' at night!"
+  bio              : "I'm a Python Developer with a lil Data Science on the side!"
   location         : "Kerala, India"
   email            : "elvistonyrency[at]gmail.com"
   links:
@@ -42,6 +42,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/lvz.tony"
+    - label: "Resume"
+      icon: "fas fa-fw fa-link"
+      url: "https://resume.elvistony.dev"
 
 # Site Footer
 footer:
@@ -190,13 +193,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-      # read_time: true
+      read_time: true
       comments: # true
       # share: true
       # related: true
 
 search_provider: lunr
-#   google
+# google
 # google:
 #   search_engine_id       : cd6a6ab969ce415ab
 #   instant_search         : false

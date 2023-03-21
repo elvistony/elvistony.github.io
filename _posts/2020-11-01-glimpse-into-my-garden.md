@@ -5,6 +5,7 @@ date:   2020-11-01 11:48:18 +0530
 categories: Nature
 breadcrumbs: true
 permalink : /posts/:categories/:title/
+classes: wide
 
 gallery:
   - url: /assets/img/glimpse-into-my-garden/resource_1.jpg
