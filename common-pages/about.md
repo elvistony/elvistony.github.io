@@ -1,9 +1,11 @@
 ---
 layout: default
 title: About Me
-description: Elvis Tony (pen name-Random Wanderer)
+description: Elvis Tony's Blog
 permalink: /about/
+classes: wide
 ---
+
 
 I'm Elvis Tony,
 

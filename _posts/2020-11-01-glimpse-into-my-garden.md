@@ -45,13 +45,19 @@ gallery:
     title: "Image 3 title caption"
     
 ---
-_A lil journey through the species in my Garden_
+A Little journey through the species in our family garden!
 
 {: .notice--success}
 Flowers are the way to a woman's heart.
 
 
 
-<p>Well, that might not be the reason we've maintained this garden. hehe, noticed the "We" ? Our garden is technically maintained by my Mom, who loves gardening. She doesn't always favour colorful plants or the flowering variety but also a whole world of veggies and so on. <i class="t-gray">"Psst... Son don't mention the <a class="htag" href="https://en.wikipedia.org/wiki/Coffea" title="A Coffee Plant">Coffea</a> we have in our backyard, Its not that much.</i> Haha,<i class="t-gray"> I'll think about it Mom...</i> Anyways, we'll take a look at some of the species we have out in our frontyard.</p>
+Well, that might not be the reason we've maintained this garden. hehe, noticed the "We" ? Our garden is technically maintained by my Mom, who loves gardening. She doesn't always favour colorful plants or the flowering variety but also a whole world of veggies and so on.   
+
+<i class="t-gray">"Psst... Son don't mention the <a class="htag" href="https://en.wikipedia.org/wiki/Coffea" title="A Coffee Plant">Coffea</a> we have in our backyard, It's not a big deal yet.</i> 
+
+<i class="t-gray">Haha, I'll think about it Mom...</i> 
+
+Anyways, we'll take a look at some of the species we have out in our frontyard.
 
 {% include gallery %}

@@ -8,6 +8,7 @@ tags: Linux Experiences
 breadcrumbs: true
 classes: wide
 permalink : /posts/:categories/:title/
+classes: wide
 ---
 
 
