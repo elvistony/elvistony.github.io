@@ -8,6 +8,14 @@ breadcrumbs: true
 classes: wide
 ---
 
+### [Corporate] - Multi Source Webscraping
+_Webscraping over 15 websites and collocating the information into an excel file!_
+<div class="text-right">
+    <a href="https://elvistony.dev/posts/code/multi-source-webscraping" class="btn--info btn">Check it out</a>
+</div>
+<hr>
+
+
 ### Family Tree
 _(Dev) Checkout our family relation network graphically!_
 <div class="text-right">
@@ -32,7 +40,7 @@ _Fetch your keralavision ISP stats easily_
 ### Jio-Pyserver
 _Watch Jio TV anywhere on your home network! (Requires a genuine Jio Account)_
 <div class="text-right">
-    <a href="https://github.com/elvistony/jio-pyserver/" class="btn--info btn">Open Repo</a>
+    <a href="https://github.com/elvistony/jio-pyserver/" class="btn--info btn">(Hidden)</a>
 </div>
 <hr>
 
@@ -76,6 +84,6 @@ _Send your greetings to your loved ones with this simple E-Greeting Card,_
 ### PDF to XLSX Converter
 _Convert **KTU Result PDF** to an editable Branch-wise XLSX Document_
 <div class="text-right">
-    <a href="#pdf-to-xlsx" class="btn--danger btn">Check it Out</a>
+    <a href="https://github.com/elvistony/resultPdfToXLSX" class="btn--danger btn">Check it Out</a>
 </div>
 <hr>
