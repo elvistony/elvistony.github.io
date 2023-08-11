@@ -1,6 +1,12 @@
 ---
 title: Enhancing Research and Creativity: The Case for Allowing ChatGPT Usage in Universities
-tags: [chstgpt, ai, medium]
+date:   2023-08-23
+categories: Code
+description: "An article highlighting the benefits of using ChatGPT responsibly in a university"
+tags: AI Medium ChatGPT
+breadcrumbs: true
+permalink : /posts/:categories/:title/
+classes: wide
 ---
 
 In recent years, the integration of artificial intelligence into various aspects of education has sparked numerous debates. One of the most intriguing discussions revolves around whether universities should permit students to use AI tools like ChatGPT for their academic pursuits. While concerns about the authenticity and credibility of AI-generated content are valid, there are compelling reasons to consider embracing these technologies as valuable supplements to traditional research methods.
