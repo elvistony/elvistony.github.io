@@ -11,7 +11,7 @@ classes: wide
 
 In recent years, the integration of artificial intelligence into various aspects of education has sparked numerous debates. One of the most intriguing discussions revolves around whether universities should permit students to use AI tools like ChatGPT for their academic pursuits. While concerns about the authenticity and credibility of AI-generated content are valid, there are compelling reasons to consider embracing these technologies as valuable supplements to traditional research methods.
 
-1. Expanding Creativity and Ideation:
+## 1. Expanding Creativity and Ideation:
 
 Universities are hubs of innovation and creativity, where students are encouraged to explore new ideas and push boundaries. Allowing students to utilize AI tools like ChatGPT can foster creativity by providing alternative perspectives and generating novel concepts. These tools can serve as catalysts for brainstorming sessions, encouraging students to think beyond conventional boundaries and develop original solutions to complex problems.
 
@@ -19,7 +19,7 @@ Universities are hubs of innovation and creativity, where students are encourage
 
 In the fast-paced academic environment, time is of the essence. ChatGPT can expedite the early stages of research by rapidly generating diverse ideas and concepts related to a given topic. This saves students time, allowing them to focus more on refining their ideas, gathering evidence, and constructing well-structured arguments.
 
-3. Learning the Art of Critical Evaluation:
+## 3. Learning the Art of Critical Evaluation:
 
 Rather than viewing ChatGPT as a replacement for traditional research methods, universities can position it as a complementary tool that teaches critical evaluation. By allowing students to interact with AI-generated content, universities can emphasize the importance of discerning credible sources and fact-checking information. This experience equips students with essential skills required in an era characterized by an abundance of information.
 
