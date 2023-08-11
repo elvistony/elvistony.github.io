@@ -1,5 +1,5 @@
 ---
-title: Enhancing Research and Creativity: The Case for Allowing ChatGPT Usage in Universities
+title: Enhancing Research and Creativity | The Case for Allowing ChatGPT Usage in Universities
 date:   2023-08-23
 categories: Code
 description: "An article highlighting the benefits of using ChatGPT responsibly in a university"
