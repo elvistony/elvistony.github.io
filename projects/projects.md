@@ -15,8 +15,6 @@ _Project EVA is a simple yet intuitive implementation of the conventional Smart 
 </div>
 <hr>
 
-
-
 ### [Corporate] - Multi Source Webscraping
 _Webscraping over 15 websites and collocating the information into an excel file!_
 <div class="text-right">
