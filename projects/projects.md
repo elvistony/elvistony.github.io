@@ -8,6 +8,15 @@ breadcrumbs: true
 classes: wide
 ---
 
+### [Bachelors Degree Project] - EVA | Intuitive ML based Home Automation
+_Project EVA is a simple yet intuitive implementation of the conventional Smart home with a few perks!_
+<div class="text-right">
+    <a href="https://elvistony.dev/project-eva/" class="btn--info btn">Check it out</a>
+</div>
+<hr>
+
+
+
 ### [Corporate] - Multi Source Webscraping
 _Webscraping over 15 websites and collocating the information into an excel file!_
 <div class="text-right">
