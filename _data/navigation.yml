@@ -1,11 +1,12 @@
 main:
-  - title: "Home"
-    url: /
+
   - title: "Blog"
     url: /posts/
   - title: "Projects"
     url: /projects/
-  - title: "About"
+  - title: "Resume"
+    url: https://resume.elvistony.dev/
+  - title: "Contact"
     url: /about/
 
 docs:
