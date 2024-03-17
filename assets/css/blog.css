@@ -186,3 +186,19 @@ a{
     padding: 1px 20px;
     border-top: 10px solid rgb(167, 0, 67);
 }
+
+.btn-project{
+    background-color: #f78c6c;
+    font-weight: 600;
+    color: #f1f1f1 !important;
+    transition: 0.3s ease;
+}
+
+.btn-project:hover{
+    background-color: #f26f47;
+    color: #17202A !important;
+}
+
+.btn-project:visited{
+    color: #f1f1f1;
+}

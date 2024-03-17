@@ -1,9 +1,8 @@
 ---
 layout: single
-permalink : projects/
+permalink : projects-old/
 title: My Projects
-description : RW-Dev Projects - Elvis Tony's Projects
-author_profile: true
+description : Elvis Tony's Projects
 breadcrumbs: true
 classes: wide
 ---

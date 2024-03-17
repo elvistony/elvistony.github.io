@@ -7,7 +7,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Elvis Tony"
 title_separator          : "|"
-subtitle                 : "LVZ's Blog (v2.0)"
+subtitle                 : "My Portfolio"
 name                     : "Elvis Tony"
 description              : "Hello there! I'm a Python Developer who loves to ramble and work on creative projects!"
 url                      : "https://elvistony.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
