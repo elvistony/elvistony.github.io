@@ -73,10 +73,27 @@ feature_row:
     url: "/js-env"
     btn_class: "btn-project"
     btn_label: "View Playground"
+
+  - image_path: /assets/img/projects/verticaleye-web.png
+    alt: "Client Portal (with Login)"
+    title: "Client Portal (with Login)"
+    excerpt: "A Website with Login for a Motivational Speaker (2019)"
+    url: "https://web.archive.org/web/20231102081406/http://verticaleye.in/"
+    btn_class: "btn-project"
+    btn_label: "View on Wayback Machine"
+
+  - image_path: /assets/img/projects/iedc-2018.png
+    alt: "IEDC Portal (with Login)"
+    title: "IEDC Portal (with Login)"
+    excerpt: "A Web Portal for the IEDC Club at VAST (Developed back in 2018)"
+    url: "/iedc-demo-2018"
+    btn_class: "btn-project"
+    btn_label: "View Static Demo"
+
 ---
 
 ## My Project Repository
-<small>Showing Top 10 Projects out of 40+ Projects on [Github](https://github.elvistony.dev)</small>
+<small>Showing Top 12 Projects out of 40+ Projects on [Github](https://github.elvistony.dev)</small>
 
 {% include feature_row %}
 
