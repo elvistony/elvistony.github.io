@@ -9,6 +9,13 @@ classes: wide
 
 
 feature_row:
+  - image_path: /assets/img/projects/bingebuddies.png
+    alt: "binge buddies"
+    title: "Binge Buddies"
+    excerpt: "A Simple Watch Together Website for friends and Family (runs serverless with P2PT)"
+    url: "https://elvistony.dev/bingebuddies/"
+    btn_class: "btn-project"
+    btn_label: "View Project"
   - image_path: /assets/img/projects/eva-ha.png
     alt: "home automation"
     title: "Home Automation"
