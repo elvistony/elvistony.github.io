@@ -11,7 +11,7 @@ classes: wide
 feature_row:
   - image_path: /assets/img/projects/bingebuddies.png
     alt: "watchpal"
-    title: "Binge Buddies"
+    title: "Watch Pal"
     excerpt: "A Simple (more reliable) Socket.IO implementation of Watch Together with a little more polished UI!"
     url: "https://elvistony.dev/watchpal/"
     btn_class: "btn-project"
