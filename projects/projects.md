@@ -9,7 +9,14 @@ classes: wide
 
 
 feature_row:
-  - image_path: /assets/img/projects/bingebuddies.png
+  - image_path: /assets/img/projects/watchpal-tile.png
+    alt: "pixelpointer"
+    title: "Pixel Pointer"
+    excerpt: "An Image Annotator that runs on the browser!"
+    url: "http://elvistony.dev/image-annotate"
+    btn_class: "btn-project"
+    btn_label: "View Project"
+  - image_path: /assets/img/projects/pixelpointer-tile.png
     alt: "watchpal"
     title: "Watch Pal"
     excerpt: "A Simple (more reliable) Socket.IO implementation of Watch Together with a little more polished UI!"
@@ -107,7 +114,7 @@ feature_row:
 ---
 
 ## My Project Repository
-<small>Showing Top 12 Projects out of 40+ Projects on [Github](https://github.elvistony.dev)</small>
+<small>Showing Top 14 Projects out of 40+ Projects on [Github](https://github.elvistony.dev)</small>
 
 {% include feature_row %}
 
