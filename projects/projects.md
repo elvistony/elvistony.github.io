@@ -9,14 +9,14 @@ classes: wide
 
 
 feature_row:
-  - image_path: /assets/img/projects/watchpal-tile.png
+  - image_path: /assets/img/projects/pixelpointer-tile.png
     alt: "pixelpointer"
     title: "Pixel Pointer"
     excerpt: "An Image Annotator that runs on the browser!"
     url: "http://elvistony.dev/image-annotate"
     btn_class: "btn-project"
     btn_label: "View Project"
-  - image_path: /assets/img/projects/pixelpointer-tile.png
+  - image_path: /assets/img/projects/watchpal-tile.png
     alt: "watchpal"
     title: "Watch Pal"
     excerpt: "A Simple (more reliable) Socket.IO implementation of Watch Together with a little more polished UI!"
